@@ -1,0 +1,112 @@
+﻿/* prevent the drop down icon going onto a new line for the top bar language link */
+.top-bar-language-nav-link {
+    min-width: 65px;
+}
+
+/* bootstrap model showing two scroll bars */
+html {
+    overflow: visible;
+}
+
+/* main sidebar not under model */
+.modal {
+    z-index: 1110;
+}
+
+.form-group.required .col-form-label:after {
+    color: #d00;
+    content: "*";
+    position: absolute;
+    margin-left: 3px;
+}
+
+.nav-user-menu .user-image {
+    width: 20px;
+    margin-right: 4px;
+    margin-top: -4px;
+}
+
+.famfamfam-flags {
+    display: inline-block;
+}
+
+/*bootstrap.autocomplete.css Begin*/
+.dropdown_butul {
+    display: inline-block;
+    *display: inline-block;
+    z-index: 1;
+    overflow-y: auto;
+    width: 100%;
+    border: 1px solid #cccccc
+}
+
+    .dropdown_butul > li {
+        width: auto;
+        position: relative;
+        border: 1px solid #ddd;
+        background: #f1f1f1;
+        height: auto;
+        padding: 5px 4px 4px 16px;
+        margin: 1px;
+        display: inline-block;
+        *display: inline-block;
+        z-index: 1;
+        border-radius: 3px;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        -o-border-radius: 3px;
+    }
+
+        .dropdown_butul > li > a {
+            position: absolute;
+            top: -2px;
+            left: 5px;
+            cursor: pointer;
+            color: #333;
+            font-weight: bold;
+            line-height: inherit;
+            margin: auto;
+            font-size: 18px;
+            cursor: pointer;
+        }
+
+    .dropdown_butul input[type="text"] {
+        height: auto;
+        width: 80px;
+        height: 34px;
+        margin-left: 2px;
+        padding: 6px 5px;
+        vertical-align: inherit;
+        border: 1px solid #ddd;
+        border: none
+    }
+
+        .dropdown_butul input[type="text"]:focus {
+            outline: none;
+        }
+
+    .dropdown_butul input[type="button"] {
+        height: auto;
+        vertical-align: inherit;
+        padding-left: 5px;
+        padding-right: 5px;
+        border: 1px solid #ddd;
+    }
+
+.dropdown_butul_box {
+    width: 500px;
+    vertical-align: text-top;
+    display: inline-block;
+    *display: inline-block;
+    z-index: 1;
+}
+
+.dropdown_butul .diming {
+    display: block;
+    float: left;
+    width: 130px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+/*bootstrap.autocomplete.css End*/

@@ -1,0 +1,118 @@
+﻿@using DiveCRM.Customers
+@model CustomersOrder
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<link href="~/css/style.css" rel="stylesheet" />
+<script src="~/js/jquery.min.js"></script>
+<script src="~/libs/abp-web-resources/Abp/Framework/scripts/abp.js"></script>
+<script src="~/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.jquery.js"></script>
+<script src="~/js/autocomplete/bootstrap.autocomplete.js"></script>
+
+
+<h1>Edit</h1>
+
+<h4>Order</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label class="control-label">Customers</label>
+                <div>
+                    <input type="text" id="CustomerName" name="CustomerName" class="form-control" placeholder="Customers">
+                    <input type="hidden" id="CustomerId" name="CustomerId" value="@Model.CustomerId" />
+                </div>
+            </div>
+            <div class="form-group">
+                <label asp-for="OrderTime" class="control-label"></label>
+                <input asp-for="OrderTime" class="form-control" />
+                <span asp-validation-for="OrderTime" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label" for="Location">@L("PoolType")</label>
+                <div>
+                    @Html.DropDownList("PoolType", (SelectList)ViewData["PoolType"], new { Class = "form-control" })
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label" for="Location">@L("CourseType")</label>
+                <div>
+                    @Html.DropDownList("CourseType", (SelectList)ViewData["CourseType"], new { Class = "form-control" })
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label" for="Location">@L("CoachType")</label>
+                <div>
+                    @Html.DropDownList("CoachType", (SelectList)ViewData["CoachType"], new { Class = "form-control" })
+                </div>
+            </div>
+            <div class="form-group">
+                <label asp-for="CoachName" class="control-label"></label>
+                <input asp-for="CoachName" class="form-control" />
+                <span asp-validation-for="CoachName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label">ResponsiblePerson</label>
+                <div>
+                    <input type="text" id="ResponsiblePersonName" name="ResponsiblePersonName" class="form-control" placeholder="Responsible Person">
+                    <input type="hidden" id="ResponsiblePersonId" name="ResponsiblePersonId" value="@Model.ResponsiblePersonId" />
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-md-3 col-form-label" for="Location">@L("State")</label>
+                <div>
+                    @Html.DropDownList("State", (SelectList)ViewData["State"], new { Class = "form-control" })
+                </div>
+            </div>
+            <div class="form-group">
+                <label asp-for="Remark" class="control-label"></label>
+                <input asp-for="Remark" class="form-control" />
+                <span asp-validation-for="Remark" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+<script>
+
+    var headers = { 'x-xsrf-token': abp.security.antiForgery.getToken() };
+    $("#CustomerName").autocompleteNew("/api/Customers/GetCustomerByName", {
+        value: @Model.CustomerId,
+        text: '@Model.CustomerName',
+        freelyInput: true,
+        headers: headers,
+        callbackfun: function (item) {
+            if (item != null && item != undefined) {
+                $('#CustomerId').val(item.value);
+                $('#ResponsiblePersonId').val(item.json.responsiblePersonId);
+                $('#ResponsiblePersonName').val(item.json.responsiblePersonName);
+            }
+        }
+    });
+
+    $("#ResponsiblePersonName").autocompleteNew("/api/Users/GetUsersByName", {
+        value: @Model.ResponsiblePersonId,
+        text: '@Model.ResponsiblePerson.UserName',
+        headers: headers,
+        callbackfun: function (item) {
+            if (item != null && item != undefined) {
+                $('#ResponsiblePersonId').val(item.value);
+            }
+        }
+    });
+
+
+</script>
+
+

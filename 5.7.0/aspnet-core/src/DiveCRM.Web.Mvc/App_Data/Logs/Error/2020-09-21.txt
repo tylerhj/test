@@ -1,0 +1,72 @@
+ERROR 2020-09-21 18:28:03,249 [17   ] idateAntiforgeryTokenAuthorizationFilter - The required antiforgery request token was not provided in either form field "__RequestVerificationToken" or header value "X-XSRF-TOKEN".
+Microsoft.AspNetCore.Antiforgery.AntiforgeryValidationException: The required antiforgery request token was not provided in either form field "__RequestVerificationToken" or header value "X-XSRF-TOKEN".
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.ValidateRequestAsync(HttpContext httpContext)
+   at Abp.AspNetCore.Mvc.Antiforgery.AbpValidateAntiforgeryTokenAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+ERROR 2020-09-21 18:28:04,417 [17   ] idateAntiforgeryTokenAuthorizationFilter - The required antiforgery request token was not provided in either form field "__RequestVerificationToken" or header value "X-XSRF-TOKEN".
+Microsoft.AspNetCore.Antiforgery.AntiforgeryValidationException: The required antiforgery request token was not provided in either form field "__RequestVerificationToken" or header value "X-XSRF-TOKEN".
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.ValidateRequestAsync(HttpContext httpContext)
+   at Abp.AspNetCore.Mvc.Antiforgery.AbpValidateAntiforgeryTokenAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+ERROR 2020-09-21 18:28:05,261 [28   ] idateAntiforgeryTokenAuthorizationFilter - The required antiforgery request token was not provided in either form field "__RequestVerificationToken" or header value "X-XSRF-TOKEN".
+Microsoft.AspNetCore.Antiforgery.AntiforgeryValidationException: The required antiforgery request token was not provided in either form field "__RequestVerificationToken" or header value "X-XSRF-TOKEN".
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.ValidateRequestAsync(HttpContext httpContext)
+   at Abp.AspNetCore.Mvc.Antiforgery.AbpValidateAntiforgeryTokenAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+ERROR 2020-09-21 18:28:06,688 [18   ] idateAntiforgeryTokenAuthorizationFilter - The required antiforgery request token was not provided in either form field "__RequestVerificationToken" or header value "X-XSRF-TOKEN".
+Microsoft.AspNetCore.Antiforgery.AntiforgeryValidationException: The required antiforgery request token was not provided in either form field "__RequestVerificationToken" or header value "X-XSRF-TOKEN".
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.ValidateRequestAsync(HttpContext httpContext)
+   at Abp.AspNetCore.Mvc.Antiforgery.AbpValidateAntiforgeryTokenAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+ERROR 2020-09-21 20:29:52,642 [23   ] idateAntiforgeryTokenAuthorizationFilter - The required antiforgery request token was not provided in either form field "__RequestVerificationToken" or header value "X-XSRF-TOKEN".
+Microsoft.AspNetCore.Antiforgery.AntiforgeryValidationException: The required antiforgery request token was not provided in either form field "__RequestVerificationToken" or header value "X-XSRF-TOKEN".
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.ValidateRequestAsync(HttpContext httpContext)
+   at Abp.AspNetCore.Mvc.Antiforgery.AbpValidateAntiforgeryTokenAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+ERROR 2020-09-21 20:29:53,119 [37   ] idateAntiforgeryTokenAuthorizationFilter - The required antiforgery request token was not provided in either form field "__RequestVerificationToken" or header value "X-XSRF-TOKEN".
+Microsoft.AspNetCore.Antiforgery.AntiforgeryValidationException: The required antiforgery request token was not provided in either form field "__RequestVerificationToken" or header value "X-XSRF-TOKEN".
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.ValidateRequestAsync(HttpContext httpContext)
+   at Abp.AspNetCore.Mvc.Antiforgery.AbpValidateAntiforgeryTokenAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+ERROR 2020-09-21 20:33:08,567 [46   ] idateAntiforgeryTokenAuthorizationFilter - The required antiforgery request token was not provided in either form field "__RequestVerificationToken" or header value "X-XSRF-TOKEN".
+Microsoft.AspNetCore.Antiforgery.AntiforgeryValidationException: The required antiforgery request token was not provided in either form field "__RequestVerificationToken" or header value "X-XSRF-TOKEN".
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.ValidateRequestAsync(HttpContext httpContext)
+   at Abp.AspNetCore.Mvc.Antiforgery.AbpValidateAntiforgeryTokenAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+ERROR 2020-09-21 20:33:12,528 [60   ] idateAntiforgeryTokenAuthorizationFilter - The required antiforgery request token was not provided in either form field "__RequestVerificationToken" or header value "X-XSRF-TOKEN".
+Microsoft.AspNetCore.Antiforgery.AntiforgeryValidationException: The required antiforgery request token was not provided in either form field "__RequestVerificationToken" or header value "X-XSRF-TOKEN".
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.ValidateRequestAsync(HttpContext httpContext)
+   at Abp.AspNetCore.Mvc.Antiforgery.AbpValidateAntiforgeryTokenAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+ERROR 2020-09-21 20:33:13,443 [61   ] idateAntiforgeryTokenAuthorizationFilter - The required antiforgery request token was not provided in either form field "__RequestVerificationToken" or header value "X-XSRF-TOKEN".
+Microsoft.AspNetCore.Antiforgery.AntiforgeryValidationException: The required antiforgery request token was not provided in either form field "__RequestVerificationToken" or header value "X-XSRF-TOKEN".
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.ValidateRequestAsync(HttpContext httpContext)
+   at Abp.AspNetCore.Mvc.Antiforgery.AbpValidateAntiforgeryTokenAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+ERROR 2020-09-21 20:33:14,240 [46   ] idateAntiforgeryTokenAuthorizationFilter - The required antiforgery request token was not provided in either form field "__RequestVerificationToken" or header value "X-XSRF-TOKEN".
+Microsoft.AspNetCore.Antiforgery.AntiforgeryValidationException: The required antiforgery request token was not provided in either form field "__RequestVerificationToken" or header value "X-XSRF-TOKEN".
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.ValidateRequestAsync(HttpContext httpContext)
+   at Abp.AspNetCore.Mvc.Antiforgery.AbpValidateAntiforgeryTokenAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+ERROR 2020-09-21 20:36:34,550 [41   ] idateAntiforgeryTokenAuthorizationFilter - The required antiforgery request token was not provided in either form field "__RequestVerificationToken" or header value "X-XSRF-TOKEN".
+Microsoft.AspNetCore.Antiforgery.AntiforgeryValidationException: The required antiforgery request token was not provided in either form field "__RequestVerificationToken" or header value "X-XSRF-TOKEN".
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.ValidateRequestAsync(HttpContext httpContext)
+   at Abp.AspNetCore.Mvc.Antiforgery.AbpValidateAntiforgeryTokenAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+ERROR 2020-09-21 20:36:37,842 [43   ] idateAntiforgeryTokenAuthorizationFilter - The required antiforgery request token was not provided in either form field "__RequestVerificationToken" or header value "X-XSRF-TOKEN".
+Microsoft.AspNetCore.Antiforgery.AntiforgeryValidationException: The required antiforgery request token was not provided in either form field "__RequestVerificationToken" or header value "X-XSRF-TOKEN".
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.ValidateRequestAsync(HttpContext httpContext)
+   at Abp.AspNetCore.Mvc.Antiforgery.AbpValidateAntiforgeryTokenAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+ERROR 2020-09-21 20:40:04,154 [10   ] idateAntiforgeryTokenAuthorizationFilter - The required antiforgery request token was not provided in either form field "__RequestVerificationToken" or header value "X-XSRF-TOKEN".
+Microsoft.AspNetCore.Antiforgery.AntiforgeryValidationException: The required antiforgery request token was not provided in either form field "__RequestVerificationToken" or header value "X-XSRF-TOKEN".
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.ValidateRequestAsync(HttpContext httpContext)
+   at Abp.AspNetCore.Mvc.Antiforgery.AbpValidateAntiforgeryTokenAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+ERROR 2020-09-21 20:40:05,064 [11   ] idateAntiforgeryTokenAuthorizationFilter - The required antiforgery request token was not provided in either form field "__RequestVerificationToken" or header value "X-XSRF-TOKEN".
+Microsoft.AspNetCore.Antiforgery.AntiforgeryValidationException: The required antiforgery request token was not provided in either form field "__RequestVerificationToken" or header value "X-XSRF-TOKEN".
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.ValidateRequestAsync(HttpContext httpContext)
+   at Abp.AspNetCore.Mvc.Antiforgery.AbpValidateAntiforgeryTokenAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+ERROR 2020-09-21 20:40:07,483 [11   ] idateAntiforgeryTokenAuthorizationFilter - The required antiforgery request token was not provided in either form field "__RequestVerificationToken" or header value "X-XSRF-TOKEN".
+Microsoft.AspNetCore.Antiforgery.AntiforgeryValidationException: The required antiforgery request token was not provided in either form field "__RequestVerificationToken" or header value "X-XSRF-TOKEN".
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.ValidateRequestAsync(HttpContext httpContext)
+   at Abp.AspNetCore.Mvc.Antiforgery.AbpValidateAntiforgeryTokenAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+ERROR 2020-09-21 23:48:48,864 [5    ] idateAntiforgeryTokenAuthorizationFilter - The required antiforgery request token was not provided in either form field "__RequestVerificationToken" or header value "X-XSRF-TOKEN".
+Microsoft.AspNetCore.Antiforgery.AntiforgeryValidationException: The required antiforgery request token was not provided in either form field "__RequestVerificationToken" or header value "X-XSRF-TOKEN".
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.ValidateRequestAsync(HttpContext httpContext)
+   at Abp.AspNetCore.Mvc.Antiforgery.AbpValidateAntiforgeryTokenAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+ERROR 2020-09-21 23:48:49,704 [5    ] idateAntiforgeryTokenAuthorizationFilter - The required antiforgery request token was not provided in either form field "__RequestVerificationToken" or header value "X-XSRF-TOKEN".
+Microsoft.AspNetCore.Antiforgery.AntiforgeryValidationException: The required antiforgery request token was not provided in either form field "__RequestVerificationToken" or header value "X-XSRF-TOKEN".
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.ValidateRequestAsync(HttpContext httpContext)
+   at Abp.AspNetCore.Mvc.Antiforgery.AbpValidateAntiforgeryTokenAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+ERROR 2020-09-21 23:48:51,507 [11   ] idateAntiforgeryTokenAuthorizationFilter - The required antiforgery request token was not provided in either form field "__RequestVerificationToken" or header value "X-XSRF-TOKEN".
+Microsoft.AspNetCore.Antiforgery.AntiforgeryValidationException: The required antiforgery request token was not provided in either form field "__RequestVerificationToken" or header value "X-XSRF-TOKEN".
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.ValidateRequestAsync(HttpContext httpContext)
+   at Abp.AspNetCore.Mvc.Antiforgery.AbpValidateAntiforgeryTokenAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context)

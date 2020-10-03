@@ -1,0 +1,564 @@
+DEBUG 2020-09-13 01:43:38,370 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-09-13 01:43:38,474 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-09-13 01:43:38,490 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DiveCRM.Web.Host.Startup.DiveCRMWebHostModule, DiveCRM.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-13 01:43:38,491 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DiveCRM.DiveCRMWebCoreModule, DiveCRM.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-13 01:43:38,492 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DiveCRM.DiveCRMApplicationModule, DiveCRM.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-13 01:43:38,492 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DiveCRM.DiveCRMCoreModule, DiveCRM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-13 01:43:38,492 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-13 01:43:38,493 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-13 01:43:38,493 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-13 01:43:38,493 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-13 01:43:38,493 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DiveCRM.EntityFrameworkCore.DiveCRMEntityFrameworkModule, DiveCRM.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-13 01:43:38,494 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-13 01:43:38,494 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-13 01:43:38,494 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-13 01:43:38,494 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-13 01:43:38,494 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-13 01:43:38,495 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-13 01:43:38,497 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-09-13 01:43:38,711 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-13 01:43:38,711 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-13 01:43:38,711 [1    ] o.Configuration.LanguageManagementConfig - Converted DiveCRM (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-13 01:43:38,711 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-13 01:43:39,311 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: DiveCRM.EntityFrameworkCore.DiveCRMDbContext, DiveCRM.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-13 01:43:39,848 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-09-13 01:43:39,958 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-09-13 01:43:40,036 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-09-13 01:43:40,061 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: DiveCRM
+DEBUG 2020-09-13 01:43:40,103 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-09-13 01:43:40,160 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-09-13 01:43:40,198 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[DiveCRM.MultiTenancy.Tenant, DiveCRM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[DiveCRM.Authorization.Users.User, DiveCRM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-09-13 01:43:40,330 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2020-09-13 01:43:40,330 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DiveCRM.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-09-13 01:43:40,336 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DiveCRM.Users.Dto.CreateUserDto
+DEBUG 2020-09-13 01:43:40,336 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DiveCRM.Users.Dto.UserDto
+DEBUG 2020-09-13 01:43:40,337 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DiveCRM.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-09-13 01:43:40,337 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DiveCRM.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-09-13 01:43:40,337 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DiveCRM.Roles.Dto.PermissionDto
+DEBUG 2020-09-13 01:43:40,337 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DiveCRM.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-09-13 01:43:40,337 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DiveCRM.MultiTenancy.Dto.TenantDto
+INFO  2020-09-13 01:43:43,288 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,zh-Hans,ja
+INFO  2020-09-13 01:43:43,771 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+WARN  2020-09-13 01:43:43,810 [1    ] Microsoft.AspNetCore.Server.Kestrel      - Overriding address(es) 'http://localhost:21021/'. Binding to endpoints defined in UseKestrel() instead.
+INFO  2020-09-13 01:43:51,559 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2020-09-13 01:43:51,668 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DiveCRM.Web.Host.Controllers.HomeController.Index (DiveCRM.Web.Host)'
+INFO  2020-09-13 01:43:52,775 [10   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller DiveCRM.Web.Host.Controllers.HomeController (DiveCRM.Web.Host).
+INFO  2020-09-13 01:43:53,390 [13   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2020-09-13 01:43:53,395 [13   ] c.Infrastructure.ControllerActionInvoker - Executed action DiveCRM.Web.Host.Controllers.HomeController.Index (DiveCRM.Web.Host) in 616.5408ms
+INFO  2020-09-13 01:43:53,396 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DiveCRM.Web.Host.Controllers.HomeController.Index (DiveCRM.Web.Host)'
+INFO  2020-09-13 01:43:53,403 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1844.4628ms 302 
+INFO  2020-09-13 01:43:53,410 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger  
+INFO  2020-09-13 01:43:53,432 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 21.5573ms 301 
+INFO  2020-09-13 01:43:53,436 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2020-09-13 01:43:53,476 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 40.4676ms 200 text/html;charset=utf-8
+INFO  2020-09-13 01:43:53,497 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2020-09-13 01:43:53,501 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2020-09-13 01:43:53,501 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js  
+INFO  2020-09-13 01:43:53,501 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.swagger.js  
+INFO  2020-09-13 01:43:53,501 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2020-09-13 01:43:53,511 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.swagger.js'. Physical path: 'E:\Project\5.7.0\aspnet-core\src\DiveCRM.Web.Host\wwwroot\swagger\ui\abp.swagger.js'
+INFO  2020-09-13 01:43:53,511 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'E:\Project\5.7.0\aspnet-core\src\DiveCRM.Web.Host\wwwroot\swagger\ui\abp.js'
+INFO  2020-09-13 01:43:53,511 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 9.6725ms 200 application/javascript
+INFO  2020-09-13 01:43:53,511 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 9.6408ms 200 application/javascript
+INFO  2020-09-13 01:43:53,521 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+INFO  2020-09-13 01:43:53,523 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 25.5739ms 200 text/css
+INFO  2020-09-13 01:43:53,528 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+INFO  2020-09-13 01:43:53,529 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 27.5597ms 200 application/javascript
+INFO  2020-09-13 01:43:53,574 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+INFO  2020-09-13 01:43:53,574 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 73.0148ms 200 application/javascript
+INFO  2020-09-13 01:43:53,699 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2020-09-13 01:43:53,699 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DiveCRM.Web.Host.Controllers.AntiForgeryController.SetCookie (DiveCRM.Web.Host)'
+INFO  2020-09-13 01:43:53,704 [10   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller DiveCRM.Web.Host.Controllers.AntiForgeryController (DiveCRM.Web.Host).
+INFO  2020-09-13 01:43:53,719 [12   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-09-13 01:43:53,738 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2020-09-13 01:43:53,772 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/favicon-32x32.png  
+INFO  2020-09-13 01:43:53,775 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+INFO  2020-09-13 01:43:53,775 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2.6361ms 200 image/png
+INFO  2020-09-13 01:43:53,827 [12   ] c.Infrastructure.ControllerActionInvoker - Executed action DiveCRM.Web.Host.Controllers.AntiForgeryController.SetCookie (DiveCRM.Web.Host) in 122.6271ms
+INFO  2020-09-13 01:43:53,827 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DiveCRM.Web.Host.Controllers.AntiForgeryController.SetCookie (DiveCRM.Web.Host)'
+INFO  2020-09-13 01:43:53,827 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 128.4065ms 200 application/json; charset=utf-8
+INFO  2020-09-13 01:43:53,887 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 149.2592ms 200 application/json;charset=utf-8
+DEBUG 2020-09-13 01:56:08,014 [2    ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2020-09-13 01:56:08,016 [2    ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-09-13 01:56:08,016 [2    ] , Culture=neutral, PublicKeyToken=null]] - Stop background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[DiveCRM.MultiTenancy.Tenant, DiveCRM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[DiveCRM.Authorization.Users.User, DiveCRM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-09-13 01:56:08,017 [2    ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-09-13 01:56:08,017 [2    ] , Culture=neutral, PublicKeyToken=null]] - WaitToStop background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[DiveCRM.MultiTenancy.Tenant, DiveCRM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[DiveCRM.Authorization.Users.User, DiveCRM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-09-13 01:56:08,017 [2    ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2020-09-21 15:12:09,990 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-09-21 15:12:10,088 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-09-21 15:12:10,111 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DiveCRM.Web.Host.Startup.DiveCRMWebHostModule, DiveCRM.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 15:12:10,113 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DiveCRM.DiveCRMWebCoreModule, DiveCRM.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 15:12:10,114 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DiveCRM.DiveCRMApplicationModule, DiveCRM.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 15:12:10,114 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DiveCRM.DiveCRMCoreModule, DiveCRM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 15:12:10,114 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 15:12:10,115 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 15:12:10,115 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 15:12:10,116 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 15:12:10,116 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DiveCRM.EntityFrameworkCore.DiveCRMEntityFrameworkModule, DiveCRM.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 15:12:10,116 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 15:12:10,116 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 15:12:10,117 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 15:12:10,117 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 15:12:10,117 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 15:12:10,118 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 15:12:10,122 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-09-21 15:12:10,207 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-21 15:12:10,207 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-21 15:12:10,207 [1    ] o.Configuration.LanguageManagementConfig - Converted DiveCRM (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-21 15:12:10,207 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-21 15:12:10,683 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: DiveCRM.EntityFrameworkCore.DiveCRMDbContext, DiveCRM.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 15:12:11,654 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-09-21 15:12:11,726 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-09-21 15:12:11,794 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-09-21 15:12:11,818 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: DiveCRM
+DEBUG 2020-09-21 15:12:11,859 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-09-21 15:12:12,058 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-09-21 15:12:12,177 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[DiveCRM.MultiTenancy.Tenant, DiveCRM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[DiveCRM.Authorization.Users.User, DiveCRM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-09-21 15:12:12,243 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2020-09-21 15:12:12,243 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DiveCRM.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-09-21 15:12:12,250 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DiveCRM.Users.Dto.CreateUserDto
+DEBUG 2020-09-21 15:12:12,250 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DiveCRM.Users.Dto.UserDto
+DEBUG 2020-09-21 15:12:12,251 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DiveCRM.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-09-21 15:12:12,251 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DiveCRM.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-09-21 15:12:12,251 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DiveCRM.Roles.Dto.PermissionDto
+DEBUG 2020-09-21 15:12:12,252 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DiveCRM.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-09-21 15:12:12,252 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DiveCRM.MultiTenancy.Dto.TenantDto
+INFO  2020-09-21 15:12:15,295 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,zh-Hans,ja
+INFO  2020-09-21 15:12:15,591 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\Tyler\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2020-09-21 15:12:15,666 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2020-09-21 15:12:15,803 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DiveCRM.Web.Host.Controllers.HomeController.Index (DiveCRM.Web.Host)'
+INFO  2020-09-21 15:12:19,399 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller DiveCRM.Web.Host.Controllers.HomeController (DiveCRM.Web.Host).
+INFO  2020-09-21 15:12:20,697 [11   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2020-09-21 15:12:20,707 [11   ] c.Infrastructure.ControllerActionInvoker - Executed action DiveCRM.Web.Host.Controllers.HomeController.Index (DiveCRM.Web.Host) in 1301.2058ms
+INFO  2020-09-21 15:12:20,709 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DiveCRM.Web.Host.Controllers.HomeController.Index (DiveCRM.Web.Host)'
+INFO  2020-09-21 15:12:20,733 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 5067.6992ms 302 
+INFO  2020-09-21 15:12:20,735 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2020-09-21 15:12:20,812 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 77.1382ms 200 text/html;charset=utf-8
+INFO  2020-09-21 15:12:20,980 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2020-09-21 15:12:20,986 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DiveCRM.Web.Host.Controllers.AntiForgeryController.SetCookie (DiveCRM.Web.Host)'
+INFO  2020-09-21 15:12:20,995 [5    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller DiveCRM.Web.Host.Controllers.AntiForgeryController (DiveCRM.Web.Host).
+INFO  2020-09-21 15:12:21,021 [4    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-09-21 15:12:21,038 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2020-09-21 15:12:21,197 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action DiveCRM.Web.Host.Controllers.AntiForgeryController.SetCookie (DiveCRM.Web.Host) in 198.8138ms
+INFO  2020-09-21 15:12:21,198 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DiveCRM.Web.Host.Controllers.AntiForgeryController.SetCookie (DiveCRM.Web.Host)'
+INFO  2020-09-21 15:12:21,200 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 220.1143ms 200 application/json; charset=utf-8
+INFO  2020-09-21 15:12:21,237 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 200.9714ms 200 application/json;charset=utf-8
+INFO  2020-09-21 15:14:12,388 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/TestService/Test  0
+INFO  2020-09-21 15:14:12,396 [4    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2020-09-21 15:14:12,399 [4    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2020-09-21 15:14:12,404 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DiveCRM.Test.TestService.Test (DiveCRM.Application)'
+INFO  2020-09-21 15:14:12,413 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "Test", controller = "TestService"}. Executing controller action with signature System.String Test() on controller DiveCRM.Test.TestService (DiveCRM.Application).
+INFO  2020-09-21 15:14:12,466 [4    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-09-21 15:14:12,475 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action DiveCRM.Test.TestService.Test (DiveCRM.Application) in 57.7294ms
+INFO  2020-09-21 15:14:12,476 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DiveCRM.Test.TestService.Test (DiveCRM.Application)'
+INFO  2020-09-21 15:14:12,478 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 90.4811ms 200 application/json; charset=utf-8
+DEBUG 2020-09-21 15:25:41,401 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-09-21 15:25:41,510 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-09-21 15:25:41,531 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DiveCRM.Web.Host.Startup.DiveCRMWebHostModule, DiveCRM.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 15:25:41,533 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DiveCRM.DiveCRMWebCoreModule, DiveCRM.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 15:25:41,533 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DiveCRM.DiveCRMApplicationModule, DiveCRM.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 15:25:41,534 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DiveCRM.DiveCRMCoreModule, DiveCRM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 15:25:41,534 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 15:25:41,534 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 15:25:41,535 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 15:25:41,535 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 15:25:41,536 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DiveCRM.EntityFrameworkCore.DiveCRMEntityFrameworkModule, DiveCRM.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 15:25:41,536 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 15:25:41,536 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 15:25:41,537 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 15:25:41,537 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 15:25:41,537 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 15:25:41,537 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 15:25:41,541 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-09-21 15:25:41,625 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-21 15:25:41,625 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-21 15:25:41,625 [1    ] o.Configuration.LanguageManagementConfig - Converted DiveCRM (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-21 15:25:41,625 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-21 15:25:42,077 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: DiveCRM.EntityFrameworkCore.DiveCRMDbContext, DiveCRM.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 15:25:42,983 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-09-21 15:25:43,058 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-09-21 15:25:43,131 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-09-21 15:25:43,174 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: DiveCRM
+DEBUG 2020-09-21 15:25:43,218 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-09-21 15:25:43,436 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-09-21 15:25:43,550 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[DiveCRM.MultiTenancy.Tenant, DiveCRM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[DiveCRM.Authorization.Users.User, DiveCRM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-09-21 15:25:43,614 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2020-09-21 15:25:43,614 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DiveCRM.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-09-21 15:25:43,621 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DiveCRM.Users.Dto.CreateUserDto
+DEBUG 2020-09-21 15:25:43,623 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DiveCRM.Users.Dto.UserDto
+DEBUG 2020-09-21 15:25:43,624 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DiveCRM.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-09-21 15:25:43,624 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DiveCRM.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-09-21 15:25:43,624 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DiveCRM.Roles.Dto.PermissionDto
+DEBUG 2020-09-21 15:25:43,624 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DiveCRM.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-09-21 15:25:43,624 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DiveCRM.MultiTenancy.Dto.TenantDto
+INFO  2020-09-21 15:25:46,706 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,zh-Hans,ja
+INFO  2020-09-21 15:25:47,020 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\Tyler\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2020-09-21 15:25:47,098 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2020-09-21 15:25:47,201 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DiveCRM.Web.Host.Controllers.HomeController.Index (DiveCRM.Web.Host)'
+INFO  2020-09-21 15:25:50,750 [9    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller DiveCRM.Web.Host.Controllers.HomeController (DiveCRM.Web.Host).
+INFO  2020-09-21 15:25:51,979 [4    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2020-09-21 15:25:51,987 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action DiveCRM.Web.Host.Controllers.HomeController.Index (DiveCRM.Web.Host) in 1230.6652ms
+INFO  2020-09-21 15:25:51,989 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DiveCRM.Web.Host.Controllers.HomeController.Index (DiveCRM.Web.Host)'
+INFO  2020-09-21 15:25:52,009 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4912.3569ms 302 
+INFO  2020-09-21 15:25:52,011 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2020-09-21 15:25:52,108 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 96.6175ms 200 text/html;charset=utf-8
+INFO  2020-09-21 15:25:52,260 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2020-09-21 15:25:52,265 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DiveCRM.Web.Host.Controllers.AntiForgeryController.SetCookie (DiveCRM.Web.Host)'
+INFO  2020-09-21 15:25:52,275 [9    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller DiveCRM.Web.Host.Controllers.AntiForgeryController (DiveCRM.Web.Host).
+INFO  2020-09-21 15:25:52,300 [10   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-09-21 15:25:52,311 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2020-09-21 15:25:52,458 [10   ] c.Infrastructure.ControllerActionInvoker - Executed action DiveCRM.Web.Host.Controllers.AntiForgeryController.SetCookie (DiveCRM.Web.Host) in 180.6809ms
+INFO  2020-09-21 15:25:52,460 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DiveCRM.Web.Host.Controllers.AntiForgeryController.SetCookie (DiveCRM.Web.Host)'
+INFO  2020-09-21 15:25:52,463 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 202.0705ms 200 application/json; charset=utf-8
+INFO  2020-09-21 15:25:52,490 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 178.1084ms 200 application/json;charset=utf-8
+INFO  2020-09-21 15:26:52,958 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/TestService/Test  0
+INFO  2020-09-21 15:26:52,965 [4    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2020-09-21 15:26:52,968 [4    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2020-09-21 15:26:52,972 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DiveCRM.Test.TestService.Test (DiveCRM.Application)'
+INFO  2020-09-21 15:26:52,982 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "Test", controller = "TestService"}. Executing controller action with signature System.String Test() on controller DiveCRM.Test.TestService (DiveCRM.Application).
+ERROR 2020-09-21 15:26:52,990 [4    ] idateAntiforgeryTokenAuthorizationFilter - The antiforgery token could not be decrypted.
+Microsoft.AspNetCore.Antiforgery.AntiforgeryValidationException: The antiforgery token could not be decrypted.
+ ---> System.Security.Cryptography.CryptographicException: The payload was invalid.
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.DangerousUnprotect(Byte[] protectedData, Boolean ignoreRevocationErrors, Boolean& requiresMigration, Boolean& wasRevoked)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgeryTokenSerializer.Deserialize(String serializedToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgeryTokenSerializer.Deserialize(String serializedToken)
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.DeserializeTokens(HttpContext httpContext, AntiforgeryTokenSet antiforgeryTokenSet, AntiforgeryToken& cookieToken, AntiforgeryToken& requestToken)
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.ValidateTokens(HttpContext httpContext, AntiforgeryTokenSet antiforgeryTokenSet)
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.ValidateRequestAsync(HttpContext httpContext)
+   at Abp.AspNetCore.Mvc.Antiforgery.AbpValidateAntiforgeryTokenAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+INFO  2020-09-21 15:26:53,025 [4    ] c.Infrastructure.ControllerActionInvoker - Authorization failed for the request at filter 'Abp.AspNetCore.Mvc.Antiforgery.AbpAutoValidateAntiforgeryTokenAuthorizationFilter'.
+INFO  2020-09-21 15:26:53,032 [4    ] icrosoft.AspNetCore.Mvc.StatusCodeResult - Executing HttpStatusCodeResult, setting HTTP status code 400
+INFO  2020-09-21 15:26:53,033 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action DiveCRM.Test.TestService.Test (DiveCRM.Application) in 49.7494ms
+INFO  2020-09-21 15:26:53,034 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DiveCRM.Test.TestService.Test (DiveCRM.Application)'
+INFO  2020-09-21 15:26:53,037 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 79.3182ms 400 
+INFO  2020-09-21 15:27:00,425 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/TestService/Test  0
+INFO  2020-09-21 15:27:00,427 [4    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2020-09-21 15:27:00,429 [4    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2020-09-21 15:27:00,438 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DiveCRM.Test.TestService.Test (DiveCRM.Application)'
+INFO  2020-09-21 15:27:00,447 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "Test", controller = "TestService"}. Executing controller action with signature System.String Test() on controller DiveCRM.Test.TestService (DiveCRM.Application).
+ERROR 2020-09-21 15:27:00,449 [4    ] idateAntiforgeryTokenAuthorizationFilter - The antiforgery token could not be decrypted.
+Microsoft.AspNetCore.Antiforgery.AntiforgeryValidationException: The antiforgery token could not be decrypted.
+ ---> System.Security.Cryptography.CryptographicException: The payload was invalid.
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.DangerousUnprotect(Byte[] protectedData, Boolean ignoreRevocationErrors, Boolean& requiresMigration, Boolean& wasRevoked)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgeryTokenSerializer.Deserialize(String serializedToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgeryTokenSerializer.Deserialize(String serializedToken)
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.DeserializeTokens(HttpContext httpContext, AntiforgeryTokenSet antiforgeryTokenSet, AntiforgeryToken& cookieToken, AntiforgeryToken& requestToken)
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.ValidateTokens(HttpContext httpContext, AntiforgeryTokenSet antiforgeryTokenSet)
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.ValidateRequestAsync(HttpContext httpContext)
+   at Abp.AspNetCore.Mvc.Antiforgery.AbpValidateAntiforgeryTokenAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+INFO  2020-09-21 15:27:00,451 [4    ] c.Infrastructure.ControllerActionInvoker - Authorization failed for the request at filter 'Abp.AspNetCore.Mvc.Antiforgery.AbpAutoValidateAntiforgeryTokenAuthorizationFilter'.
+INFO  2020-09-21 15:27:00,453 [4    ] icrosoft.AspNetCore.Mvc.StatusCodeResult - Executing HttpStatusCodeResult, setting HTTP status code 400
+INFO  2020-09-21 15:27:00,454 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action DiveCRM.Test.TestService.Test (DiveCRM.Application) in 5.4542ms
+INFO  2020-09-21 15:27:00,456 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DiveCRM.Test.TestService.Test (DiveCRM.Application)'
+INFO  2020-09-21 15:27:00,459 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 34.046ms 400 
+INFO  2020-09-21 15:27:38,881 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/TestService/Test  0
+INFO  2020-09-21 15:27:38,885 [4    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2020-09-21 15:27:38,886 [4    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2020-09-21 15:27:38,891 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DiveCRM.Test.TestService.Test (DiveCRM.Application)'
+INFO  2020-09-21 15:27:38,901 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "Test", controller = "TestService"}. Executing controller action with signature System.String Test() on controller DiveCRM.Test.TestService (DiveCRM.Application).
+ERROR 2020-09-21 15:27:38,903 [4    ] idateAntiforgeryTokenAuthorizationFilter - The antiforgery token could not be decrypted.
+Microsoft.AspNetCore.Antiforgery.AntiforgeryValidationException: The antiforgery token could not be decrypted.
+ ---> System.Security.Cryptography.CryptographicException: The payload was invalid.
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.DangerousUnprotect(Byte[] protectedData, Boolean ignoreRevocationErrors, Boolean& requiresMigration, Boolean& wasRevoked)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgeryTokenSerializer.Deserialize(String serializedToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgeryTokenSerializer.Deserialize(String serializedToken)
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.DeserializeTokens(HttpContext httpContext, AntiforgeryTokenSet antiforgeryTokenSet, AntiforgeryToken& cookieToken, AntiforgeryToken& requestToken)
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.ValidateTokens(HttpContext httpContext, AntiforgeryTokenSet antiforgeryTokenSet)
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.ValidateRequestAsync(HttpContext httpContext)
+   at Abp.AspNetCore.Mvc.Antiforgery.AbpValidateAntiforgeryTokenAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+INFO  2020-09-21 15:27:38,907 [4    ] c.Infrastructure.ControllerActionInvoker - Authorization failed for the request at filter 'Abp.AspNetCore.Mvc.Antiforgery.AbpAutoValidateAntiforgeryTokenAuthorizationFilter'.
+INFO  2020-09-21 15:27:38,908 [4    ] icrosoft.AspNetCore.Mvc.StatusCodeResult - Executing HttpStatusCodeResult, setting HTTP status code 400
+INFO  2020-09-21 15:27:38,910 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action DiveCRM.Test.TestService.Test (DiveCRM.Application) in 7.325ms
+INFO  2020-09-21 15:27:38,913 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DiveCRM.Test.TestService.Test (DiveCRM.Application)'
+INFO  2020-09-21 15:27:38,922 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 35.269ms 400 
+DEBUG 2020-09-21 15:28:04,995 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-09-21 15:28:05,123 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-09-21 15:28:05,156 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DiveCRM.Web.Host.Startup.DiveCRMWebHostModule, DiveCRM.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 15:28:05,159 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DiveCRM.DiveCRMWebCoreModule, DiveCRM.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 15:28:05,160 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DiveCRM.DiveCRMApplicationModule, DiveCRM.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 15:28:05,160 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DiveCRM.DiveCRMCoreModule, DiveCRM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 15:28:05,161 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 15:28:05,162 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 15:28:05,162 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 15:28:05,163 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 15:28:05,163 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DiveCRM.EntityFrameworkCore.DiveCRMEntityFrameworkModule, DiveCRM.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 15:28:05,164 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 15:28:05,164 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 15:28:05,165 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 15:28:05,165 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 15:28:05,165 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 15:28:05,166 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 15:28:05,169 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-09-21 15:28:05,271 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-21 15:28:05,271 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-21 15:28:05,271 [1    ] o.Configuration.LanguageManagementConfig - Converted DiveCRM (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-21 15:28:05,271 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-21 15:28:05,903 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: DiveCRM.EntityFrameworkCore.DiveCRMDbContext, DiveCRM.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 15:28:07,301 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-09-21 15:28:07,375 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-09-21 15:28:07,439 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-09-21 15:28:07,465 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: DiveCRM
+DEBUG 2020-09-21 15:28:07,511 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-09-21 15:28:07,730 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-09-21 15:28:07,848 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[DiveCRM.MultiTenancy.Tenant, DiveCRM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[DiveCRM.Authorization.Users.User, DiveCRM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-09-21 15:28:07,912 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2020-09-21 15:28:07,912 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DiveCRM.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-09-21 15:28:07,920 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DiveCRM.Users.Dto.CreateUserDto
+DEBUG 2020-09-21 15:28:07,921 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DiveCRM.Users.Dto.UserDto
+DEBUG 2020-09-21 15:28:07,922 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DiveCRM.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-09-21 15:28:07,922 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DiveCRM.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-09-21 15:28:07,922 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DiveCRM.Roles.Dto.PermissionDto
+DEBUG 2020-09-21 15:28:07,922 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DiveCRM.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-09-21 15:28:07,922 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DiveCRM.MultiTenancy.Dto.TenantDto
+INFO  2020-09-21 15:28:10,902 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,zh-Hans,ja
+INFO  2020-09-21 15:28:11,210 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\Tyler\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2020-09-21 15:28:11,296 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2020-09-21 15:28:11,399 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DiveCRM.Web.Host.Controllers.HomeController.Index (DiveCRM.Web.Host)'
+INFO  2020-09-21 15:28:15,012 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller DiveCRM.Web.Host.Controllers.HomeController (DiveCRM.Web.Host).
+INFO  2020-09-21 15:28:16,376 [7    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2020-09-21 15:28:16,388 [7    ] c.Infrastructure.ControllerActionInvoker - Executed action DiveCRM.Web.Host.Controllers.HomeController.Index (DiveCRM.Web.Host) in 1369.1568ms
+INFO  2020-09-21 15:28:16,390 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DiveCRM.Web.Host.Controllers.HomeController.Index (DiveCRM.Web.Host)'
+INFO  2020-09-21 15:28:16,414 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 5119.1624ms 302 
+INFO  2020-09-21 15:28:16,416 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2020-09-21 15:28:16,493 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 76.999ms 200 text/html;charset=utf-8
+INFO  2020-09-21 15:28:16,642 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2020-09-21 15:28:16,649 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DiveCRM.Web.Host.Controllers.AntiForgeryController.SetCookie (DiveCRM.Web.Host)'
+INFO  2020-09-21 15:28:16,660 [7    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller DiveCRM.Web.Host.Controllers.AntiForgeryController (DiveCRM.Web.Host).
+INFO  2020-09-21 15:28:16,688 [7    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-09-21 15:28:16,698 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2020-09-21 15:28:16,847 [7    ] c.Infrastructure.ControllerActionInvoker - Executed action DiveCRM.Web.Host.Controllers.AntiForgeryController.SetCookie (DiveCRM.Web.Host) in 182.976ms
+INFO  2020-09-21 15:28:16,848 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DiveCRM.Web.Host.Controllers.AntiForgeryController.SetCookie (DiveCRM.Web.Host)'
+INFO  2020-09-21 15:28:16,850 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 208.2361ms 200 application/json; charset=utf-8
+INFO  2020-09-21 15:28:16,876 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 176.9711ms 200 application/json;charset=utf-8
+INFO  2020-09-21 15:28:23,313 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/TestService/Test  0
+INFO  2020-09-21 15:28:23,321 [4    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2020-09-21 15:28:23,323 [4    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2020-09-21 15:28:23,327 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DiveCRM.Test.TestService.Test (DiveCRM.Application)'
+INFO  2020-09-21 15:28:23,336 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "Test", controller = "TestService"}. Executing controller action with signature System.String Test() on controller DiveCRM.Test.TestService (DiveCRM.Application).
+INFO  2020-09-21 15:28:23,368 [9    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-09-21 15:28:23,375 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action DiveCRM.Test.TestService.Test (DiveCRM.Application) in 36.9454ms
+INFO  2020-09-21 15:28:23,377 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DiveCRM.Test.TestService.Test (DiveCRM.Application)'
+INFO  2020-09-21 15:28:23,379 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 67.0167ms 200 application/json; charset=utf-8
+DEBUG 2020-09-21 15:30:17,118 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-09-21 15:30:17,186 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-09-21 15:30:17,205 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DiveCRM.Web.Host.Startup.DiveCRMWebHostModule, DiveCRM.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 15:30:17,207 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DiveCRM.DiveCRMWebCoreModule, DiveCRM.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 15:30:17,207 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DiveCRM.DiveCRMApplicationModule, DiveCRM.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 15:30:17,208 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DiveCRM.DiveCRMCoreModule, DiveCRM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 15:30:17,208 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 15:30:17,208 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 15:30:17,209 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 15:30:17,209 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 15:30:17,209 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DiveCRM.EntityFrameworkCore.DiveCRMEntityFrameworkModule, DiveCRM.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 15:30:17,210 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 15:30:17,210 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 15:30:17,210 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 15:30:17,210 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 15:30:17,211 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 15:30:17,211 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 15:30:17,214 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-09-21 15:30:17,291 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-21 15:30:17,291 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-21 15:30:17,291 [1    ] o.Configuration.LanguageManagementConfig - Converted DiveCRM (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-21 15:30:17,291 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-21 15:30:17,726 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: DiveCRM.EntityFrameworkCore.DiveCRMDbContext, DiveCRM.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 15:30:18,677 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-09-21 15:30:18,750 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-09-21 15:30:18,813 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-09-21 15:30:18,837 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: DiveCRM
+DEBUG 2020-09-21 15:30:18,880 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-09-21 15:30:19,081 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-09-21 15:30:19,208 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[DiveCRM.MultiTenancy.Tenant, DiveCRM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[DiveCRM.Authorization.Users.User, DiveCRM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-09-21 15:30:19,271 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2020-09-21 15:30:19,271 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DiveCRM.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-09-21 15:30:19,278 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DiveCRM.Users.Dto.CreateUserDto
+DEBUG 2020-09-21 15:30:19,279 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DiveCRM.Users.Dto.UserDto
+DEBUG 2020-09-21 15:30:19,280 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DiveCRM.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-09-21 15:30:19,280 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DiveCRM.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-09-21 15:30:19,280 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DiveCRM.Roles.Dto.PermissionDto
+DEBUG 2020-09-21 15:30:19,280 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DiveCRM.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-09-21 15:30:19,280 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DiveCRM.MultiTenancy.Dto.TenantDto
+INFO  2020-09-21 15:30:22,206 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,zh-Hans,ja
+INFO  2020-09-21 15:30:22,494 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\Tyler\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2020-09-21 15:30:22,574 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2020-09-21 15:30:22,675 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DiveCRM.Web.Host.Controllers.HomeController.Index (DiveCRM.Web.Host)'
+INFO  2020-09-21 15:30:26,223 [7    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller DiveCRM.Web.Host.Controllers.HomeController (DiveCRM.Web.Host).
+INFO  2020-09-21 15:30:27,480 [9    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2020-09-21 15:30:27,488 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action DiveCRM.Web.Host.Controllers.HomeController.Index (DiveCRM.Web.Host) in 1259.6772ms
+INFO  2020-09-21 15:30:27,490 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DiveCRM.Web.Host.Controllers.HomeController.Index (DiveCRM.Web.Host)'
+INFO  2020-09-21 15:30:27,516 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4940.4561ms 302 
+INFO  2020-09-21 15:30:27,518 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2020-09-21 15:30:27,593 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 75.404ms 200 text/html;charset=utf-8
+INFO  2020-09-21 15:30:27,818 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2020-09-21 15:30:27,842 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2020-09-21 15:30:27,848 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DiveCRM.Web.Host.Controllers.AntiForgeryController.SetCookie (DiveCRM.Web.Host)'
+INFO  2020-09-21 15:30:27,864 [10   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller DiveCRM.Web.Host.Controllers.AntiForgeryController (DiveCRM.Web.Host).
+INFO  2020-09-21 15:30:27,900 [11   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-09-21 15:30:28,034 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 204.4221ms 200 application/json;charset=utf-8
+INFO  2020-09-21 15:30:28,071 [11   ] c.Infrastructure.ControllerActionInvoker - Executed action DiveCRM.Web.Host.Controllers.AntiForgeryController.SetCookie (DiveCRM.Web.Host) in 190.4297ms
+INFO  2020-09-21 15:30:28,079 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DiveCRM.Web.Host.Controllers.AntiForgeryController.SetCookie (DiveCRM.Web.Host)'
+INFO  2020-09-21 15:30:28,099 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 323.0761ms 200 application/json; charset=utf-8
+INFO  2020-09-21 15:30:31,905 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2020-09-21 15:30:31,912 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DiveCRM.Web.Host.Controllers.HomeController.Index (DiveCRM.Web.Host)'
+INFO  2020-09-21 15:30:31,922 [7    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller DiveCRM.Web.Host.Controllers.HomeController (DiveCRM.Web.Host).
+INFO  2020-09-21 15:30:31,941 [9    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2020-09-21 15:30:31,943 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action DiveCRM.Web.Host.Controllers.HomeController.Index (DiveCRM.Web.Host) in 18.6913ms
+INFO  2020-09-21 15:30:31,946 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DiveCRM.Web.Host.Controllers.HomeController.Index (DiveCRM.Web.Host)'
+INFO  2020-09-21 15:30:31,949 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 46.7959ms 302 
+INFO  2020-09-21 15:30:31,953 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger  
+INFO  2020-09-21 15:30:31,956 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3.1517ms 301 
+INFO  2020-09-21 15:30:31,959 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2020-09-21 15:30:31,965 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4.3901ms 200 text/html;charset=utf-8
+INFO  2020-09-21 15:30:32,134 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2020-09-21 15:30:32,137 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DiveCRM.Web.Host.Controllers.AntiForgeryController.SetCookie (DiveCRM.Web.Host)'
+INFO  2020-09-21 15:30:32,144 [7    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller DiveCRM.Web.Host.Controllers.AntiForgeryController (DiveCRM.Web.Host).
+INFO  2020-09-21 15:30:32,156 [11   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-09-21 15:30:32,160 [11   ] c.Infrastructure.ControllerActionInvoker - Executed action DiveCRM.Web.Host.Controllers.AntiForgeryController.SetCookie (DiveCRM.Web.Host) in 13.1289ms
+INFO  2020-09-21 15:30:32,161 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DiveCRM.Web.Host.Controllers.AntiForgeryController.SetCookie (DiveCRM.Web.Host)'
+INFO  2020-09-21 15:30:32,163 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 30.0389ms 200 application/json; charset=utf-8
+INFO  2020-09-21 15:30:32,189 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2020-09-21 15:30:32,217 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 23.7045ms 200 application/json;charset=utf-8
+DEBUG 2020-09-21 23:48:24,303 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-09-21 23:48:24,433 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-09-21 23:48:24,449 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DiveCRM.Web.Host.Startup.DiveCRMWebHostModule, DiveCRM.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 23:48:24,451 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DiveCRM.DiveCRMWebCoreModule, DiveCRM.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 23:48:24,451 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DiveCRM.DiveCRMApplicationModule, DiveCRM.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 23:48:24,451 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DiveCRM.DiveCRMCoreModule, DiveCRM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 23:48:24,451 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 23:48:24,452 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 23:48:24,452 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 23:48:24,452 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 23:48:24,453 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DiveCRM.EntityFrameworkCore.DiveCRMEntityFrameworkModule, DiveCRM.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 23:48:24,453 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 23:48:24,453 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 23:48:24,453 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 23:48:24,453 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 23:48:24,454 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 23:48:24,454 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 23:48:24,456 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-09-21 23:48:24,575 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-21 23:48:24,575 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-21 23:48:24,575 [1    ] o.Configuration.LanguageManagementConfig - Converted DiveCRM (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-21 23:48:24,575 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-21 23:48:25,071 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: DiveCRM.EntityFrameworkCore.DiveCRMDbContext, DiveCRM.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 23:48:25,943 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-09-21 23:48:26,015 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-09-21 23:48:26,078 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-09-21 23:48:26,101 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: DiveCRM
+DEBUG 2020-09-21 23:48:26,140 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-09-21 23:48:26,319 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-09-21 23:48:26,425 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[DiveCRM.MultiTenancy.Tenant, DiveCRM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[DiveCRM.Authorization.Users.User, DiveCRM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-09-21 23:48:26,479 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2020-09-21 23:48:26,479 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DiveCRM.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-09-21 23:48:26,485 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DiveCRM.Users.Dto.CreateUserDto
+DEBUG 2020-09-21 23:48:26,486 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DiveCRM.Users.Dto.UserDto
+DEBUG 2020-09-21 23:48:26,486 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DiveCRM.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-09-21 23:48:26,486 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DiveCRM.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-09-21 23:48:26,487 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DiveCRM.Roles.Dto.PermissionDto
+DEBUG 2020-09-21 23:48:26,487 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DiveCRM.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-09-21 23:48:26,487 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DiveCRM.MultiTenancy.Dto.TenantDto
+INFO  2020-09-21 23:48:29,339 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,zh-Hans,ja
+INFO  2020-09-21 23:48:29,740 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2020-09-21 23:48:29,877 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2020-09-21 23:48:29,982 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DiveCRM.Web.Host.Controllers.HomeController.Index (DiveCRM.Web.Host)'
+INFO  2020-09-21 23:48:33,293 [5    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller DiveCRM.Web.Host.Controllers.HomeController (DiveCRM.Web.Host).
+INFO  2020-09-21 23:48:34,476 [9    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2020-09-21 23:48:34,491 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action DiveCRM.Web.Host.Controllers.HomeController.Index (DiveCRM.Web.Host) in 1184.5433ms
+INFO  2020-09-21 23:48:34,493 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DiveCRM.Web.Host.Controllers.HomeController.Index (DiveCRM.Web.Host)'
+INFO  2020-09-21 23:48:34,516 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4639.5155ms 302 
+INFO  2020-09-21 23:48:34,518 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger  
+INFO  2020-09-21 23:48:34,547 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 28.5882ms 301 
+INFO  2020-09-21 23:48:34,551 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2020-09-21 23:48:34,601 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 50.6359ms 200 text/html;charset=utf-8
+INFO  2020-09-21 23:48:34,625 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2020-09-21 23:48:34,625 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js  
+INFO  2020-09-21 23:48:34,628 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2020-09-21 23:48:34,632 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2020-09-21 23:48:34,634 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.swagger.js  
+INFO  2020-09-21 23:48:34,666 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'E:\Project\5.7.0\aspnet-core\src\DiveCRM.Web.Host\wwwroot\swagger\ui\abp.js'
+INFO  2020-09-21 23:48:34,666 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.swagger.js'. Physical path: 'E:\Project\5.7.0\aspnet-core\src\DiveCRM.Web.Host\wwwroot\swagger\ui\abp.swagger.js'
+INFO  2020-09-21 23:48:34,668 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 39.2436ms 200 application/javascript
+INFO  2020-09-21 23:48:34,669 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 43.5973ms 200 application/javascript
+INFO  2020-09-21 23:48:34,674 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+INFO  2020-09-21 23:48:34,676 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 54.5038ms 200 text/css
+INFO  2020-09-21 23:48:34,678 [5    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+INFO  2020-09-21 23:48:34,681 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 54.8623ms 200 application/javascript
+INFO  2020-09-21 23:48:34,698 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+INFO  2020-09-21 23:48:34,700 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 76.3388ms 200 application/javascript
+INFO  2020-09-21 23:48:34,886 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2020-09-21 23:48:34,892 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DiveCRM.Web.Host.Controllers.AntiForgeryController.SetCookie (DiveCRM.Web.Host)'
+INFO  2020-09-21 23:48:34,917 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller DiveCRM.Web.Host.Controllers.AntiForgeryController (DiveCRM.Web.Host).
+INFO  2020-09-21 23:48:34,947 [5    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-09-21 23:48:34,951 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2020-09-21 23:48:34,975 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/favicon-32x32.png  
+INFO  2020-09-21 23:48:34,981 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+INFO  2020-09-21 23:48:34,983 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 7.2208ms 200 image/png
+INFO  2020-09-21 23:48:35,090 [5    ] c.Infrastructure.ControllerActionInvoker - Executed action DiveCRM.Web.Host.Controllers.AntiForgeryController.SetCookie (DiveCRM.Web.Host) in 171.145ms
+INFO  2020-09-21 23:48:35,091 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DiveCRM.Web.Host.Controllers.AntiForgeryController.SetCookie (DiveCRM.Web.Host)'
+INFO  2020-09-21 23:48:35,093 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 209.633ms 200 application/json; charset=utf-8
+INFO  2020-09-21 23:48:35,103 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 152.204ms 200 application/json;charset=utf-8
+INFO  2020-09-21 23:49:19,867 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/TestService/Test  0
+INFO  2020-09-21 23:49:19,874 [4    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2020-09-21 23:49:19,876 [4    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2020-09-21 23:49:19,881 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DiveCRM.Test.TestService.Test (DiveCRM.Application)'
+INFO  2020-09-21 23:49:19,888 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "Test", controller = "TestService"}. Executing controller action with signature System.Collections.Generic.List`1[System.Object] Test() on controller DiveCRM.Test.TestService (DiveCRM.Application).
+ERROR 2020-09-21 23:49:19,899 [4    ] idateAntiforgeryTokenAuthorizationFilter - The antiforgery token could not be decrypted.
+Microsoft.AspNetCore.Antiforgery.AntiforgeryValidationException: The antiforgery token could not be decrypted.
+ ---> System.Security.Cryptography.CryptographicException: The payload was invalid.
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.DangerousUnprotect(Byte[] protectedData, Boolean ignoreRevocationErrors, Boolean& requiresMigration, Boolean& wasRevoked)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgeryTokenSerializer.Deserialize(String serializedToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgeryTokenSerializer.Deserialize(String serializedToken)
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.DeserializeTokens(HttpContext httpContext, AntiforgeryTokenSet antiforgeryTokenSet, AntiforgeryToken& cookieToken, AntiforgeryToken& requestToken)
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.ValidateTokens(HttpContext httpContext, AntiforgeryTokenSet antiforgeryTokenSet)
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.ValidateRequestAsync(HttpContext httpContext)
+   at Abp.AspNetCore.Mvc.Antiforgery.AbpValidateAntiforgeryTokenAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+INFO  2020-09-21 23:49:19,930 [4    ] c.Infrastructure.ControllerActionInvoker - Authorization failed for the request at filter 'Abp.AspNetCore.Mvc.Antiforgery.AbpAutoValidateAntiforgeryTokenAuthorizationFilter'.
+INFO  2020-09-21 23:49:19,936 [4    ] icrosoft.AspNetCore.Mvc.StatusCodeResult - Executing HttpStatusCodeResult, setting HTTP status code 400
+INFO  2020-09-21 23:49:19,938 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action DiveCRM.Test.TestService.Test (DiveCRM.Application) in 48.511ms
+INFO  2020-09-21 23:49:19,939 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DiveCRM.Test.TestService.Test (DiveCRM.Application)'
+INFO  2020-09-21 23:49:19,943 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 76.3706ms 400 
+INFO  2020-09-21 23:49:54,827 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/TestService/Test  0
+INFO  2020-09-21 23:49:54,830 [4    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2020-09-21 23:49:54,832 [4    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2020-09-21 23:49:54,839 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DiveCRM.Test.TestService.Test (DiveCRM.Application)'
+INFO  2020-09-21 23:49:54,846 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "Test", controller = "TestService"}. Executing controller action with signature System.Collections.Generic.List`1[System.Object] Test() on controller DiveCRM.Test.TestService (DiveCRM.Application).
+ERROR 2020-09-21 23:49:54,847 [4    ] idateAntiforgeryTokenAuthorizationFilter - The antiforgery token could not be decrypted.
+Microsoft.AspNetCore.Antiforgery.AntiforgeryValidationException: The antiforgery token could not be decrypted.
+ ---> System.Security.Cryptography.CryptographicException: The payload was invalid.
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.DangerousUnprotect(Byte[] protectedData, Boolean ignoreRevocationErrors, Boolean& requiresMigration, Boolean& wasRevoked)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgeryTokenSerializer.Deserialize(String serializedToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgeryTokenSerializer.Deserialize(String serializedToken)
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.DeserializeTokens(HttpContext httpContext, AntiforgeryTokenSet antiforgeryTokenSet, AntiforgeryToken& cookieToken, AntiforgeryToken& requestToken)
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.ValidateTokens(HttpContext httpContext, AntiforgeryTokenSet antiforgeryTokenSet)
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.ValidateRequestAsync(HttpContext httpContext)
+   at Abp.AspNetCore.Mvc.Antiforgery.AbpValidateAntiforgeryTokenAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+INFO  2020-09-21 23:49:54,849 [4    ] c.Infrastructure.ControllerActionInvoker - Authorization failed for the request at filter 'Abp.AspNetCore.Mvc.Antiforgery.AbpAutoValidateAntiforgeryTokenAuthorizationFilter'.
+INFO  2020-09-21 23:49:54,850 [4    ] icrosoft.AspNetCore.Mvc.StatusCodeResult - Executing HttpStatusCodeResult, setting HTTP status code 400
+INFO  2020-09-21 23:49:54,852 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action DiveCRM.Test.TestService.Test (DiveCRM.Application) in 4.5968ms
+INFO  2020-09-21 23:49:54,853 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DiveCRM.Test.TestService.Test (DiveCRM.Application)'
+INFO  2020-09-21 23:49:54,855 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 29.4215ms 400 

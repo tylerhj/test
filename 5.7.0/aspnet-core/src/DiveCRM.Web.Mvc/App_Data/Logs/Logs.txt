@@ -1,0 +1,906 @@
+﻿DEBUG 2020-09-21 15:20:50,192 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-09-21 15:20:50,270 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-09-21 15:20:50,295 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DiveCRM.Web.Startup.DiveCRMWebMvcModule, DiveCRM.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 15:20:50,298 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DiveCRM.DiveCRMWebCoreModule, DiveCRM.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 15:20:50,298 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DiveCRM.DiveCRMApplicationModule, DiveCRM.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 15:20:50,299 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DiveCRM.DiveCRMCoreModule, DiveCRM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 15:20:50,300 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 15:20:50,300 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 15:20:50,300 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 15:20:50,301 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 15:20:50,302 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DiveCRM.EntityFrameworkCore.DiveCRMEntityFrameworkModule, DiveCRM.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 15:20:50,302 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 15:20:50,303 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 15:20:50,303 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 15:20:50,303 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 15:20:50,304 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 15:20:50,304 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 15:20:50,307 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-09-21 15:20:50,406 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-21 15:20:50,406 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-21 15:20:50,406 [1    ] o.Configuration.LanguageManagementConfig - Converted DiveCRM (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-21 15:20:50,406 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-21 15:20:50,912 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: DiveCRM.EntityFrameworkCore.DiveCRMDbContext, DiveCRM.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 15:20:51,971 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-09-21 15:20:52,046 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-09-21 15:20:52,110 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-09-21 15:20:52,140 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: DiveCRM
+DEBUG 2020-09-21 15:20:52,187 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-09-21 15:20:52,411 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-09-21 15:20:52,531 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[DiveCRM.MultiTenancy.Tenant, DiveCRM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[DiveCRM.Authorization.Users.User, DiveCRM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-09-21 15:20:52,600 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2020-09-21 15:20:52,601 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DiveCRM.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-09-21 15:20:52,608 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DiveCRM.Users.Dto.CreateUserDto
+DEBUG 2020-09-21 15:20:52,609 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DiveCRM.Users.Dto.UserDto
+DEBUG 2020-09-21 15:20:52,609 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DiveCRM.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-09-21 15:20:52,609 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DiveCRM.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-09-21 15:20:52,609 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DiveCRM.Roles.Dto.PermissionDto
+DEBUG 2020-09-21 15:20:52,610 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DiveCRM.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-09-21 15:20:52,610 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DiveCRM.MultiTenancy.Dto.TenantDto
+DEBUG 2020-09-21 15:20:52,610 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DiveCRM.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+DEBUG 2020-09-21 15:20:52,610 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DiveCRM.Web.Models.Roles.EditRoleModalViewModel
+INFO  2020-09-21 15:20:55,702 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,zh-Hans,ja
+INFO  2020-09-21 15:20:56,213 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\Tyler\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2020-09-21 15:20:56,302 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2020-09-21 15:21:00,095 [10   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-09-21 15:21:00,097 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc)'
+INFO  2020-09-21 15:21:00,365 [10   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller DiveCRM.Web.Controllers.HomeController (DiveCRM.Web.Mvc).
+INFO  2020-09-21 15:21:00,699 [10   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2020-09-21 15:21:02,351 [13   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 1680.8411ms.
+INFO  2020-09-21 15:21:02,388 [13   ] c.Infrastructure.ControllerActionInvoker - Executed action DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc) in 1993.5319ms
+INFO  2020-09-21 15:21:02,394 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/css/style.css?v=O03e3k0bVBKA_ZkFaRP3I4j7he3snzsrgCTdUixlA5I  
+INFO  2020-09-21 15:21:02,394 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc)'
+INFO  2020-09-21 15:21:02,406 [5    ] NetCore.StaticFiles.StaticFileMiddleware - The file /css/style.css was not modified
+INFO  2020-09-21 15:21:02,408 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 6106.0754ms 200 text/html; charset=utf-8
+INFO  2020-09-21 15:21:02,419 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 28.678ms 304 text/css
+INFO  2020-09-21 15:21:02,655 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637362984525328670  
+INFO  2020-09-21 15:21:02,657 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637362984525328670  
+INFO  2020-09-21 15:21:02,670 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-09-21 15:21:02,675 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-09-21 15:21:02,695 [5    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-09-21 15:21:02,700 [9    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-09-21 15:21:02,868 [9    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-09-21 15:21:02,875 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 170.1524ms
+INFO  2020-09-21 15:21:02,877 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-09-21 15:21:02,881 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 228.0866ms 200 application/x-javascript
+INFO  2020-09-21 15:21:02,895 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-09-21 15:21:02,904 [10   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-09-21 15:21:02,908 [10   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 210.8376ms
+INFO  2020-09-21 15:21:02,910 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-09-21 15:21:02,912 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 255.1254ms 200 application/x-javascript; charset=utf-8
+INFO  2020-09-21 15:21:02,917 [17   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-09-21 15:21:02,932 [17   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-09-21 15:21:02,934 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 50.5012ms 200 application/json
+INFO  2020-09-21 15:21:02,941 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=6AQZ7btFlgQcfPqTsx9fgQ  
+INFO  2020-09-21 15:21:02,952 [17   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+DEBUG 2020-09-21 15:21:03,112 [5    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"6AQZ7btFlgQcfPqTsx9fgQ","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2020-09-21T15:21:03.1010058+08:00","Properties":{}}
+DEBUG 2020-09-21 15:21:03,126 [5    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: 6AQZ7btFlgQcfPqTsx9fgQ
+INFO  2020-09-21 15:21:04,149 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/CustomersOrder  
+INFO  2020-09-21 15:21:04,162 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DiveCRM.Web.Controllers.CustomersOrderController.Index (DiveCRM.Web.Mvc)'
+INFO  2020-09-21 15:21:04,168 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "CustomersOrder", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(Int32, System.String) on controller DiveCRM.Web.Controllers.CustomersOrderController (DiveCRM.Web.Mvc).
+INFO  2020-09-21 15:21:05,371 [5    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2020-09-21 15:21:05,496 [10   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 127.6539ms.
+INFO  2020-09-21 15:21:05,499 [10   ] c.Infrastructure.ControllerActionInvoker - Executed action DiveCRM.Web.Controllers.CustomersOrderController.Index (DiveCRM.Web.Mvc) in 1327.8899ms
+INFO  2020-09-21 15:21:05,502 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DiveCRM.Web.Controllers.CustomersOrderController.Index (DiveCRM.Web.Mvc)'
+INFO  2020-09-21 15:21:05,510 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1363.0377ms 200 text/html; charset=utf-8
+DEBUG 2020-09-21 15:21:05,543 [9    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: 6AQZ7btFlgQcfPqTsx9fgQ
+INFO  2020-09-21 15:21:05,546 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637362984525328670  
+INFO  2020-09-21 15:21:05,550 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637362984525328670  
+INFO  2020-09-21 15:21:05,563 [16   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-09-21 15:21:05,568 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-09-21 15:21:05,570 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2020-09-21 15:21:05,578 [16   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-09-21 15:21:05,579 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2633.0205ms 101 
+INFO  2020-09-21 15:21:05,584 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-09-21 15:21:05,588 [4    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-09-21 15:21:05,593 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 5.2384ms
+INFO  2020-09-21 15:21:05,595 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-09-21 15:21:05,599 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 50.3207ms 200 application/x-javascript
+INFO  2020-09-21 15:21:05,606 [16   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-09-21 15:21:05,611 [16   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 28.4324ms
+INFO  2020-09-21 15:21:05,617 [16   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-09-21 15:21:05,618 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 71.9659ms 200 application/x-javascript; charset=utf-8
+INFO  2020-09-21 15:21:05,660 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-09-21 15:21:05,671 [16   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-09-21 15:21:05,686 [16   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-09-21 15:21:05,688 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 28.5113ms 200 application/json
+INFO  2020-09-21 15:21:05,699 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=d2DvWWhlq7DodQ5CjVIelQ  
+INFO  2020-09-21 15:21:05,711 [18   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+DEBUG 2020-09-21 15:21:05,719 [18   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"d2DvWWhlq7DodQ5CjVIelQ","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2020-09-21T15:21:05.7193188+08:00","Properties":{}}
+DEBUG 2020-09-21 15:21:05,720 [18   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: d2DvWWhlq7DodQ5CjVIelQ
+INFO  2020-09-21 15:21:08,091 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/bootstrap/dist/js/bootstrap.bundle.js.map  
+INFO  2020-09-21 15:21:08,106 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/toastr/toastr.js.map  
+INFO  2020-09-21 15:21:08,108 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/signalr/dist/browser/signalr.js.map  
+INFO  2020-09-21 15:21:08,111 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/admin-lte/dist/js/adminlte.js.map  
+INFO  2020-09-21 15:21:08,112 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/push.js/push.js.map  
+INFO  2020-09-21 15:21:08,146 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/toastr/toastr.js.map'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\toastr\toastr.js.map'
+INFO  2020-09-21 15:21:08,154 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/admin-lte/dist/css/adminlte.min.css.map  
+INFO  2020-09-21 15:21:08,157 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 46.0184ms 200 text/plain
+INFO  2020-09-21 15:21:08,161 [5    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/push.js/push.js.map'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\push.js\push.js.map'
+INFO  2020-09-21 15:21:08,188 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 55.3105ms 200 text/plain
+INFO  2020-09-21 15:21:08,189 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/admin-lte/dist/js/adminlte.js.map'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\admin-lte\dist\js\adminlte.js.map'
+INFO  2020-09-21 15:21:08,191 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 89.8201ms 200 text/plain
+INFO  2020-09-21 15:21:08,198 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/signalr/dist/browser/signalr.js.map'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\signalr\dist\browser\signalr.js.map'
+INFO  2020-09-21 15:21:08,202 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 94.018ms 200 text/plain
+INFO  2020-09-21 15:21:08,212 [17   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/bootstrap/dist/js/bootstrap.bundle.js.map'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\bootstrap\dist\js\bootstrap.bundle.js.map'
+INFO  2020-09-21 15:21:08,217 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 127.5401ms 200 text/plain
+INFO  2020-09-21 15:21:08,250 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/admin-lte/dist/css/adminlte.min.css.map'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\admin-lte\dist\css\adminlte.min.css.map'
+INFO  2020-09-21 15:21:08,252 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 105.7345ms 200 text/plain
+INFO  2020-09-21 15:21:08,443 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/CustomersOrder/Create  
+INFO  2020-09-21 15:21:08,512 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DiveCRM.Web.Controllers.CustomersOrderController.Create (DiveCRM.Web.Mvc)'
+INFO  2020-09-21 15:21:08,546 [13   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Create", controller = "CustomersOrder", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Create() on controller DiveCRM.Web.Controllers.CustomersOrderController (DiveCRM.Web.Mvc).
+INFO  2020-09-21 15:21:08,679 [13   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Create.
+INFO  2020-09-21 15:21:08,785 [9    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Create executed in 109.0916ms.
+INFO  2020-09-21 15:21:08,787 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action DiveCRM.Web.Controllers.CustomersOrderController.Create (DiveCRM.Web.Mvc) in 239.3716ms
+DEBUG 2020-09-21 15:21:08,802 [13   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: d2DvWWhlq7DodQ5CjVIelQ
+INFO  2020-09-21 15:21:08,803 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DiveCRM.Web.Controllers.CustomersOrderController.Create (DiveCRM.Web.Mvc)'
+INFO  2020-09-21 15:21:08,828 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2020-09-21 15:21:08,829 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 387.2083ms 200 text/html; charset=utf-8
+INFO  2020-09-21 15:21:08,889 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3131.7717ms 101 
+INFO  2020-09-21 15:21:08,891 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/datatables/css/buttons.bootstrap4.min.css?v=1O-iXoRdSUgNTj7NzmW-C3dpRaxiGn1afSX-qfRCV4Q  
+INFO  2020-09-21 15:21:08,893 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/font-awesome/css/all.min.css?v=-N4_V_SbAFiW1MPBCXnfnP9QSN3-Keu-NlB-0ev_YKQ  
+INFO  2020-09-21 15:21:08,897 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/icheck-bootstrap/icheck-bootstrap.css?v=nGN1DgpDTrAS3DS7E5J0cL-gblWBKAMSoU_LSuY8gu8  
+INFO  2020-09-21 15:21:08,903 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/admin-lte/dist/css/adminlte.min.css?v=tDEOZyJ9BuKWB-BOSc6dE4cI0uNznodJMx11eWZ7jJ4  
+INFO  2020-09-21 15:21:08,909 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/datatables/css/buttons.bootstrap4.min.css'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\datatables\css\buttons.bootstrap4.min.css'
+INFO  2020-09-21 15:21:08,911 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/icheck-bootstrap/icheck-bootstrap.css'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\icheck-bootstrap\icheck-bootstrap.css'
+INFO  2020-09-21 15:21:08,916 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 20.3366ms 200 text/css
+INFO  2020-09-21 15:21:08,917 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/datatables/css/dataTables.bootstrap4.min.css?v=F-DaKAClQut87heMIC6oThARMuWne8-WzxIDT7jXuPA  
+INFO  2020-09-21 15:21:08,920 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 21.0983ms 200 text/css
+INFO  2020-09-21 15:21:08,926 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/datatables/css/responsive.bootstrap4.min.css?v=QrpUliTHPwNNlphA-wNV-zRWVltgDT6Eg0cXVAB04hI  
+INFO  2020-09-21 15:21:08,938 [5    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/datatables/css/dataTables.bootstrap4.min.css'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\datatables\css\dataTables.bootstrap4.min.css'
+INFO  2020-09-21 15:21:08,944 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/toastr/toastr.css?v=He3QEBKoL_nMXlVsoM7S2C2kjFQqS5L-mgA-F8LpG-U  
+INFO  2020-09-21 15:21:08,946 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 27.264ms 200 text/css
+INFO  2020-09-21 15:21:08,951 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/font-awesome/css/all.min.css'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\font-awesome\css\all.min.css'
+INFO  2020-09-21 15:21:08,955 [17   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/datatables/css/responsive.bootstrap4.min.css'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\datatables\css\responsive.bootstrap4.min.css'
+INFO  2020-09-21 15:21:08,956 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 62.6673ms 200 text/css
+INFO  2020-09-21 15:21:08,960 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/toastr/toastr.css'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\toastr\toastr.css'
+INFO  2020-09-21 15:21:08,969 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs-ext/famfamfam-flags/dist/sprite/famfamfam-flags.min.css?v=D9O-28vCF-qJh2qZSFIXxXc30hTED8RmnKeZRyvVEpA  
+INFO  2020-09-21 15:21:08,985 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 32.0104ms 200 text/css
+INFO  2020-09-21 15:21:09,003 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 44.0947ms 200 text/css
+INFO  2020-09-21 15:21:09,017 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Shared/_Layout.css?v=pHobCa-IAfjMNqE8x1a2vYglVfPFWGtvFJmb0671Np0  
+INFO  2020-09-21 15:21:09,022 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/css/style.css?v=O03e3k0bVBKA_ZkFaRP3I4j7he3snzsrgCTdUixlA5I  
+INFO  2020-09-21 15:21:09,025 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs-ext/famfamfam-flags/dist/sprite/famfamfam-flags.min.css'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs-ext\famfamfam-flags\dist\sprite\famfamfam-flags.min.css'
+INFO  2020-09-21 15:21:09,032 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/jquery/jquery.js?v=WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU  
+INFO  2020-09-21 15:21:09,037 [5    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Shared/_Layout.css'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\view-resources\Views\Shared\_Layout.css'
+INFO  2020-09-21 15:21:09,044 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 72.5935ms 200 text/css
+INFO  2020-09-21 15:21:09,050 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 46.1076ms 200 text/css
+INFO  2020-09-21 15:21:09,054 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/css/style.css'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\css\style.css'
+INFO  2020-09-21 15:21:09,059 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/bootstrap/dist/js/bootstrap.bundle.js?v=pVreZ67fRaATygHF6T-gQtF1NI700W9kzeAivu6au9U  
+INFO  2020-09-21 15:21:09,071 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 55.4375ms 200 text/css
+INFO  2020-09-21 15:21:09,094 [17   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/bootstrap/dist/js/bootstrap.bundle.js'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\bootstrap\dist\js\bootstrap.bundle.js'
+INFO  2020-09-21 15:21:09,095 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/datatables/js/jquery.dataTables.min.js?v=LXQzPhL1IRyKkA7HpCOBi8I-OC8HqzHUYkjK8S-LKTs  
+INFO  2020-09-21 15:21:09,102 [5    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/jquery/jquery.js'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\jquery\jquery.js'
+INFO  2020-09-21 15:21:09,105 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/admin-lte/dist/css/adminlte.min.css'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\admin-lte\dist\css\adminlte.min.css'
+INFO  2020-09-21 15:21:09,110 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 54.1078ms 200 application/javascript
+INFO  2020-09-21 15:21:09,112 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/datatables/js/dataTables.responsive.min.js?v=7Tbik5KSODuGiOLIOFfhP47p5UK6h1wzw8CFSI_TKhc  
+INFO  2020-09-21 15:21:09,120 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 92.0456ms 200 application/javascript
+INFO  2020-09-21 15:21:09,123 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 220.2958ms 200 text/css
+INFO  2020-09-21 15:21:09,124 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/datatables/js/dataTables.bootstrap4.min.js?v=hJ44ymhBmRPJKIaKRf3DSX5uiFEZ9xB_qx8cNbJvIMU  
+INFO  2020-09-21 15:21:09,166 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/datatables/js/dataTables.responsive.min.js'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\datatables\js\dataTables.responsive.min.js'
+INFO  2020-09-21 15:21:09,173 [17   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/datatables/js/dataTables.bootstrap4.min.js'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\datatables\js\dataTables.bootstrap4.min.js'
+INFO  2020-09-21 15:21:09,175 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/datatables/js/responsive.bootstrap4.min.js?v=aXVO47Rb7s58FhMTCwbM39en_1XcmzGkClRzBe5txKs  
+INFO  2020-09-21 15:21:09,204 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/datatables/js/jquery.dataTables.min.js'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\datatables\js\jquery.dataTables.min.js'
+INFO  2020-09-21 15:21:09,207 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 56.2708ms 200 application/javascript
+INFO  2020-09-21 15:21:09,212 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 62.633ms 200 application/javascript
+INFO  2020-09-21 15:21:09,217 [5    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/datatables/js/responsive.bootstrap4.min.js'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\datatables\js\responsive.bootstrap4.min.js'
+INFO  2020-09-21 15:21:09,225 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 124.4912ms 200 application/javascript
+INFO  2020-09-21 15:21:09,233 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 50.5481ms 200 application/javascript
+INFO  2020-09-21 15:21:09,249 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/datatables/js/dataTables.buttons.js?v=5QXxQoJP_O_KTBOFw8kshfIczGGlmZRcR_WjhFKbiZY  
+INFO  2020-09-21 15:21:09,255 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/datatables/js/buttons.bootstrap4.js?v=7tPJL63hI4QnZbV489_5KEpe7k6W5RzPTZkP8m6kzEE  
+INFO  2020-09-21 15:21:09,267 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/admin-lte/dist/js/adminlte.js?v=qXsDMEfG3xYx1TO9SCGpLfvQPdpKIo0nXVYYfcneIRk  
+INFO  2020-09-21 15:21:09,271 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/block-ui/jquery.blockUI.js?v=oQaw-JJuUcJQ9QVYMcFnPxICDT-hv8-kuxT2FNzTGhc  
+INFO  2020-09-21 15:21:09,276 [17   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/datatables/js/buttons.bootstrap4.js'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\datatables\js\buttons.bootstrap4.js'
+INFO  2020-09-21 15:21:09,283 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 52.3197ms 200 application/javascript
+INFO  2020-09-21 15:21:09,287 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/spin/spin.js?v=GySbz3oZXNlwoawo5PpYy0iM38B-q3jyi_HLw00uxy0  
+INFO  2020-09-21 15:21:09,291 [5    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/block-ui/jquery.blockUI.js'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\block-ui\jquery.blockUI.js'
+INFO  2020-09-21 15:21:09,300 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/font-awesome/webfonts/fa-solid-900.woff2  
+INFO  2020-09-21 15:21:09,307 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 30.3798ms 200 application/javascript
+INFO  2020-09-21 15:21:09,313 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/spin/spin.js'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\spin\spin.js'
+INFO  2020-09-21 15:21:09,321 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 33.0293ms 200 application/javascript
+INFO  2020-09-21 15:21:09,323 [17   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/datatables/js/dataTables.buttons.js'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\datatables\js\dataTables.buttons.js'
+INFO  2020-09-21 15:21:09,340 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 110.5438ms 200 application/javascript
+INFO  2020-09-21 15:21:09,343 [5    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/admin-lte/dist/js/adminlte.js'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\admin-lte\dist\js\adminlte.js'
+INFO  2020-09-21 15:21:09,344 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/img/logo.png  
+INFO  2020-09-21 15:21:09,345 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs-ext/famfamfam-flags/dist/sprite/famfamfam-flags.png  
+INFO  2020-09-21 15:21:09,353 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 87.5987ms 200 application/javascript
+INFO  2020-09-21 15:21:09,359 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/admin-lte/dist/img/avatar5.png  
+INFO  2020-09-21 15:21:09,363 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/img/logo.png'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\img\logo.png'
+INFO  2020-09-21 15:21:09,363 [5    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/font-awesome/webfonts/fa-solid-900.woff2'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\font-awesome\webfonts\fa-solid-900.woff2'
+INFO  2020-09-21 15:21:09,367 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 77.2999ms 200 font/woff2
+INFO  2020-09-21 15:21:09,369 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 42.7894ms 200 image/png
+INFO  2020-09-21 15:21:09,371 [17   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/admin-lte/dist/img/avatar5.png'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\admin-lte\dist\img\avatar5.png'
+INFO  2020-09-21 15:21:09,378 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 19.3885ms 200 image/png
+INFO  2020-09-21 15:21:09,386 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs-ext/spin/jquery.spin.js?v=i7H7HL08ldqUANgfQInE7LlU2uWUdQMCJ-Q7-_zLutY  
+INFO  2020-09-21 15:21:09,421 [5    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs-ext/spin/jquery.spin.js'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs-ext\spin\jquery.spin.js'
+INFO  2020-09-21 15:21:09,423 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/sweetalert/sweetalert.min.js?v=KsRuvuRtUVvobe66OFtOQfjP8WA2SzYsmm4VPfMnxms  
+INFO  2020-09-21 15:21:09,431 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs-ext/famfamfam-flags/dist/sprite/famfamfam-flags.png'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs-ext\famfamfam-flags\dist\sprite\famfamfam-flags.png'
+INFO  2020-09-21 15:21:09,434 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 52.8582ms 200 application/javascript
+INFO  2020-09-21 15:21:09,437 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 90.5224ms 200 image/png
+INFO  2020-09-21 15:21:09,450 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/toastr/toastr.min.js?v=yNbKY1y6h2rbVcQtf0b8lq4a-xpktyFc3pSYoGAY1qQ  
+INFO  2020-09-21 15:21:09,456 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/moment/moment-with-locales.js?v=dgFbqbQVzjkZPQxWd8PBtzGiRBhChc4I2wO_q_s-Xeo  
+INFO  2020-09-21 15:21:09,462 [17   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/sweetalert/sweetalert.min.js'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\sweetalert\sweetalert.min.js'
+INFO  2020-09-21 15:21:09,479 [5    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/toastr/toastr.min.js'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\toastr\toastr.min.js'
+INFO  2020-09-21 15:21:09,491 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 73.4919ms 200 application/javascript
+INFO  2020-09-21 15:21:09,513 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 40.9561ms 200 application/javascript
+INFO  2020-09-21 15:21:09,525 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/signalr/dist/browser/signalr.js?v=s5ortbhB2C3h17nHMtXwbCSN9YncRIZH6XrFTSO9vmk  
+INFO  2020-09-21 15:21:09,531 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/abp.js?v=3lLIPNQoGBxv9DWxtKwnvHr7Wlov-D0jo-NtjAdTenA  
+INFO  2020-09-21 15:21:09,536 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.jquery.js?v=MEOC0fqxBbFCeeJ6VHFuw8-2C710gCRqjbvYcHoBdHU  
+INFO  2020-09-21 15:21:09,568 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/admin-lte/dist/css/adminlte.min.css.map  
+INFO  2020-09-21 15:21:09,579 [17   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.jquery.js'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\abp-web-resources\Abp\Framework\scripts\libs\abp.jquery.js'
+INFO  2020-09-21 15:21:09,584 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/abp-web-resources/Abp/Framework/scripts/abp.js'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\abp-web-resources\Abp\Framework\scripts\abp.js'
+INFO  2020-09-21 15:21:09,586 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 45.5499ms 200 application/javascript
+INFO  2020-09-21 15:21:09,608 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 70.9703ms 200 application/javascript
+INFO  2020-09-21 15:21:09,620 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.toastr.js?v=i3fsIGh0z3DXDbSa7f6TwsWonuZ8-OwELSrtH1jHbDA  
+INFO  2020-09-21 15:21:09,629 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js?v=vMuHbqHh635SKL2RG2qsGGCDyHg1yFeGqhPKpS34g4k  
+INFO  2020-09-21 15:21:09,639 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/bootstrap/dist/js/bootstrap.bundle.js.map  
+INFO  2020-09-21 15:21:09,646 [5    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.toastr.js'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\abp-web-resources\Abp\Framework\scripts\libs\abp.toastr.js'
+INFO  2020-09-21 15:21:09,648 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\abp-web-resources\Abp\Framework\scripts\libs\abp.blockUI.js'
+INFO  2020-09-21 15:21:09,651 [17   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/signalr/dist/browser/signalr.js'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\signalr\dist\browser\signalr.js'
+INFO  2020-09-21 15:21:09,655 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 40.5298ms 200 application/javascript
+INFO  2020-09-21 15:21:09,656 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 27.9211ms 200 application/javascript
+INFO  2020-09-21 15:21:09,661 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 151.1494ms 200 application/javascript
+INFO  2020-09-21 15:21:09,670 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/moment/moment-with-locales.js'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\moment\moment-with-locales.js'
+INFO  2020-09-21 15:21:09,676 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js?v=djoKib6ssm5DDzbXLe5pD7ayfFg3siaoEk-BFYzQlvI  
+INFO  2020-09-21 15:21:09,677 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js?v=Ta7OYgm62iNXMvVrH3f4y3WqUbGsHGBNvt0Zu0eIKtk  
+INFO  2020-09-21 15:21:09,679 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.signalr-client.js?v=7OzpM5utNWYP8ne_218zbUCD3Xj_R1GqM6AzwpgQktg  
+INFO  2020-09-21 15:21:09,684 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 232.7833ms 200 application/javascript
+INFO  2020-09-21 15:21:09,688 [21   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/bootstrap/dist/js/bootstrap.bundle.js.map'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\bootstrap\dist\js\bootstrap.bundle.js.map'
+INFO  2020-09-21 15:21:09,691 [17   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\abp-web-resources\Abp\Framework\scripts\libs\abp.spin.js'
+INFO  2020-09-21 15:21:09,706 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.signalr-client.js'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\abp-web-resources\Abp\Framework\scripts\libs\abp.signalr-client.js'
+INFO  2020-09-21 15:21:09,712 [5    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\abp-web-resources\Abp\Framework\scripts\libs\abp.sweet-alert.js'
+INFO  2020-09-21 15:21:09,724 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 33.6496ms 200 application/javascript
+INFO  2020-09-21 15:21:09,731 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 46.9097ms 200 application/javascript
+INFO  2020-09-21 15:21:09,737 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 27.3319ms 200 application/javascript
+INFO  2020-09-21 15:21:09,742 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/jquery-validate/jquery.validate.js?v=xLhce0FUawd11QSwrvXSwST0oHhOolNoH9cUXAcsIAg  
+INFO  2020-09-21 15:21:09,748 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/jquery-validate/jquery.validate.unobtrusive.js?v=XNNC8ESw29iopRLukVRazlP44TxnjGmEQanHJ5kHmtk  
+INFO  2020-09-21 15:21:09,752 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/push.js/push.js?v=p73-snCYhrDo9U6USD9P19LnY1EwAe4-VzQxj_kNyBE  
+INFO  2020-09-21 15:21:09,758 [21   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 62.0419ms 200 text/plain
+INFO  2020-09-21 15:21:09,763 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/js/abp.dataTable.js?v=1ysTg9_1--FceWnmIfYzoHbP1YmUWpii4uaPMp4VW08  
+INFO  2020-09-21 15:21:09,775 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/jquery-validate/jquery.validate.unobtrusive.js'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\jquery-validate\jquery.validate.unobtrusive.js'
+INFO  2020-09-21 15:21:09,779 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/js/main.js?v=5DW_yJLPhj8hntAEm71xS7u_TW1--darSH0b9a8U3Vo  
+INFO  2020-09-21 15:21:09,787 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 36.5955ms 200 application/javascript
+INFO  2020-09-21 15:21:09,791 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/js/abp.dataTable.js'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\js\abp.dataTable.js'
+INFO  2020-09-21 15:21:09,794 [17   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/admin-lte/dist/css/adminlte.min.css.map'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\admin-lte\dist\css\adminlte.min.css.map'
+INFO  2020-09-21 15:21:09,797 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 35.4466ms 200 application/javascript
+INFO  2020-09-21 15:21:09,808 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/jquery-validate/localization/messages_zh.min.js?v=5n1RPdULeEAdbm30f9PCcdOHYyuNqFIr-pv58jBitPY  
+INFO  2020-09-21 15:21:09,833 [16   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/js/main.js'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\js\main.js'
+INFO  2020-09-21 15:21:09,849 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 261.3962ms 200 text/plain
+INFO  2020-09-21 15:21:09,967 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-09-21 15:21:09,978 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/jquery-validate/localization/messages_zh.min.js'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\jquery-validate\localization\messages_zh.min.js'
+INFO  2020-09-21 15:21:09,995 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 63.346ms 200 application/javascript
+INFO  2020-09-21 15:21:10,002 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-09-21 15:21:10,011 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 190.8515ms 200 application/javascript
+INFO  2020-09-21 15:21:10,022 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/admin-lte/dist/js/adminlte.js.map  
+INFO  2020-09-21 15:21:10,028 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-09-21 15:21:10,032 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=otdMO_20Hs5inJaOq_G_Tw  
+INFO  2020-09-21 15:21:10,037 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637362984525328670  
+INFO  2020-09-21 15:21:10,045 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 190.991ms 200 application/json
+INFO  2020-09-21 15:21:10,052 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2020-09-21 15:21:10,067 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/admin-lte/dist/js/adminlte.js.map'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\admin-lte\dist\js\adminlte.js.map'
+INFO  2020-09-21 15:21:10,075 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637362984525328670  
+INFO  2020-09-21 15:21:10,083 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/toastr/toastr.js.map  
+DEBUG 2020-09-21 15:21:10,085 [5    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"otdMO_20Hs5inJaOq_G_Tw","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2020-09-21T15:21:10.08521+08:00","Properties":{}}
+DEBUG 2020-09-21 15:21:10,087 [5    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: otdMO_20Hs5inJaOq_G_Tw
+INFO  2020-09-21 15:21:10,093 [17   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-09-21 15:21:10,094 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-09-21 15:21:10,100 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 77.4689ms 200 text/plain
+INFO  2020-09-21 15:21:10,109 [10   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-09-21 15:21:10,120 [17   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-09-21 15:21:10,126 [5    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/toastr/toastr.js.map'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\toastr\toastr.js.map'
+INFO  2020-09-21 15:21:10,129 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/signalr/dist/browser/signalr.js.map  
+INFO  2020-09-21 15:21:10,134 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 93.2813ms 200 text/plain
+INFO  2020-09-21 15:21:10,140 [17   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-09-21 15:21:10,143 [18   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/jquery-validate/jquery.validate.js'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\jquery-validate\jquery.validate.js'
+INFO  2020-09-21 15:21:10,144 [21   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/push.js/push.js'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\push.js\push.js'
+INFO  2020-09-21 15:21:10,147 [17   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 22.6125ms
+INFO  2020-09-21 15:21:10,154 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 425.6025ms 200 application/javascript
+INFO  2020-09-21 15:21:10,160 [17   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-09-21 15:21:10,172 [10   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-09-21 15:21:10,175 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 196.3253ms 200 application/x-javascript
+INFO  2020-09-21 15:21:10,177 [18   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/signalr/dist/browser/signalr.js.map'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\signalr\dist\browser\signalr.js.map'
+INFO  2020-09-21 15:21:10,178 [10   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 65.4667ms
+INFO  2020-09-21 15:21:10,183 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 66.1383ms 200 text/plain
+INFO  2020-09-21 15:21:10,187 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-09-21 15:21:10,193 [21   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 402.0669ms 200 application/javascript
+INFO  2020-09-21 15:21:10,197 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 133.7291ms 200 application/x-javascript; charset=utf-8
+INFO  2020-09-21 15:21:10,306 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/push.js/push.js.map  
+INFO  2020-09-21 15:21:10,312 [5    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/push.js/push.js.map'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\push.js\push.js.map'
+INFO  2020-09-21 15:21:10,316 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 9.428ms 200 text/plain
+INFO  2020-09-21 15:23:02,430 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/CustomersOrder/Create  
+INFO  2020-09-21 15:23:02,445 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DiveCRM.Web.Controllers.CustomersOrderController.Create (DiveCRM.Web.Mvc)'
+INFO  2020-09-21 15:23:02,448 [5    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Create", controller = "CustomersOrder", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Create() on controller DiveCRM.Web.Controllers.CustomersOrderController (DiveCRM.Web.Mvc).
+INFO  2020-09-21 15:23:08,161 [10   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Create.
+INFO  2020-09-21 15:23:08,221 [5    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Create executed in 5687.4526ms.
+INFO  2020-09-21 15:23:08,224 [5    ] c.Infrastructure.ControllerActionInvoker - Executed action DiveCRM.Web.Controllers.CustomersOrderController.Create (DiveCRM.Web.Mvc) in 5772.6645ms
+DEBUG 2020-09-21 15:23:08,233 [21   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: otdMO_20Hs5inJaOq_G_Tw
+INFO  2020-09-21 15:23:08,237 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DiveCRM.Web.Controllers.CustomersOrderController.Create (DiveCRM.Web.Mvc)'
+INFO  2020-09-21 15:23:08,239 [21   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2020-09-21 15:23:08,285 [21   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 118217.5032ms 101 
+INFO  2020-09-21 15:23:08,296 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 5855.2593ms 200 text/html; charset=utf-8
+INFO  2020-09-21 15:23:08,301 [27   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/font-awesome/css/all.min.css?v=-N4_V_SbAFiW1MPBCXnfnP9QSN3-Keu-NlB-0ev_YKQ  
+INFO  2020-09-21 15:23:08,312 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/datatables/css/buttons.bootstrap4.min.css?v=1O-iXoRdSUgNTj7NzmW-C3dpRaxiGn1afSX-qfRCV4Q  
+INFO  2020-09-21 15:23:08,319 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/datatables/css/responsive.bootstrap4.min.css?v=QrpUliTHPwNNlphA-wNV-zRWVltgDT6Eg0cXVAB04hI  
+INFO  2020-09-21 15:23:08,329 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/datatables/css/dataTables.bootstrap4.min.css?v=F-DaKAClQut87heMIC6oThARMuWne8-WzxIDT7jXuPA  
+INFO  2020-09-21 15:23:08,387 [21   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/icheck-bootstrap/icheck-bootstrap.css?v=nGN1DgpDTrAS3DS7E5J0cL-gblWBKAMSoU_LSuY8gu8  
+INFO  2020-09-21 15:23:08,391 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/datatables/css/responsive.bootstrap4.min.css'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\datatables\css\responsive.bootstrap4.min.css'
+INFO  2020-09-21 15:23:08,400 [25   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/admin-lte/dist/css/adminlte.min.css?v=tDEOZyJ9BuKWB-BOSc6dE4cI0uNznodJMx11eWZ7jJ4  
+INFO  2020-09-21 15:23:08,403 [5    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/datatables/css/buttons.bootstrap4.min.css'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\datatables\css\buttons.bootstrap4.min.css'
+INFO  2020-09-21 15:23:08,406 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 93.4132ms 200 text/css
+INFO  2020-09-21 15:23:08,409 [18   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/datatables/css/dataTables.bootstrap4.min.css'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\datatables\css\dataTables.bootstrap4.min.css'
+INFO  2020-09-21 15:23:08,411 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 106.4363ms 200 text/css
+INFO  2020-09-21 15:23:08,414 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 109.513ms 200 text/css
+INFO  2020-09-21 15:23:08,417 [21   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/icheck-bootstrap/icheck-bootstrap.css'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\icheck-bootstrap\icheck-bootstrap.css'
+INFO  2020-09-21 15:23:08,421 [22   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/font-awesome/css/all.min.css'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\font-awesome\css\all.min.css'
+INFO  2020-09-21 15:23:08,423 [21   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 116.584ms 200 text/css
+INFO  2020-09-21 15:23:08,435 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Shared/_Layout.css?v=pHobCa-IAfjMNqE8x1a2vYglVfPFWGtvFJmb0671Np0  
+INFO  2020-09-21 15:23:08,441 [23   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs-ext/famfamfam-flags/dist/sprite/famfamfam-flags.min.css?v=D9O-28vCF-qJh2qZSFIXxXc30hTED8RmnKeZRyvVEpA  
+INFO  2020-09-21 15:23:08,448 [24   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/toastr/toastr.css?v=He3QEBKoL_nMXlVsoM7S2C2kjFQqS5L-mgA-F8LpG-U  
+INFO  2020-09-21 15:23:08,453 [26   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Shared/_Layout.css'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\view-resources\Views\Shared\_Layout.css'
+INFO  2020-09-21 15:23:08,461 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/css/style.css?v=O03e3k0bVBKA_ZkFaRP3I4j7he3snzsrgCTdUixlA5I  
+INFO  2020-09-21 15:23:08,474 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 30.0357ms 200 text/css
+INFO  2020-09-21 15:23:08,482 [25   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/admin-lte/dist/css/adminlte.min.css'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\admin-lte\dist\css\adminlte.min.css'
+INFO  2020-09-21 15:23:08,486 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/css/style.css'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\css\style.css'
+INFO  2020-09-21 15:23:08,502 [25   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 94.5938ms 200 text/css
+INFO  2020-09-21 15:23:08,509 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 38.8932ms 200 text/css
+INFO  2020-09-21 15:23:08,512 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/css/style.css  
+INFO  2020-09-21 15:23:08,528 [24   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/toastr/toastr.css'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\toastr\toastr.css'
+INFO  2020-09-21 15:23:08,576 [22   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 136.5259ms 200 text/css
+INFO  2020-09-21 15:23:08,579 [26   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/css/style.css'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\css\style.css'
+INFO  2020-09-21 15:23:08,584 [25   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/js/autocomplete/bootstrap.autocomplete.js  
+INFO  2020-09-21 15:23:08,593 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/js/jquery.min.js  
+INFO  2020-09-21 15:23:08,596 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 90.8432ms 200 text/css
+INFO  2020-09-21 15:23:08,600 [24   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 113.1106ms 200 text/css
+INFO  2020-09-21 15:23:08,606 [22   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/jquery/jquery.js?v=WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU  
+INFO  2020-09-21 15:23:08,613 [20   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs-ext/famfamfam-flags/dist/sprite/famfamfam-flags.min.css'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs-ext\famfamfam-flags\dist\sprite\famfamfam-flags.min.css'
+INFO  2020-09-21 15:23:08,624 [27   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/bootstrap/dist/js/bootstrap.bundle.js?v=pVreZ67fRaATygHF6T-gQtF1NI700W9kzeAivu6au9U  
+INFO  2020-09-21 15:23:08,634 [21   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/js/jquery.min.js'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\js\jquery.min.js'
+INFO  2020-09-21 15:23:08,637 [22   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/js/autocomplete/bootstrap.autocomplete.js'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\js\autocomplete\bootstrap.autocomplete.js'
+INFO  2020-09-21 15:23:08,639 [21   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 56.917ms 200 application/javascript
+INFO  2020-09-21 15:23:08,641 [23   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/datatables/js/jquery.dataTables.min.js?v=LXQzPhL1IRyKkA7HpCOBi8I-OC8HqzHUYkjK8S-LKTs  
+INFO  2020-09-21 15:23:08,643 [25   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/jquery/jquery.js'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\jquery\jquery.js'
+INFO  2020-09-21 15:23:08,645 [22   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 60.6885ms 200 application/javascript
+INFO  2020-09-21 15:23:08,649 [25   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 52.8441ms 200 application/javascript
+INFO  2020-09-21 15:23:08,659 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 187.0493ms 200 text/css
+INFO  2020-09-21 15:23:08,678 [18   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/datatables/js/jquery.dataTables.min.js'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\datatables\js\jquery.dataTables.min.js'
+INFO  2020-09-21 15:23:08,681 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/datatables/js/dataTables.bootstrap4.min.js?v=hJ44ymhBmRPJKIaKRf3DSX5uiFEZ9xB_qx8cNbJvIMU  
+INFO  2020-09-21 15:23:08,687 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 43.6168ms 200 application/javascript
+INFO  2020-09-21 15:23:08,691 [23   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/datatables/js/dataTables.buttons.js?v=5QXxQoJP_O_KTBOFw8kshfIczGGlmZRcR_WjhFKbiZY  
+INFO  2020-09-21 15:23:08,695 [25   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/datatables/js/responsive.bootstrap4.min.js?v=aXVO47Rb7s58FhMTCwbM39en_1XcmzGkClRzBe5txKs  
+INFO  2020-09-21 15:23:08,700 [20   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/datatables/js/dataTables.bootstrap4.min.js'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\datatables\js\dataTables.bootstrap4.min.js'
+INFO  2020-09-21 15:23:08,708 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 36.3039ms 200 application/javascript
+INFO  2020-09-21 15:23:08,710 [25   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/datatables/js/responsive.bootstrap4.min.js'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\datatables\js\responsive.bootstrap4.min.js'
+INFO  2020-09-21 15:23:08,720 [23   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/datatables/js/dataTables.responsive.min.js?v=7Tbik5KSODuGiOLIOFfhP47p5UK6h1wzw8CFSI_TKhc  
+INFO  2020-09-21 15:23:08,722 [25   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 34.1006ms 200 application/javascript
+INFO  2020-09-21 15:23:08,725 [20   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/datatables/js/dataTables.buttons.js'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\datatables\js\dataTables.buttons.js'
+INFO  2020-09-21 15:23:08,728 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 44.095ms 200 application/javascript
+INFO  2020-09-21 15:23:08,735 [23   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/datatables/js/dataTables.responsive.min.js'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\datatables\js\dataTables.responsive.min.js'
+INFO  2020-09-21 15:23:08,737 [25   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs-ext/famfamfam-flags/dist/sprite/famfamfam-flags.png  
+INFO  2020-09-21 15:23:08,739 [23   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 29.0196ms 200 application/javascript
+INFO  2020-09-21 15:23:08,741 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/font-awesome/webfonts/fa-solid-900.woff2  
+INFO  2020-09-21 15:23:08,760 [20   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs-ext/famfamfam-flags/dist/sprite/famfamfam-flags.png'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs-ext\famfamfam-flags\dist\sprite\famfamfam-flags.png'
+INFO  2020-09-21 15:23:08,769 [23   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/bootstrap/dist/js/bootstrap.bundle.js'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\bootstrap\dist\js\bootstrap.bundle.js'
+INFO  2020-09-21 15:23:08,778 [25   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/img/logo.png  
+INFO  2020-09-21 15:23:08,783 [23   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 161.2356ms 200 application/javascript
+INFO  2020-09-21 15:23:08,787 [18   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/font-awesome/webfonts/fa-solid-900.woff2'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\font-awesome\webfonts\fa-solid-900.woff2'
+INFO  2020-09-21 15:23:08,789 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/datatables/js/buttons.bootstrap4.js?v=7tPJL63hI4QnZbV489_5KEpe7k6W5RzPTZkP8m6kzEE  
+INFO  2020-09-21 15:23:08,795 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 52.5494ms 200 font/woff2
+INFO  2020-09-21 15:23:08,807 [25   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/img/logo.png'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\img\logo.png'
+INFO  2020-09-21 15:23:08,818 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/block-ui/jquery.blockUI.js?v=oQaw-JJuUcJQ9QVYMcFnPxICDT-hv8-kuxT2FNzTGhc  
+INFO  2020-09-21 15:23:08,823 [26   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/datatables/js/buttons.bootstrap4.js'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\datatables\js\buttons.bootstrap4.js'
+INFO  2020-09-21 15:23:08,832 [23   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/spin/spin.js?v=GySbz3oZXNlwoawo5PpYy0iM38B-q3jyi_HLw00uxy0  
+INFO  2020-09-21 15:23:08,849 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 45.2618ms 200 application/javascript
+INFO  2020-09-21 15:23:08,854 [25   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 53.3089ms 200 image/png
+INFO  2020-09-21 15:23:08,875 [27   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/block-ui/jquery.blockUI.js'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\block-ui\jquery.blockUI.js'
+INFO  2020-09-21 15:23:08,886 [21   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/admin-lte/dist/css/adminlte.min.css.map  
+INFO  2020-09-21 15:23:08,893 [27   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 75.423ms 200 application/javascript
+INFO  2020-09-21 15:23:08,900 [23   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/spin/spin.js'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\spin\spin.js'
+INFO  2020-09-21 15:23:08,915 [24   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/admin-lte/dist/img/avatar5.png  
+INFO  2020-09-21 15:23:08,925 [27   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs-ext/spin/jquery.spin.js?v=i7H7HL08ldqUANgfQInE7LlU2uWUdQMCJ-Q7-_zLutY  
+INFO  2020-09-21 15:23:08,933 [23   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 86.6952ms 200 application/javascript
+INFO  2020-09-21 15:23:09,006 [22   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/admin-lte/dist/js/adminlte.js?v=qXsDMEfG3xYx1TO9SCGpLfvQPdpKIo0nXVYYfcneIRk  
+INFO  2020-09-21 15:23:09,039 [24   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/admin-lte/dist/img/avatar5.png'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\admin-lte\dist\img\avatar5.png'
+INFO  2020-09-21 15:23:09,043 [23   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/toastr/toastr.min.js?v=yNbKY1y6h2rbVcQtf0b8lq4a-xpktyFc3pSYoGAY1qQ  
+INFO  2020-09-21 15:23:09,066 [27   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs-ext/spin/jquery.spin.js'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs-ext\spin\jquery.spin.js'
+INFO  2020-09-21 15:23:09,072 [24   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 260.8946ms 200 image/png
+INFO  2020-09-21 15:23:09,096 [27   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 158.3744ms 200 application/javascript
+INFO  2020-09-21 15:23:09,101 [23   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/toastr/toastr.min.js'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\toastr\toastr.min.js'
+INFO  2020-09-21 15:23:09,104 [25   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/admin-lte/dist/css/adminlte.min.css.map'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\admin-lte\dist\css\adminlte.min.css.map'
+INFO  2020-09-21 15:23:09,106 [23   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 68.8048ms 200 application/javascript
+INFO  2020-09-21 15:23:09,109 [25   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 231.7415ms 200 text/plain
+INFO  2020-09-21 15:23:09,111 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 38.0862ms 200 image/png
+INFO  2020-09-21 15:23:09,125 [25   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/admin-lte/dist/js/adminlte.js'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\admin-lte\dist\js\adminlte.js'
+INFO  2020-09-21 15:23:09,152 [23   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/moment/moment-with-locales.js?v=dgFbqbQVzjkZPQxWd8PBtzGiRBhChc4I2wO_q_s-Xeo  
+INFO  2020-09-21 15:23:09,156 [25   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 247.6361ms 200 application/javascript
+INFO  2020-09-21 15:23:09,168 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/sweetalert/sweetalert.min.js?v=KsRuvuRtUVvobe66OFtOQfjP8WA2SzYsmm4VPfMnxms  
+INFO  2020-09-21 15:23:09,170 [25   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/bootstrap/dist/js/bootstrap.bundle.js.map  
+INFO  2020-09-21 15:23:09,208 [23   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/signalr/dist/browser/signalr.js?v=s5ortbhB2C3h17nHMtXwbCSN9YncRIZH6XrFTSO9vmk  
+INFO  2020-09-21 15:23:09,215 [25   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/sweetalert/sweetalert.min.js'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\sweetalert\sweetalert.min.js'
+INFO  2020-09-21 15:23:09,217 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/abp.js?v=3lLIPNQoGBxv9DWxtKwnvHr7Wlov-D0jo-NtjAdTenA  
+INFO  2020-09-21 15:23:09,221 [25   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 101.0262ms 200 application/javascript
+INFO  2020-09-21 15:23:09,252 [25   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.jquery.js?v=MEOC0fqxBbFCeeJ6VHFuw8-2C710gCRqjbvYcHoBdHU  
+INFO  2020-09-21 15:23:09,254 [20   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/abp-web-resources/Abp/Framework/scripts/abp.js'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\abp-web-resources\Abp\Framework\scripts\abp.js'
+INFO  2020-09-21 15:23:09,264 [23   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/signalr/dist/browser/signalr.js'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\signalr\dist\browser\signalr.js'
+INFO  2020-09-21 15:23:09,268 [24   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.toastr.js?v=i3fsIGh0z3DXDbSa7f6TwsWonuZ8-OwELSrtH1jHbDA  
+INFO  2020-09-21 15:23:09,272 [23   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 93.3278ms 200 application/javascript
+INFO  2020-09-21 15:23:09,273 [25   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.jquery.js'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\abp-web-resources\Abp\Framework\scripts\libs\abp.jquery.js'
+INFO  2020-09-21 15:23:09,281 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 47.023ms 200 application/javascript
+INFO  2020-09-21 15:23:09,283 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/bootstrap/dist/js/bootstrap.bundle.js.map'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\bootstrap\dist\js\bootstrap.bundle.js.map'
+INFO  2020-09-21 15:23:09,286 [25   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 53.1998ms 200 application/javascript
+INFO  2020-09-21 15:23:09,289 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 115.9375ms 200 text/plain
+INFO  2020-09-21 15:23:09,298 [21   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js?v=djoKib6ssm5DDzbXLe5pD7ayfFg3siaoEk-BFYzQlvI  
+INFO  2020-09-21 15:23:09,307 [24   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.toastr.js'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\abp-web-resources\Abp\Framework\scripts\libs\abp.toastr.js'
+INFO  2020-09-21 15:23:09,309 [22   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js?v=vMuHbqHh635SKL2RG2qsGGCDyHg1yFeGqhPKpS34g4k  
+INFO  2020-09-21 15:23:09,313 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js?v=Ta7OYgm62iNXMvVrH3f4y3WqUbGsHGBNvt0Zu0eIKtk  
+INFO  2020-09-21 15:23:09,317 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.signalr-client.js?v=7OzpM5utNWYP8ne_218zbUCD3Xj_R1GqM6AzwpgQktg  
+INFO  2020-09-21 15:23:09,325 [21   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\abp-web-resources\Abp\Framework\scripts\libs\abp.spin.js'
+INFO  2020-09-21 15:23:09,326 [24   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 53.8211ms 200 application/javascript
+INFO  2020-09-21 15:23:09,334 [21   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 36.4916ms 200 application/javascript
+INFO  2020-09-21 15:23:09,337 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\abp-web-resources\Abp\Framework\scripts\libs\abp.sweet-alert.js'
+INFO  2020-09-21 15:23:09,341 [18   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.signalr-client.js'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\abp-web-resources\Abp\Framework\scripts\libs\abp.signalr-client.js'
+INFO  2020-09-21 15:23:09,344 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 29.8933ms 200 application/javascript
+INFO  2020-09-21 15:23:09,347 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 33.0864ms 200 application/javascript
+INFO  2020-09-21 15:23:09,353 [21   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/admin-lte/dist/js/adminlte.js.map  
+INFO  2020-09-21 15:23:09,355 [24   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/jquery-validate/jquery.validate.js?v=xLhce0FUawd11QSwrvXSwST0oHhOolNoH9cUXAcsIAg  
+INFO  2020-09-21 15:23:09,360 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/jquery-validate/jquery.validate.unobtrusive.js?v=XNNC8ESw29iopRLukVRazlP44TxnjGmEQanHJ5kHmtk  
+INFO  2020-09-21 15:23:09,365 [22   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\abp-web-resources\Abp\Framework\scripts\libs\abp.blockUI.js'
+INFO  2020-09-21 15:23:09,371 [27   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/push.js/push.js?v=p73-snCYhrDo9U6USD9P19LnY1EwAe4-VzQxj_kNyBE  
+INFO  2020-09-21 15:23:09,372 [23   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/jquery-validate/jquery.validate.unobtrusive.js'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\jquery-validate\jquery.validate.unobtrusive.js'
+INFO  2020-09-21 15:23:09,374 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/admin-lte/dist/js/adminlte.js.map'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\admin-lte\dist\js\adminlte.js.map'
+INFO  2020-09-21 15:23:09,378 [23   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 19.6233ms 200 application/javascript
+INFO  2020-09-21 15:23:09,385 [25   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/jquery-validate/jquery.validate.js'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\jquery-validate\jquery.validate.js'
+INFO  2020-09-21 15:23:09,389 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 33.6836ms 200 text/plain
+INFO  2020-09-21 15:23:09,392 [25   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 41.2066ms 200 application/javascript
+INFO  2020-09-21 15:23:09,395 [23   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/js/abp.dataTable.js?v=1ysTg9_1--FceWnmIfYzoHbP1YmUWpii4uaPMp4VW08  
+INFO  2020-09-21 15:23:09,402 [24   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/push.js/push.js'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\push.js\push.js'
+INFO  2020-09-21 15:23:09,407 [25   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/js/main.js?v=5DW_yJLPhj8hntAEm71xS7u_TW1--darSH0b9a8U3Vo  
+INFO  2020-09-21 15:23:09,413 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/jquery-validate/localization/messages_zh.min.js?v=5n1RPdULeEAdbm30f9PCcdOHYyuNqFIr-pv58jBitPY  
+INFO  2020-09-21 15:23:09,417 [23   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/js/abp.dataTable.js'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\js\abp.dataTable.js'
+INFO  2020-09-21 15:23:09,422 [24   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 44.8587ms 200 application/javascript
+INFO  2020-09-21 15:23:09,425 [23   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 27.5943ms 200 application/javascript
+INFO  2020-09-21 15:23:09,442 [26   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/jquery-validate/localization/messages_zh.min.js'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\jquery-validate\localization\messages_zh.min.js'
+INFO  2020-09-21 15:23:09,447 [25   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/js/main.js'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\js\main.js'
+INFO  2020-09-21 15:23:09,449 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 36.2966ms 200 application/javascript
+INFO  2020-09-21 15:23:09,454 [25   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 49.2395ms 200 application/javascript
+INFO  2020-09-21 15:23:09,457 [23   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637362984525328670  
+INFO  2020-09-21 15:23:09,469 [24   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/toastr/toastr.js.map  
+INFO  2020-09-21 15:23:09,474 [22   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 82.7673ms 200 application/javascript
+INFO  2020-09-21 15:23:09,479 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637362984525328670  
+INFO  2020-09-21 15:23:09,484 [23   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-09-21 15:23:09,489 [26   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/toastr/toastr.js.map'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\toastr\toastr.js.map'
+INFO  2020-09-21 15:23:09,494 [23   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-09-21 15:23:09,496 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 48.3668ms 200 text/plain
+INFO  2020-09-21 15:23:09,497 [20   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/moment/moment-with-locales.js'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\moment\moment-with-locales.js'
+INFO  2020-09-21 15:23:09,501 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 375.7134ms 200 application/javascript
+INFO  2020-09-21 15:23:09,503 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-09-21 15:23:09,536 [10   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-09-21 15:23:09,536 [23   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-09-21 15:23:09,557 [23   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 42.0626ms
+INFO  2020-09-21 15:23:09,564 [23   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-09-21 15:23:09,571 [10   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-09-21 15:23:09,572 [23   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 115.2764ms 200 application/x-javascript
+INFO  2020-09-21 15:23:09,575 [10   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 36.3418ms
+INFO  2020-09-21 15:23:09,577 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-09-21 15:23:09,581 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 108.003ms 200 application/x-javascript; charset=utf-8
+INFO  2020-09-21 15:23:09,644 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-09-21 15:23:09,665 [23   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/push.js/push.js.map  
+INFO  2020-09-21 15:23:09,679 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-09-21 15:23:09,695 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/signalr/dist/browser/signalr.js.map  
+INFO  2020-09-21 15:23:09,748 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-09-21 15:23:09,755 [23   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/push.js/push.js.map'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\push.js\push.js.map'
+INFO  2020-09-21 15:23:09,759 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=irJYFAA7L09eu_hl3Lx26A  
+INFO  2020-09-21 15:23:09,761 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 133.6557ms 200 application/json
+INFO  2020-09-21 15:23:09,769 [23   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 101.5705ms 200 text/plain
+INFO  2020-09-21 15:23:09,784 [20   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2020-09-21 15:23:09,785 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/img/favicon.ico  
+DEBUG 2020-09-21 15:23:09,801 [24   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"irJYFAA7L09eu_hl3Lx26A","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2020-09-21T15:23:09.8000707+08:00","Properties":{}}
+DEBUG 2020-09-21 15:23:09,804 [24   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: irJYFAA7L09eu_hl3Lx26A
+INFO  2020-09-21 15:23:09,806 [20   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/signalr/dist/browser/signalr.js.map'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\signalr\dist\browser\signalr.js.map'
+INFO  2020-09-21 15:23:09,810 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/img/favicon.ico'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\img\favicon.ico'
+INFO  2020-09-21 15:23:09,813 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 154.5244ms 200 text/plain
+INFO  2020-09-21 15:23:09,815 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 36.0775ms 200 image/x-icon
+INFO  2020-09-21 15:23:10,673 [21   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/api/Test application/x-www-form-urlencoded; charset=UTF-8 10
+INFO  2020-09-21 15:23:10,685 [21   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 10.3097ms 404 
+INFO  2020-09-21 15:23:50,257 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/api/Test application/x-www-form-urlencoded; charset=UTF-8 10
+INFO  2020-09-21 15:23:50,276 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 19.4985ms 404 
+INFO  2020-09-21 15:24:10,026 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/api/Test application/x-www-form-urlencoded; charset=UTF-8 10
+INFO  2020-09-21 15:24:10,038 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 11.8434ms 404 
+INFO  2020-09-21 15:26:14,452 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/api/Test application/x-www-form-urlencoded; charset=UTF-8 10
+INFO  2020-09-21 15:26:14,487 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 33.6753ms 404 
+INFO  2020-09-21 15:26:14,508 [35   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/CustomersOrder/Create  
+INFO  2020-09-21 15:26:14,519 [35   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DiveCRM.Web.Controllers.CustomersOrderController.Create (DiveCRM.Web.Mvc)'
+INFO  2020-09-21 15:26:14,526 [35   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Create", controller = "CustomersOrder", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Create() on controller DiveCRM.Web.Controllers.CustomersOrderController (DiveCRM.Web.Mvc).
+INFO  2020-09-21 15:26:14,950 [10   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Create.
+INFO  2020-09-21 15:26:15,007 [5    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Create executed in 408.9936ms.
+INFO  2020-09-21 15:26:15,012 [5    ] c.Infrastructure.ControllerActionInvoker - Executed action DiveCRM.Web.Controllers.CustomersOrderController.Create (DiveCRM.Web.Mvc) in 481.5987ms
+INFO  2020-09-21 15:26:15,016 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DiveCRM.Web.Controllers.CustomersOrderController.Create (DiveCRM.Web.Mvc)'
+INFO  2020-09-21 15:26:15,071 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 510.3833ms 200 text/html; charset=utf-8
+DEBUG 2020-09-21 15:26:15,074 [17   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: irJYFAA7L09eu_hl3Lx26A
+INFO  2020-09-21 15:26:15,122 [17   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2020-09-21 15:26:15,124 [35   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/datatables/css/buttons.bootstrap4.min.css?v=1O-iXoRdSUgNTj7NzmW-C3dpRaxiGn1afSX-qfRCV4Q  
+INFO  2020-09-21 15:26:15,129 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 185369.0972ms 101 
+INFO  2020-09-21 15:26:15,134 [34   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/font-awesome/css/all.min.css?v=-N4_V_SbAFiW1MPBCXnfnP9QSN3-Keu-NlB-0ev_YKQ  
+INFO  2020-09-21 15:26:15,140 [42   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/admin-lte/dist/css/adminlte.min.css?v=tDEOZyJ9BuKWB-BOSc6dE4cI0uNznodJMx11eWZ7jJ4  
+INFO  2020-09-21 15:26:15,141 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/datatables/css/dataTables.bootstrap4.min.css?v=F-DaKAClQut87heMIC6oThARMuWne8-WzxIDT7jXuPA  
+INFO  2020-09-21 15:26:15,146 [43   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/icheck-bootstrap/icheck-bootstrap.css?v=nGN1DgpDTrAS3DS7E5J0cL-gblWBKAMSoU_LSuY8gu8  
+INFO  2020-09-21 15:26:15,154 [35   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/datatables/css/buttons.bootstrap4.min.css'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\datatables\css\buttons.bootstrap4.min.css'
+INFO  2020-09-21 15:26:15,159 [44   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/datatables/css/responsive.bootstrap4.min.css?v=QrpUliTHPwNNlphA-wNV-zRWVltgDT6Eg0cXVAB04hI  
+INFO  2020-09-21 15:26:15,163 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/datatables/css/dataTables.bootstrap4.min.css'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\datatables\css\dataTables.bootstrap4.min.css'
+INFO  2020-09-21 15:26:15,167 [35   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 38.4817ms 200 text/css
+INFO  2020-09-21 15:26:15,170 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 31.5748ms 200 text/css
+INFO  2020-09-21 15:26:15,176 [34   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/font-awesome/css/all.min.css'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\font-awesome\css\all.min.css'
+INFO  2020-09-21 15:26:15,181 [43   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/icheck-bootstrap/icheck-bootstrap.css'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\icheck-bootstrap\icheck-bootstrap.css'
+INFO  2020-09-21 15:26:15,191 [34   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 61.7209ms 200 text/css
+INFO  2020-09-21 15:26:15,199 [41   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/admin-lte/dist/css/adminlte.min.css'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\admin-lte\dist\css\adminlte.min.css'
+INFO  2020-09-21 15:26:15,201 [34   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs-ext/famfamfam-flags/dist/sprite/famfamfam-flags.min.css?v=D9O-28vCF-qJh2qZSFIXxXc30hTED8RmnKeZRyvVEpA  
+INFO  2020-09-21 15:26:15,203 [41   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 76.8868ms 200 text/css
+INFO  2020-09-21 15:26:15,205 [42   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Shared/_Layout.css?v=pHobCa-IAfjMNqE8x1a2vYglVfPFWGtvFJmb0671Np0  
+INFO  2020-09-21 15:26:15,218 [43   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 69.495ms 200 text/css
+INFO  2020-09-21 15:26:15,231 [44   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/datatables/css/responsive.bootstrap4.min.css'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\datatables\css\responsive.bootstrap4.min.css'
+INFO  2020-09-21 15:26:15,246 [50   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/toastr/toastr.css?v=He3QEBKoL_nMXlVsoM7S2C2kjFQqS5L-mgA-F8LpG-U  
+INFO  2020-09-21 15:26:15,249 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs-ext/famfamfam-flags/dist/sprite/famfamfam-flags.min.css'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs-ext\famfamfam-flags\dist\sprite\famfamfam-flags.min.css'
+INFO  2020-09-21 15:26:15,255 [42   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Shared/_Layout.css'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\view-resources\Views\Shared\_Layout.css'
+INFO  2020-09-21 15:26:15,260 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 58.361ms 200 text/css
+INFO  2020-09-21 15:26:15,263 [42   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 54.773ms 200 text/css
+INFO  2020-09-21 15:26:15,269 [44   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 109.427ms 200 text/css
+INFO  2020-09-21 15:26:15,272 [49   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/css/style.css  
+INFO  2020-09-21 15:26:15,276 [50   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/toastr/toastr.css'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\toastr\toastr.css'
+INFO  2020-09-21 15:26:15,284 [52   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/css/style.css?v=O03e3k0bVBKA_ZkFaRP3I4j7he3snzsrgCTdUixlA5I  
+INFO  2020-09-21 15:26:15,294 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/js/jquery.min.js  
+INFO  2020-09-21 15:26:15,301 [45   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/js/autocomplete/bootstrap.autocomplete.js  
+INFO  2020-09-21 15:26:15,304 [49   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/css/style.css'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\css\style.css'
+INFO  2020-09-21 15:26:15,315 [50   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 93.1354ms 200 text/css
+INFO  2020-09-21 15:26:15,323 [49   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 49.0762ms 200 text/css
+INFO  2020-09-21 15:26:15,325 [52   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/css/style.css'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\css\style.css'
+INFO  2020-09-21 15:26:15,330 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/js/autocomplete/bootstrap.autocomplete.js'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\js\autocomplete\bootstrap.autocomplete.js'
+INFO  2020-09-21 15:26:15,333 [50   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/jquery/jquery.js?v=WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU  
+INFO  2020-09-21 15:26:15,336 [49   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/bootstrap/dist/js/bootstrap.bundle.js?v=pVreZ67fRaATygHF6T-gQtF1NI700W9kzeAivu6au9U  
+INFO  2020-09-21 15:26:15,341 [51   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/js/jquery.min.js'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\js\jquery.min.js'
+INFO  2020-09-21 15:26:15,348 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 51.2639ms 200 application/javascript
+INFO  2020-09-21 15:26:15,357 [48   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/datatables/js/jquery.dataTables.min.js?v=LXQzPhL1IRyKkA7HpCOBi8I-OC8HqzHUYkjK8S-LKTs  
+INFO  2020-09-21 15:26:15,366 [51   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 61.7193ms 200 application/javascript
+INFO  2020-09-21 15:26:15,382 [47   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/bootstrap/dist/js/bootstrap.bundle.js'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\bootstrap\dist\js\bootstrap.bundle.js'
+INFO  2020-09-21 15:26:15,423 [45   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/datatables/js/dataTables.bootstrap4.min.js?v=hJ44ymhBmRPJKIaKRf3DSX5uiFEZ9xB_qx8cNbJvIMU  
+INFO  2020-09-21 15:26:15,425 [47   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 49.5666ms 200 application/javascript
+INFO  2020-09-21 15:26:15,429 [46   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/datatables/js/dataTables.responsive.min.js?v=7Tbik5KSODuGiOLIOFfhP47p5UK6h1wzw8CFSI_TKhc  
+INFO  2020-09-21 15:26:15,448 [50   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/jquery/jquery.js'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\jquery\jquery.js'
+INFO  2020-09-21 15:26:15,455 [45   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/datatables/js/dataTables.bootstrap4.min.js'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\datatables\js\dataTables.bootstrap4.min.js'
+INFO  2020-09-21 15:26:15,459 [46   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/datatables/js/dataTables.responsive.min.js'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\datatables\js\dataTables.responsive.min.js'
+INFO  2020-09-21 15:26:15,464 [45   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 86.785ms 200 application/javascript
+INFO  2020-09-21 15:26:15,470 [46   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 38.7187ms 200 application/javascript
+INFO  2020-09-21 15:26:15,495 [48   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/datatables/js/responsive.bootstrap4.min.js?v=aXVO47Rb7s58FhMTCwbM39en_1XcmzGkClRzBe5txKs  
+INFO  2020-09-21 15:26:15,523 [50   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 125.3306ms 200 application/javascript
+INFO  2020-09-21 15:26:15,526 [46   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/datatables/js/dataTables.buttons.js?v=5QXxQoJP_O_KTBOFw8kshfIczGGlmZRcR_WjhFKbiZY  
+INFO  2020-09-21 15:26:15,679 [47   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/datatables/js/buttons.bootstrap4.js?v=7tPJL63hI4QnZbV489_5KEpe7k6W5RzPTZkP8m6kzEE  
+INFO  2020-09-21 15:26:15,686 [48   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/datatables/js/responsive.bootstrap4.min.js'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\datatables\js\responsive.bootstrap4.min.js'
+INFO  2020-09-21 15:26:15,689 [49   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/datatables/js/dataTables.buttons.js'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\datatables\js\dataTables.buttons.js'
+INFO  2020-09-21 15:26:15,690 [47   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/datatables/js/buttons.bootstrap4.js'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\datatables\js\buttons.bootstrap4.js'
+INFO  2020-09-21 15:26:15,692 [48   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 235.1666ms 200 application/javascript
+INFO  2020-09-21 15:26:15,694 [47   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 166.2328ms 200 application/javascript
+INFO  2020-09-21 15:26:15,697 [49   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 184.6493ms 200 application/javascript
+INFO  2020-09-21 15:26:15,706 [50   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/admin-lte/dist/js/adminlte.js?v=qXsDMEfG3xYx1TO9SCGpLfvQPdpKIo0nXVYYfcneIRk  
+INFO  2020-09-21 15:26:15,710 [51   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/datatables/js/jquery.dataTables.min.js'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\datatables\js\jquery.dataTables.min.js'
+INFO  2020-09-21 15:26:15,715 [47   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs-ext/spin/jquery.spin.js?v=i7H7HL08ldqUANgfQInE7LlU2uWUdQMCJ-Q7-_zLutY  
+INFO  2020-09-21 15:26:15,720 [48   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/spin/spin.js?v=GySbz3oZXNlwoawo5PpYy0iM38B-q3jyi_HLw00uxy0  
+INFO  2020-09-21 15:26:15,759 [49   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/block-ui/jquery.blockUI.js?v=oQaw-JJuUcJQ9QVYMcFnPxICDT-hv8-kuxT2FNzTGhc  
+INFO  2020-09-21 15:26:15,768 [47   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs-ext/spin/jquery.spin.js'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs-ext\spin\jquery.spin.js'
+INFO  2020-09-21 15:26:15,770 [42   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/admin-lte/dist/js/adminlte.js'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\admin-lte\dist\js\adminlte.js'
+INFO  2020-09-21 15:26:15,782 [47   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 59.9267ms 200 application/javascript
+INFO  2020-09-21 15:26:15,785 [42   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 90.8275ms 200 application/javascript
+INFO  2020-09-21 15:26:15,794 [48   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/spin/spin.js'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\spin\spin.js'
+INFO  2020-09-21 15:26:15,801 [50   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/block-ui/jquery.blockUI.js'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\block-ui\jquery.blockUI.js'
+INFO  2020-09-21 15:26:15,808 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/sweetalert/sweetalert.min.js?v=KsRuvuRtUVvobe66OFtOQfjP8WA2SzYsmm4VPfMnxms  
+INFO  2020-09-21 15:26:15,810 [48   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 89.6494ms 200 application/javascript
+INFO  2020-09-21 15:26:15,814 [49   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/toastr/toastr.min.js?v=yNbKY1y6h2rbVcQtf0b8lq4a-xpktyFc3pSYoGAY1qQ  
+INFO  2020-09-21 15:26:15,819 [50   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 95.1207ms 200 application/javascript
+INFO  2020-09-21 15:26:15,826 [51   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 372.0783ms 200 application/javascript
+INFO  2020-09-21 15:26:15,830 [47   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/moment/moment-with-locales.js?v=dgFbqbQVzjkZPQxWd8PBtzGiRBhChc4I2wO_q_s-Xeo  
+INFO  2020-09-21 15:26:15,847 [50   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/sweetalert/sweetalert.min.js'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\sweetalert\sweetalert.min.js'
+INFO  2020-09-21 15:26:15,851 [49   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/toastr/toastr.min.js'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\toastr\toastr.min.js'
+INFO  2020-09-21 15:26:15,854 [50   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 49.6199ms 200 application/javascript
+INFO  2020-09-21 15:26:15,863 [34   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/abp.js?v=3lLIPNQoGBxv9DWxtKwnvHr7Wlov-D0jo-NtjAdTenA  
+INFO  2020-09-21 15:26:15,871 [46   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/signalr/dist/browser/signalr.js?v=s5ortbhB2C3h17nHMtXwbCSN9YncRIZH6XrFTSO9vmk  
+INFO  2020-09-21 15:26:15,878 [49   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 48.7529ms 200 application/javascript
+INFO  2020-09-21 15:26:15,884 [51   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/abp-web-resources/Abp/Framework/scripts/abp.js'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\abp-web-resources\Abp\Framework\scripts\abp.js'
+INFO  2020-09-21 15:26:15,893 [50   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.jquery.js?v=MEOC0fqxBbFCeeJ6VHFuw8-2C710gCRqjbvYcHoBdHU  
+INFO  2020-09-21 15:26:15,899 [51   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 31.588ms 200 application/javascript
+INFO  2020-09-21 15:26:15,905 [46   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.toastr.js?v=i3fsIGh0z3DXDbSa7f6TwsWonuZ8-OwELSrtH1jHbDA  
+INFO  2020-09-21 15:26:15,909 [42   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/moment/moment-with-locales.js'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\moment\moment-with-locales.js'
+INFO  2020-09-21 15:26:15,913 [43   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/signalr/dist/browser/signalr.js'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\signalr\dist\browser\signalr.js'
+INFO  2020-09-21 15:26:15,914 [42   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 88.5112ms 200 application/javascript
+INFO  2020-09-21 15:26:15,972 [43   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 60.632ms 200 application/javascript
+INFO  2020-09-21 15:26:15,975 [46   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.toastr.js'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\abp-web-resources\Abp\Framework\scripts\libs\abp.toastr.js'
+INFO  2020-09-21 15:26:15,986 [45   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js?v=djoKib6ssm5DDzbXLe5pD7ayfFg3siaoEk-BFYzQlvI  
+INFO  2020-09-21 15:26:16,021 [46   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 81.1303ms 200 application/javascript
+INFO  2020-09-21 15:26:16,026 [50   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.jquery.js'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\abp-web-resources\Abp\Framework\scripts\libs\abp.jquery.js'
+INFO  2020-09-21 15:26:16,040 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js?v=Ta7OYgm62iNXMvVrH3f4y3WqUbGsHGBNvt0Zu0eIKtk  
+INFO  2020-09-21 15:26:16,043 [45   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\abp-web-resources\Abp\Framework\scripts\libs\abp.spin.js'
+INFO  2020-09-21 15:26:16,049 [46   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.signalr-client.js?v=7OzpM5utNWYP8ne_218zbUCD3Xj_R1GqM6AzwpgQktg  
+INFO  2020-09-21 15:26:16,053 [45   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 71.2846ms 200 application/javascript
+INFO  2020-09-21 15:26:16,059 [17   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\abp-web-resources\Abp\Framework\scripts\libs\abp.sweet-alert.js'
+INFO  2020-09-21 15:26:16,070 [50   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 147.164ms 200 application/javascript
+INFO  2020-09-21 15:26:16,074 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 36.929ms 200 application/javascript
+INFO  2020-09-21 15:26:16,093 [43   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/jquery-validate/jquery.validate.js?v=xLhce0FUawd11QSwrvXSwST0oHhOolNoH9cUXAcsIAg  
+INFO  2020-09-21 15:26:16,101 [46   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.signalr-client.js'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\abp-web-resources\Abp\Framework\scripts\libs\abp.signalr-client.js'
+INFO  2020-09-21 15:26:16,105 [50   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/jquery-validate/jquery.validate.unobtrusive.js?v=XNNC8ESw29iopRLukVRazlP44TxnjGmEQanHJ5kHmtk  
+INFO  2020-09-21 15:26:16,114 [45   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/push.js/push.js?v=p73-snCYhrDo9U6USD9P19LnY1EwAe4-VzQxj_kNyBE  
+INFO  2020-09-21 15:26:16,130 [46   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 61.0175ms 200 application/javascript
+INFO  2020-09-21 15:26:16,137 [42   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/jquery-validate/jquery.validate.js'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\jquery-validate\jquery.validate.js'
+INFO  2020-09-21 15:26:16,152 [44   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/jquery-validate/jquery.validate.unobtrusive.js'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\jquery-validate\jquery.validate.unobtrusive.js'
+INFO  2020-09-21 15:26:16,155 [42   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 66.8817ms 200 application/javascript
+INFO  2020-09-21 15:26:16,158 [44   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 59.9607ms 200 application/javascript
+INFO  2020-09-21 15:26:16,178 [45   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/push.js/push.js'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\push.js\push.js'
+INFO  2020-09-21 15:26:16,181 [50   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/js/abp.dataTable.js?v=1ysTg9_1--FceWnmIfYzoHbP1YmUWpii4uaPMp4VW08  
+INFO  2020-09-21 15:26:16,186 [45   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 75.9897ms 200 application/javascript
+INFO  2020-09-21 15:26:16,188 [46   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/js/main.js?v=5DW_yJLPhj8hntAEm71xS7u_TW1--darSH0b9a8U3Vo  
+INFO  2020-09-21 15:26:16,201 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/jquery-validate/localization/messages_zh.min.js?v=5n1RPdULeEAdbm30f9PCcdOHYyuNqFIr-pv58jBitPY  
+INFO  2020-09-21 15:26:16,209 [45   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637362984525328670  
+INFO  2020-09-21 15:26:16,213 [46   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/js/main.js'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\js\main.js'
+INFO  2020-09-21 15:26:16,226 [50   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/js/abp.dataTable.js'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\js\abp.dataTable.js'
+INFO  2020-09-21 15:26:16,229 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/jquery-validate/localization/messages_zh.min.js'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\jquery-validate\localization\messages_zh.min.js'
+INFO  2020-09-21 15:26:16,231 [45   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-09-21 15:26:16,233 [46   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 36.3331ms 200 application/javascript
+INFO  2020-09-21 15:26:16,236 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 43.8099ms 200 application/javascript
+INFO  2020-09-21 15:26:16,240 [50   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 74.4194ms 200 application/javascript
+INFO  2020-09-21 15:26:16,246 [45   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-09-21 15:26:16,255 [51   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js?v=vMuHbqHh635SKL2RG2qsGGCDyHg1yFeGqhPKpS34g4k  
+INFO  2020-09-21 15:26:16,257 [45   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-09-21 15:26:16,263 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637362984525328670  
+INFO  2020-09-21 15:26:16,273 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/admin-lte/dist/img/avatar5.png  
+INFO  2020-09-21 15:26:16,276 [35   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/img/logo.png  
+INFO  2020-09-21 15:26:16,281 [45   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 17.0013ms
+INFO  2020-09-21 15:26:16,285 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-09-21 15:26:16,297 [17   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/admin-lte/dist/img/avatar5.png'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\admin-lte\dist\img\avatar5.png'
+INFO  2020-09-21 15:26:16,301 [10   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-09-21 15:26:16,306 [35   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/img/logo.png'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\img\logo.png'
+INFO  2020-09-21 15:26:16,308 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 44.8571ms 200 image/png
+INFO  2020-09-21 15:26:16,311 [35   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 50.635ms 200 image/png
+INFO  2020-09-21 15:26:16,314 [45   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-09-21 15:26:16,316 [51   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\abp-web-resources\Abp\Framework\scripts\libs\abp.blockUI.js'
+INFO  2020-09-21 15:26:16,318 [45   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 118.6547ms 200 application/x-javascript
+INFO  2020-09-21 15:26:16,320 [51   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 411.7804ms 200 application/javascript
+INFO  2020-09-21 15:26:16,326 [52   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 89.7501ms 200 text/css
+INFO  2020-09-21 15:26:16,405 [10   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-09-21 15:26:16,412 [10   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 104.5613ms
+INFO  2020-09-21 15:26:16,414 [50   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs-ext/famfamfam-flags/dist/sprite/famfamfam-flags.png  
+INFO  2020-09-21 15:26:16,422 [51   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/font-awesome/webfonts/fa-solid-900.woff2  
+INFO  2020-09-21 15:26:16,433 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-09-21 15:26:16,439 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 177.8374ms 200 application/x-javascript; charset=utf-8
+INFO  2020-09-21 15:26:16,447 [51   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/font-awesome/webfonts/fa-solid-900.woff2'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\font-awesome\webfonts\fa-solid-900.woff2'
+INFO  2020-09-21 15:26:16,449 [52   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs-ext/famfamfam-flags/dist/sprite/famfamfam-flags.png'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs-ext\famfamfam-flags\dist\sprite\famfamfam-flags.png'
+INFO  2020-09-21 15:26:16,454 [51   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 39.289ms 200 font/woff2
+INFO  2020-09-21 15:26:16,458 [52   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 44.3721ms 200 image/png
+INFO  2020-09-21 15:26:16,503 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/admin-lte/dist/css/adminlte.min.css.map  
+INFO  2020-09-21 15:26:16,595 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/admin-lte/dist/css/adminlte.min.css.map'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\admin-lte\dist\css\adminlte.min.css.map'
+INFO  2020-09-21 15:26:16,601 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 99.3774ms 200 text/plain
+INFO  2020-09-21 15:26:16,787 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-09-21 15:26:16,806 [45   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/signalr/dist/browser/signalr.js.map  
+INFO  2020-09-21 15:26:16,818 [46   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/toastr/toastr.js.map  
+INFO  2020-09-21 15:26:16,820 [50   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/admin-lte/dist/js/adminlte.js.map  
+INFO  2020-09-21 15:26:16,839 [51   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/bootstrap/dist/js/bootstrap.bundle.js.map  
+INFO  2020-09-21 15:26:16,859 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-09-21 15:26:16,880 [52   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/push.js/push.js.map  
+INFO  2020-09-21 15:26:16,886 [43   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/signalr/dist/browser/signalr.js.map'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\signalr\dist\browser\signalr.js.map'
+INFO  2020-09-21 15:26:16,890 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-09-21 15:26:16,897 [43   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 103.4881ms 200 text/plain
+INFO  2020-09-21 15:26:16,905 [46   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/bootstrap/dist/js/bootstrap.bundle.js.map'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\bootstrap\dist\js\bootstrap.bundle.js.map'
+INFO  2020-09-21 15:26:16,907 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 119.2166ms 200 application/json
+INFO  2020-09-21 15:26:16,908 [46   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 120.7137ms 200 text/plain
+INFO  2020-09-21 15:26:16,910 [48   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/admin-lte/dist/js/adminlte.js.map'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\admin-lte\dist\js\adminlte.js.map'
+INFO  2020-09-21 15:26:16,943 [50   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/toastr/toastr.js.map'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\toastr\toastr.js.map'
+INFO  2020-09-21 15:26:16,951 [48   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 128.8396ms 200 text/plain
+INFO  2020-09-21 15:26:16,951 [47   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=Cv9EsOsTOpvw3-ApGqI6Yg  
+INFO  2020-09-21 15:26:16,961 [50   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 162.4277ms 200 text/plain
+INFO  2020-09-21 15:26:16,965 [47   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2020-09-21 15:26:16,967 [51   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/push.js/push.js.map'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\push.js\push.js.map'
+INFO  2020-09-21 15:26:16,969 [52   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/img/favicon.ico  
+INFO  2020-09-21 15:26:16,972 [51   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 158.0168ms 200 text/plain
+DEBUG 2020-09-21 15:26:16,975 [51   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"Cv9EsOsTOpvw3-ApGqI6Yg","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2020-09-21T15:26:16.9750735+08:00","Properties":{}}
+DEBUG 2020-09-21 15:26:16,975 [51   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: Cv9EsOsTOpvw3-ApGqI6Yg
+INFO  2020-09-21 15:26:16,985 [52   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/img/favicon.ico'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\img\favicon.ico'
+INFO  2020-09-21 15:26:16,988 [52   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 38.5888ms 200 image/x-icon
+INFO  2020-09-21 15:26:19,817 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/api/services/app/TestService/Test application/x-www-form-urlencoded; charset=UTF-8 11
+INFO  2020-09-21 15:26:19,828 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DiveCRM.Test.TestService.Test (DiveCRM.Application)'
+INFO  2020-09-21 15:26:19,836 [5    ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "Test", controller = "TestService"}. Executing controller action with signature System.String Test() on controller DiveCRM.Test.TestService (DiveCRM.Application).
+ERROR 2020-09-21 15:26:19,850 [5    ] idateAntiforgeryTokenAuthorizationFilter - The required antiforgery request token was not provided in either form field "__RequestVerificationToken" or header value "X-XSRF-TOKEN".
+Microsoft.AspNetCore.Antiforgery.AntiforgeryValidationException: The required antiforgery request token was not provided in either form field "__RequestVerificationToken" or header value "X-XSRF-TOKEN".
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.ValidateRequestAsync(HttpContext httpContext)
+   at Abp.AspNetCore.Mvc.Antiforgery.AbpValidateAntiforgeryTokenAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+INFO  2020-09-21 15:26:19,872 [5    ] c.Infrastructure.ControllerActionInvoker - Authorization failed for the request at filter 'Abp.AspNetCore.Mvc.Antiforgery.AbpAutoValidateAntiforgeryTokenAuthorizationFilter'.
+INFO  2020-09-21 15:26:19,878 [5    ] icrosoft.AspNetCore.Mvc.StatusCodeResult - Executing HttpStatusCodeResult, setting HTTP status code 400
+INFO  2020-09-21 15:26:19,880 [5    ] c.Infrastructure.ControllerActionInvoker - Executed action DiveCRM.Test.TestService.Test (DiveCRM.Application) in 42.0533ms
+INFO  2020-09-21 15:26:19,881 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DiveCRM.Test.TestService.Test (DiveCRM.Application)'
+INFO  2020-09-21 15:26:19,883 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 67.1242ms 400 
+INFO  2020-09-21 15:26:20,365 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/api/services/app/TestService/Test application/x-www-form-urlencoded; charset=UTF-8 11
+INFO  2020-09-21 15:26:20,379 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DiveCRM.Test.TestService.Test (DiveCRM.Application)'
+INFO  2020-09-21 15:26:20,388 [5    ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "Test", controller = "TestService"}. Executing controller action with signature System.String Test() on controller DiveCRM.Test.TestService (DiveCRM.Application).
+ERROR 2020-09-21 15:26:20,390 [5    ] idateAntiforgeryTokenAuthorizationFilter - The required antiforgery request token was not provided in either form field "__RequestVerificationToken" or header value "X-XSRF-TOKEN".
+Microsoft.AspNetCore.Antiforgery.AntiforgeryValidationException: The required antiforgery request token was not provided in either form field "__RequestVerificationToken" or header value "X-XSRF-TOKEN".
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.ValidateRequestAsync(HttpContext httpContext)
+   at Abp.AspNetCore.Mvc.Antiforgery.AbpValidateAntiforgeryTokenAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+INFO  2020-09-21 15:26:20,393 [5    ] c.Infrastructure.ControllerActionInvoker - Authorization failed for the request at filter 'Abp.AspNetCore.Mvc.Antiforgery.AbpAutoValidateAntiforgeryTokenAuthorizationFilter'.
+INFO  2020-09-21 15:26:20,398 [5    ] icrosoft.AspNetCore.Mvc.StatusCodeResult - Executing HttpStatusCodeResult, setting HTTP status code 400
+INFO  2020-09-21 15:26:20,409 [5    ] c.Infrastructure.ControllerActionInvoker - Executed action DiveCRM.Test.TestService.Test (DiveCRM.Application) in 10.8235ms
+INFO  2020-09-21 15:26:20,417 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DiveCRM.Test.TestService.Test (DiveCRM.Application)'
+INFO  2020-09-21 15:26:20,421 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 54.3791ms 400 
+DEBUG 2020-09-21 15:28:55,837 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-09-21 15:28:55,903 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-09-21 15:28:55,924 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DiveCRM.Web.Startup.DiveCRMWebMvcModule, DiveCRM.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 15:28:55,926 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DiveCRM.DiveCRMWebCoreModule, DiveCRM.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 15:28:55,927 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DiveCRM.DiveCRMApplicationModule, DiveCRM.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 15:28:55,927 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DiveCRM.DiveCRMCoreModule, DiveCRM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 15:28:55,928 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 15:28:55,928 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 15:28:55,928 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 15:28:55,929 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 15:28:55,930 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DiveCRM.EntityFrameworkCore.DiveCRMEntityFrameworkModule, DiveCRM.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 15:28:55,930 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 15:28:55,931 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 15:28:55,931 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 15:28:55,931 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 15:28:55,932 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 15:28:55,932 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 15:28:55,935 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-09-21 15:28:56,018 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-21 15:28:56,018 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-21 15:28:56,018 [1    ] o.Configuration.LanguageManagementConfig - Converted DiveCRM (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-21 15:28:56,018 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-21 15:28:56,489 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: DiveCRM.EntityFrameworkCore.DiveCRMDbContext, DiveCRM.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-21 15:28:57,487 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-09-21 15:28:57,566 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-09-21 15:28:57,629 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-09-21 15:28:57,653 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: DiveCRM
+DEBUG 2020-09-21 15:28:57,695 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-09-21 15:28:57,906 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-09-21 15:28:58,026 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[DiveCRM.MultiTenancy.Tenant, DiveCRM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[DiveCRM.Authorization.Users.User, DiveCRM.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-09-21 15:28:58,091 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2020-09-21 15:28:58,091 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DiveCRM.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-09-21 15:28:58,098 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DiveCRM.Users.Dto.CreateUserDto
+DEBUG 2020-09-21 15:28:58,099 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DiveCRM.Users.Dto.UserDto
+DEBUG 2020-09-21 15:28:58,100 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DiveCRM.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-09-21 15:28:58,100 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DiveCRM.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-09-21 15:28:58,100 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DiveCRM.Roles.Dto.PermissionDto
+DEBUG 2020-09-21 15:28:58,100 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DiveCRM.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-09-21 15:28:58,100 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DiveCRM.MultiTenancy.Dto.TenantDto
+DEBUG 2020-09-21 15:28:58,100 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DiveCRM.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+DEBUG 2020-09-21 15:28:58,100 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DiveCRM.Web.Models.Roles.EditRoleModalViewModel
+INFO  2020-09-21 15:29:01,288 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,zh-Hans,ja
+INFO  2020-09-21 15:29:01,801 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\Tyler\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2020-09-21 15:29:01,876 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2020-09-21 15:29:05,431 [4    ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-09-21 15:29:05,433 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc)'
+INFO  2020-09-21 15:29:05,696 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller DiveCRM.Web.Controllers.HomeController (DiveCRM.Web.Mvc).
+INFO  2020-09-21 15:29:06,051 [7    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2020-09-21 15:29:07,914 [9    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 1900.7883ms.
+INFO  2020-09-21 15:29:07,955 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc) in 2255.5039ms
+INFO  2020-09-21 15:29:07,958 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc)'
+INFO  2020-09-21 15:29:07,968 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 6092.6354ms 200 text/html; charset=utf-8
+INFO  2020-09-21 15:29:08,192 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637362989380274341  
+INFO  2020-09-21 15:29:08,202 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637362989380274341  
+INFO  2020-09-21 15:29:08,215 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-09-21 15:29:08,221 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-09-21 15:29:08,253 [9    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-09-21 15:29:08,254 [7    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-09-21 15:29:08,490 [7    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-09-21 15:29:08,497 [7    ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 237.4768ms
+INFO  2020-09-21 15:29:08,499 [10   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-09-21 15:29:08,500 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-09-21 15:29:08,502 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 313.7779ms 200 application/x-javascript
+INFO  2020-09-21 15:29:08,504 [10   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 249.046ms
+INFO  2020-09-21 15:29:08,508 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-09-21 15:29:08,514 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 316.6484ms 200 application/x-javascript; charset=utf-8
+INFO  2020-09-21 15:29:08,538 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-09-21 15:29:08,563 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-09-21 15:29:08,587 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-09-21 15:29:08,588 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 51.8303ms 200 application/json
+INFO  2020-09-21 15:29:08,602 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=LBSaLZ12BYB4QsooRqwSdw  
+INFO  2020-09-21 15:29:08,614 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+DEBUG 2020-09-21 15:29:08,765 [9    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"LBSaLZ12BYB4QsooRqwSdw","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2020-09-21T15:29:08.7528213+08:00","Properties":{}}
+DEBUG 2020-09-21 15:29:08,782 [9    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: LBSaLZ12BYB4QsooRqwSdw
+INFO  2020-09-21 15:30:57,720 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/CustomersOrder  
+INFO  2020-09-21 15:30:57,731 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DiveCRM.Web.Controllers.CustomersOrderController.Index (DiveCRM.Web.Mvc)'
+INFO  2020-09-21 15:30:57,736 [9    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "CustomersOrder", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(Int32, System.String) on controller DiveCRM.Web.Controllers.CustomersOrderController (DiveCRM.Web.Mvc).
+INFO  2020-09-21 15:30:58,956 [19   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2020-09-21 15:30:59,071 [4    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 117.5886ms.
+INFO  2020-09-21 15:30:59,074 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action DiveCRM.Web.Controllers.CustomersOrderController.Index (DiveCRM.Web.Mvc) in 1335.2339ms
+INFO  2020-09-21 15:30:59,076 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DiveCRM.Web.Controllers.CustomersOrderController.Index (DiveCRM.Web.Mvc)'
+INFO  2020-09-21 15:30:59,084 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1361.4565ms 200 text/html; charset=utf-8
+DEBUG 2020-09-21 15:30:59,135 [7    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: LBSaLZ12BYB4QsooRqwSdw
+INFO  2020-09-21 15:30:59,141 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637362989380274341  
+INFO  2020-09-21 15:30:59,144 [29   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637362989380274341  
+INFO  2020-09-21 15:30:59,149 [19   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2020-09-21 15:30:59,152 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 110550.9171ms 101 
+INFO  2020-09-21 15:30:59,153 [30   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-09-21 15:30:59,155 [29   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-09-21 15:30:59,157 [30   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-09-21 15:30:59,158 [29   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-09-21 15:30:59,163 [30   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-09-21 15:30:59,169 [30   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 5.9234ms
+INFO  2020-09-21 15:30:59,172 [30   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-09-21 15:30:59,173 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 33.4966ms 200 application/x-javascript
+INFO  2020-09-21 15:30:59,180 [29   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-09-21 15:30:59,182 [29   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 22.5271ms
+INFO  2020-09-21 15:30:59,185 [29   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-09-21 15:30:59,187 [29   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 47.0893ms 200 application/x-javascript; charset=utf-8
+INFO  2020-09-21 15:30:59,252 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-09-21 15:30:59,268 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-09-21 15:30:59,271 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-09-21 15:30:59,277 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 22.225ms 200 application/json
+INFO  2020-09-21 15:30:59,287 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=rb7EyuvYuZSy-tnP1ok8nw  
+INFO  2020-09-21 15:30:59,301 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+DEBUG 2020-09-21 15:30:59,311 [19   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"rb7EyuvYuZSy-tnP1ok8nw","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2020-09-21T15:30:59.3113707+08:00","Properties":{}}
+DEBUG 2020-09-21 15:30:59,313 [19   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: rb7EyuvYuZSy-tnP1ok8nw
+INFO  2020-09-21 15:31:00,366 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/CustomersOrder/Create  
+INFO  2020-09-21 15:31:00,379 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DiveCRM.Web.Controllers.CustomersOrderController.Create (DiveCRM.Web.Mvc)'
+INFO  2020-09-21 15:31:00,385 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Create", controller = "CustomersOrder", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Create() on controller DiveCRM.Web.Controllers.CustomersOrderController (DiveCRM.Web.Mvc).
+INFO  2020-09-21 15:31:00,453 [30   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Create.
+INFO  2020-09-21 15:31:00,545 [7    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Create executed in 94.5992ms.
+INFO  2020-09-21 15:31:00,547 [7    ] c.Infrastructure.ControllerActionInvoker - Executed action DiveCRM.Web.Controllers.CustomersOrderController.Create (DiveCRM.Web.Mvc) in 160.2096ms
+INFO  2020-09-21 15:31:00,549 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DiveCRM.Web.Controllers.CustomersOrderController.Create (DiveCRM.Web.Mvc)'
+INFO  2020-09-21 15:31:00,553 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 185.9675ms 200 text/html; charset=utf-8
+DEBUG 2020-09-21 15:31:00,553 [27   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: rb7EyuvYuZSy-tnP1ok8nw
+INFO  2020-09-21 15:31:00,561 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2020-09-21 15:31:00,563 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1276.7658ms 101 
+INFO  2020-09-21 15:31:00,613 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637362989380274341  
+INFO  2020-09-21 15:31:00,614 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637362989380274341  
+INFO  2020-09-21 15:31:00,620 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-09-21 15:31:00,623 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-09-21 15:31:00,628 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-09-21 15:31:00,629 [7    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-09-21 15:31:00,634 [4    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-09-21 15:31:00,641 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 5.1614ms
+INFO  2020-09-21 15:31:00,648 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-09-21 15:31:00,653 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 38.33ms 200 application/x-javascript
+INFO  2020-09-21 15:31:00,654 [7    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-09-21 15:31:00,657 [7    ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 25.1481ms
+INFO  2020-09-21 15:31:00,662 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-09-21 15:31:00,664 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 51.8832ms 200 application/x-javascript; charset=utf-8
+INFO  2020-09-21 15:31:00,749 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-09-21 15:31:00,768 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-09-21 15:31:00,770 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-09-21 15:31:00,773 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 23.7667ms 200 application/json
+INFO  2020-09-21 15:31:00,784 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=bkSS_9GhLCn6ruQQgSXJGA  
+INFO  2020-09-21 15:31:00,797 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+DEBUG 2020-09-21 15:31:00,803 [19   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"bkSS_9GhLCn6ruQQgSXJGA","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2020-09-21T15:31:00.8034707+08:00","Properties":{}}
+DEBUG 2020-09-21 15:31:00,804 [19   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: bkSS_9GhLCn6ruQQgSXJGA
+INFO  2020-09-21 15:31:03,061 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/bootstrap/dist/js/bootstrap.bundle.js.map  
+INFO  2020-09-21 15:31:03,062 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/admin-lte/dist/js/adminlte.js.map  
+INFO  2020-09-21 15:31:03,064 [27   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/toastr/toastr.js.map  
+INFO  2020-09-21 15:31:03,066 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/signalr/dist/browser/signalr.js.map  
+INFO  2020-09-21 15:31:03,066 [31   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/push.js/push.js.map  
+INFO  2020-09-21 15:31:03,119 [28   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/push.js/push.js.map'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\push.js\push.js.map'
+INFO  2020-09-21 15:31:03,119 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/admin-lte/dist/js/adminlte.js.map'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\admin-lte\dist\js\adminlte.js.map'
+INFO  2020-09-21 15:31:03,119 [30   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/toastr/toastr.js.map'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\toastr\toastr.js.map'
+INFO  2020-09-21 15:31:03,122 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 61.8752ms 200 text/plain
+INFO  2020-09-21 15:31:03,123 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 67.8747ms 200 text/plain
+INFO  2020-09-21 15:31:03,127 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 60.2369ms 200 text/plain
+INFO  2020-09-21 15:31:03,129 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/admin-lte/dist/css/adminlte.min.css.map  
+INFO  2020-09-21 15:31:03,135 [30   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/bootstrap/dist/js/bootstrap.bundle.js.map'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\bootstrap\dist\js\bootstrap.bundle.js.map'
+INFO  2020-09-21 15:31:03,135 [28   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/signalr/dist/browser/signalr.js.map'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\signalr\dist\browser\signalr.js.map'
+INFO  2020-09-21 15:31:03,137 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 87.4964ms 200 text/plain
+INFO  2020-09-21 15:31:03,138 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 77.6623ms 200 text/plain
+INFO  2020-09-21 15:31:03,157 [30   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/admin-lte/dist/css/adminlte.min.css.map'. Physical path: 'C:\Users\Tyler\Desktop\DiveCRM\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\libs\admin-lte\dist\css\adminlte.min.css.map'
+INFO  2020-09-21 15:31:03,161 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 37.2706ms 200 text/plain
+INFO  2020-09-21 15:31:04,744 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/api/services/app/TestService/Test application/x-www-form-urlencoded; charset=UTF-8 11
+INFO  2020-09-21 15:31:04,764 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DiveCRM.Test.TestService.Test (DiveCRM.Application)'
+INFO  2020-09-21 15:31:04,770 [9    ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "Test", controller = "TestService"}. Executing controller action with signature System.String Test() on controller DiveCRM.Test.TestService (DiveCRM.Application).
+ERROR 2020-09-21 15:31:04,788 [9    ] idateAntiforgeryTokenAuthorizationFilter - The required antiforgery request token was not provided in either form field "__RequestVerificationToken" or header value "X-XSRF-TOKEN".
+Microsoft.AspNetCore.Antiforgery.AntiforgeryValidationException: The required antiforgery request token was not provided in either form field "__RequestVerificationToken" or header value "X-XSRF-TOKEN".
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.ValidateRequestAsync(HttpContext httpContext)
+   at Abp.AspNetCore.Mvc.Antiforgery.AbpValidateAntiforgeryTokenAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+INFO  2020-09-21 15:31:04,837 [9    ] c.Infrastructure.ControllerActionInvoker - Authorization failed for the request at filter 'Abp.AspNetCore.Mvc.Antiforgery.AbpAutoValidateAntiforgeryTokenAuthorizationFilter'.
+INFO  2020-09-21 15:31:04,844 [9    ] icrosoft.AspNetCore.Mvc.StatusCodeResult - Executing HttpStatusCodeResult, setting HTTP status code 400
+INFO  2020-09-21 15:31:04,846 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action DiveCRM.Test.TestService.Test (DiveCRM.Application) in 73.9066ms
+INFO  2020-09-21 15:31:04,847 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DiveCRM.Test.TestService.Test (DiveCRM.Application)'
+INFO  2020-09-21 15:31:04,853 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 108.2756ms 400 
+INFO  2020-09-21 15:31:05,279 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/api/services/app/TestService/Test application/x-www-form-urlencoded; charset=UTF-8 11
+INFO  2020-09-21 15:31:05,293 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DiveCRM.Test.TestService.Test (DiveCRM.Application)'
+INFO  2020-09-21 15:31:05,298 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "Test", controller = "TestService"}. Executing controller action with signature System.String Test() on controller DiveCRM.Test.TestService (DiveCRM.Application).
+ERROR 2020-09-21 15:31:05,299 [4    ] idateAntiforgeryTokenAuthorizationFilter - The required antiforgery request token was not provided in either form field "__RequestVerificationToken" or header value "X-XSRF-TOKEN".
+Microsoft.AspNetCore.Antiforgery.AntiforgeryValidationException: The required antiforgery request token was not provided in either form field "__RequestVerificationToken" or header value "X-XSRF-TOKEN".
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.ValidateRequestAsync(HttpContext httpContext)
+   at Abp.AspNetCore.Mvc.Antiforgery.AbpValidateAntiforgeryTokenAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+INFO  2020-09-21 15:31:05,301 [4    ] c.Infrastructure.ControllerActionInvoker - Authorization failed for the request at filter 'Abp.AspNetCore.Mvc.Antiforgery.AbpAutoValidateAntiforgeryTokenAuthorizationFilter'.
+INFO  2020-09-21 15:31:05,305 [4    ] icrosoft.AspNetCore.Mvc.StatusCodeResult - Executing HttpStatusCodeResult, setting HTTP status code 400
+INFO  2020-09-21 15:31:05,310 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action DiveCRM.Test.TestService.Test (DiveCRM.Application) in 7.8946ms
+INFO  2020-09-21 15:31:05,313 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DiveCRM.Test.TestService.Test (DiveCRM.Application)'
+INFO  2020-09-21 15:31:05,317 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 36.9922ms 400 
