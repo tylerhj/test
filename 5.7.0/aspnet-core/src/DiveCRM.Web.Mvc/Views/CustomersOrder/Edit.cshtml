@@ -96,8 +96,6 @@
 
     var headers = { 'x-xsrf-token': abp.security.antiForgery.getToken() };
     $("#CustomerName").autocompleteNew("/api/Customers/GetCustomerByName", {
-        value: @Model.CustomerId,
-        text: '@Model.CustomerName',
         freelyInput: true,
         headers: headers,
         callbackfun: function (item) {
@@ -111,8 +109,6 @@
     });
 
     $("#ResponsiblePersonName").autocompleteNew("/api/Users/GetUsersByName", {
-        value: @Model.ResponsiblePersonId,
-        text: '@Model.ResponsiblePerson.UserName',
         headers: headers,
         callbackfun: function (item) {
             if (item != null && item != undefined) {
@@ -122,8 +118,6 @@
     });
 
     $("#CoachName").autocompleteNew("/api/Users/GetUsersByName", {
-        value: @Model.CoachId,
-        text: '@Model.Coach.UserName',
         headers: headers,
         callbackfun: function (item) {
             if (item != null && item != undefined) {

@@ -75,7 +75,7 @@ namespace DiveCRM.Web.Controllers
                 if (entity.CustomerId == null || entity.CustomerId == 0)
                 {
                     Customer c = new Customer();
-                    c.Name = entity.CustomerName;
+                    c.Name = entity.CustomerName??"";
                     c.Mobile = entity.Mobile;
                     c.Uid = (long)AbpSession.UserId;
                     c.CreateTime = DateTime.Now;
@@ -141,7 +141,7 @@ namespace DiveCRM.Web.Controllers
                 if (entity.CustomerId == null || entity.CustomerId == 0)
                 {
                     Customer c = new Customer();
-                    c.Name = entity.CustomerName;
+                    c.Name = entity.CustomerName ?? "";
                     c.Mobile = entity.Mobile;
                     c.Uid = (long)AbpSession.UserId;
                     c.CreateTime = DateTime.Now;
@@ -152,9 +152,18 @@ namespace DiveCRM.Web.Controllers
                 }
                 User curUser = um.FindByIdAsync(AbpSession.UserId.ToString()).Result;
                 var q = cos.Find(x => x.Id == entity.Id);
-                entity.Location = curUser.Location;
-                entity.CreateTime = q.CreateTime;
-                cos.Update(entity);
+                q.CustomerId = entity.CustomerId;
+                q.CustomerName = entity.CustomerName;
+                q.OrderTime = entity.OrderTime;
+                q.PoolType = entity.PoolType;
+                q.CourseType = entity.CourseType;
+                q.CoachType = entity.CoachType;
+                q.CoachId = entity.CoachId;
+                q.ResponsiblePersonId = entity.ResponsiblePersonId ?? AbpSession.UserId;
+                q.State = entity.State;
+                q.Location = curUser.Location;
+                q.Remark = entity.Remark;
+                cos.Update(q);
                 return RedirectToAction(nameof(Index));
             }
             catch
