@@ -44,11 +44,15 @@
     <text name="Logout" value="Cerrar sesión" />
     <text name="SearchWithThreeDot">Buscar...</text>
 	  <text name="Customers">Customers</text>
+	  <text name="Mobile">Mobile</text>
+	  <text name="OrderTime">Order Time</text>
     <text name="Orders">Reservation</text>
 	  <text name="PoolType">Pool Type</text>
 	  <text name="CourseType">Course Type</text>
 	  <text name="CoachType">Coach Type</text>
+	  <text name="CoachName">Coach Name</text>
 	  <text name="State">State</text>
 	  <text name="ResponsiblePerson">Responsible Person</text>
+	  <text name="Remark">Remark</text>
   </texts>
 </localizationDictionary>

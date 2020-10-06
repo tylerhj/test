@@ -36,6 +36,7 @@ namespace DiveCRM.Web.Controllers.API
                 .Select(x => new {
                     value = x.Id,
                     text = x.Name,
+                    mobile=x.Mobile,
                     responsiblePersonId = x.Uid,
                     responsiblePersonName = um.GetUserById(x.Uid).UserName
                 }).ToList(); 

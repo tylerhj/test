@@ -13,9 +13,9 @@
 <script src="~/js/autocomplete/bootstrap.autocomplete.js"></script>
 
 
-<h1>Create</h1>
+<h1>@L("Create")</h1>
 
-<h4>Order</h4>
+<h4>@L("Orders")</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
@@ -24,15 +24,20 @@
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
 
             <div class="form-group">
-                <label class="control-label">Customers</label>
+                <label class="col-md-3 col-form-label">@L("Customers")</label>
                 <div>
-                    <input type="text" id="CustomerName" name="CustomerName" class="form-control" placeholder="Customers">
+                    <input type="text" id="CustomerName" name="CustomerName" class="form-control" placeholder=@L("Customers")>
                     <input type="hidden" id="CustomerId" name="CustomerId" />
                 </div>
             </div>
-
             <div class="form-group">
-                <label asp-for="OrderTime" class="control-label"></label>
+                <label class="col-md-3 col-form-label">@L("Mobile")</label>
+                <div>
+                    <input type="text" id="Mobile" name="Mobile" class="form-control" placeholder=@L("Mobile")>
+                </div>
+            </div>
+            <div class="form-group">
+                <label asp-for="OrderTime" class="col-md-3 col-form-label">@L("OrderTime")</label>
                 <input asp-for="OrderTime" class="form-control" />
                 <span asp-validation-for="OrderTime" class="text-danger"></span>
             </div>
@@ -55,14 +60,16 @@
                 </div>
             </div>
             <div class="form-group">
-                <label asp-for="CoachName" class="control-label"></label>
-                <input asp-for="CoachName" class="form-control" />
-                <span asp-validation-for="CoachName" class="text-danger"></span>
+                <label class="control-label">@L("CoachName")</label>
+                <div>
+                    <input type="text" id="CoachName" name="CoachName" class="form-control" placeholder=@L("CoachName")>
+                    <input type="hidden" id="CoachId" name="CoachId" />
+                </div>
             </div>
             <div class="form-group">
-                <label class="control-label">ResponsiblePerson</label>
+                <label class="control-label">@L("ResponsiblePerson")</label>
                 <div>
-                    <input type="text" id="ResponsiblePersonName" name="ResponsiblePersonName" class="form-control" placeholder="Responsible Person">
+                    <input type="text" id="ResponsiblePersonName" name="ResponsiblePersonName" class="form-control" placeholder=@L("ResponsiblePerson")>
                     <input type="hidden" id="ResponsiblePersonId" name="ResponsiblePersonId" />
                 </div>
             </div>
@@ -73,7 +80,7 @@
                 </div>
             </div>
             <div class="form-group">
-                <label asp-for="Remark" class="control-label"></label>
+                <label class="col-md-3 col-form-label">@L("Remark")</label>
                 <input asp-for="Remark" class="form-control" />
                 <span asp-validation-for="Remark" class="text-danger"></span>
             </div>
@@ -92,12 +99,13 @@
 <script>
     var headers = { 'x-xsrf-token': abp.security.antiForgery.getToken() };
     $("#CustomerName").autocompleteNew("/api/Customers/GetCustomerByName" , {
-        
+
         freelyInput: true,
         headers: headers,
         callbackfun: function (item) {
             if (item != null && item != undefined) {
                 $('#CustomerId').val(item.value);
+                $('#Mobile').val(item.json.mobile);
                 $('#ResponsiblePersonId').val(item.json.responsiblePersonId);
                 $('#ResponsiblePersonName_Display').val(item.json.responsiblePersonName);
             }
@@ -109,6 +117,15 @@
         callbackfun: function (item) {
             if (item != null && item != undefined) {
                 $('#ResponsiblePersonId').val(item.value);
+            }
+        }
+    });
+
+    $("#CoachName").autocompleteNew("/api/Users/GetUsersByName", {
+        headers: headers,
+        callbackfun: function (item) {
+            if (item != null && item != undefined) {
+                $('#CoachId').val(item.value);
             }
         }
     });

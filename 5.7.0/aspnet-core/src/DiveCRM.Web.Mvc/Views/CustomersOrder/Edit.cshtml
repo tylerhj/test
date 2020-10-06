@@ -12,53 +12,61 @@
 <script src="~/js/autocomplete/bootstrap.autocomplete.js"></script>
 
 
-<h1>Edit</h1>
+<h1>@L("Edit")</h1>
 
-<h4>Order</h4>
+<h4>@L("Orders")</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
         <form asp-action="Edit">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
-                <label class="control-label">Customers</label>
+                <label class="col-md-3 col-form-label">@L("Customers")</label>
                 <div>
-                    <input type="text" id="CustomerName" name="CustomerName" class="form-control" placeholder="Customers">
+                    <input type="text" id="CustomerName" name="CustomerName" class="form-control" placeholder=@L("Customers")>
                     <input type="hidden" id="CustomerId" name="CustomerId" value="@Model.CustomerId" />
                 </div>
             </div>
             <div class="form-group">
-                <label asp-for="OrderTime" class="control-label"></label>
+                <label class="col-md-3 col-form-label">@L("Mobile")</label>
+                <div>
+                    <input type="text" id="Mobile" name="Mobile" class="form-control" placeholder=@L("Mobile") value="@Model.Customer.Mobile">
+                </div>
+            </div>
+            <div class="form-group">
+                <label asp-for="OrderTime" class="col-md-3 col-form-label">@L("OrderTime")</label>
                 <input asp-for="OrderTime" class="form-control" />
                 <span asp-validation-for="OrderTime" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label class="control-label" for="Location">@L("PoolType")</label>
+                <label class="col-md-3 col-form-label" for="Location">@L("PoolType")</label>
                 <div>
                     @Html.DropDownList("PoolType", (SelectList)ViewData["PoolType"], new { Class = "form-control" })
                 </div>
             </div>
             <div class="form-group">
-                <label class="control-label" for="Location">@L("CourseType")</label>
+                <label class="col-md-3 col-form-label" for="Location">@L("CourseType")</label>
                 <div>
                     @Html.DropDownList("CourseType", (SelectList)ViewData["CourseType"], new { Class = "form-control" })
                 </div>
             </div>
             <div class="form-group">
-                <label class="control-label" for="Location">@L("CoachType")</label>
+                <label class="col-md-3 col-form-label" for="Location">@L("CoachType")</label>
                 <div>
                     @Html.DropDownList("CoachType", (SelectList)ViewData["CoachType"], new { Class = "form-control" })
                 </div>
             </div>
             <div class="form-group">
-                <label asp-for="CoachName" class="control-label"></label>
-                <input asp-for="CoachName" class="form-control" />
-                <span asp-validation-for="CoachName" class="text-danger"></span>
+                <label class="col-md-3 col-form-label">@L("CoachName")</label>
+                <div>
+                    <input type="text" id="CoachName" name="CoachName" class="form-control" placeholder=@L("CoachName")>
+                    <input type="hidden" id="CoachId" name="CoachId" value="@Model.CoachId" />
+                </div>
             </div>
             <div class="form-group">
-                <label class="control-label">ResponsiblePerson</label>
+                <label class="col-md-3 col-form-label">@L("ResponsiblePerson")</label>
                 <div>
-                    <input type="text" id="ResponsiblePersonName" name="ResponsiblePersonName" class="form-control" placeholder="Responsible Person">
+                    <input type="text" id="ResponsiblePersonName" name="ResponsiblePersonName" class="form-control" placeholder=@L("ResponsiblePerson")>
                     <input type="hidden" id="ResponsiblePersonId" name="ResponsiblePersonId" value="@Model.ResponsiblePersonId" />
                 </div>
             </div>
@@ -69,7 +77,7 @@
                 </div>
             </div>
             <div class="form-group">
-                <label asp-for="Remark" class="control-label"></label>
+                <label class="col-md-3 col-form-label">@L("Remark")</label>
                 <input asp-for="Remark" class="form-control" />
                 <span asp-validation-for="Remark" class="text-danger"></span>
             </div>
@@ -95,6 +103,7 @@
         callbackfun: function (item) {
             if (item != null && item != undefined) {
                 $('#CustomerId').val(item.value);
+                $('#Mobile').val(item.json.mobile);
                 $('#ResponsiblePersonId').val(item.json.responsiblePersonId);
                 $('#ResponsiblePersonName').val(item.json.responsiblePersonName);
             }
@@ -108,6 +117,17 @@
         callbackfun: function (item) {
             if (item != null && item != undefined) {
                 $('#ResponsiblePersonId').val(item.value);
+            }
+        }
+    });
+
+    $("#CoachName").autocompleteNew("/api/Users/GetUsersByName", {
+        value: @Model.ResponsiblePersonId,
+        text: '@Model.ResponsiblePerson.UserName',
+        headers: headers,
+        callbackfun: function (item) {
+            if (item != null && item != undefined) {
+                $('#CoachId').val(item.value);
             }
         }
     });

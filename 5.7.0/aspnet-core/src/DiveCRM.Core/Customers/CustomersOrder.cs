@@ -19,7 +19,7 @@ namespace DiveCRM.Customers
         public int PoolType { get; set; }
         public int CourseType { get; set; }
         public int CoachType { get; set; }
-        public string CoachName { get; set; }
+        public long? CoachId { get; set; }
         public long? ResponsiblePersonId { get; set; }
         public int Location { get; set; }
         public int State { get; set; } 
@@ -28,11 +28,15 @@ namespace DiveCRM.Customers
 
         [ForeignKey("CustomerId")]
         public virtual Customer Customer { get; set; }
+        [ForeignKey("CoachId")]
+        public virtual User Coach { get; set; }
         [ForeignKey("ResponsiblePersonId")]
         public virtual User ResponsiblePerson { get; set; }
 
 
         [NotMapped]
         public string CustomerName_Display { get; set; }
+        [NotMapped]
+        public string Mobile { get; set; }
     }
 }

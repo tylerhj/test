@@ -98,12 +98,16 @@
     <text name="EditTenant">编辑租户</text>
     <text name="SearchWithThreeDot">搜索...</text>
     <text name="Customers">客户</text>
-    <text name="Orders">预约</text>
+	  <text name="Mobile">电话</text>
+	 <text name="OrderTime">预约时间</text>
+	  <text name="Orders">预约</text>
 	  <text name="PoolType">泳池类型</text>
 	  <text name="CourseType">课程</text>
 	  <text name="CoachType">教练类型</text>
+	  <text name="CoachName">教练姓名</text>
 	  <text name="State">状态</text>
 	  <text name="ResponsiblePerson">责任客服</text>
+	  <text name="Remark">备注</text>
   </texts>
 </localizationDictionary>
 

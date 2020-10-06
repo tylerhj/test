@@ -1,0 +1,9 @@
+WARN  2020-10-06 15:36:18,334 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'CoachName' in localization source 'DiveCRM'!
+WARN  2020-10-06 15:36:18,337 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'Remark' in localization source 'DiveCRM'!
+WARN  2020-10-06 15:37:06,757 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'CoachName' in localization source 'DiveCRM'!
+WARN  2020-10-06 15:37:06,759 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'Remark' in localization source 'DiveCRM'!
+WARN  2020-10-06 16:13:31,314 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'CoachId' in localization source 'DiveCRM'!
+WARN  2020-10-06 16:13:48,593 [25   ] naries.DictionaryBasedLocalizationSource - Can not find 'CoachId' in localization source 'DiveCRM'!
+WARN  2020-10-06 16:13:57,695 [24   ] naries.DictionaryBasedLocalizationSource - Can not find 'CoachId' in localization source 'DiveCRM'!
+WARN  2020-10-06 16:15:10,088 [24   ] naries.DictionaryBasedLocalizationSource - Can not find 'CoachId' in localization source 'DiveCRM'!
+WARN  2020-10-06 16:15:39,133 [25   ] naries.DictionaryBasedLocalizationSource - Can not find 'CoachId' in localization source 'DiveCRM'!

@@ -12,7 +12,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-sm-6">
-                <h1>Customers</h1>
+                <h1>@L("Customers")</h1>
             </div>
             <div class="col-sm-6">
                 <a href="/CustomersOrder/Create" class="btn bg-blue float-sm-right">
@@ -129,7 +129,7 @@
                         @Html.DisplayFor(modelItem => courseValue)
                     </td>
                     <td>
-                        @Html.DisplayFor(modelItem => item.CoachName)
+                        @Html.DisplayFor(modelItem => item.Coach.Name)
                     </td>
                     <td>
                         @{

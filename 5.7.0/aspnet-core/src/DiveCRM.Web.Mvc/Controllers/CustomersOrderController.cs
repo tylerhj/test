@@ -39,7 +39,8 @@ namespace DiveCRM.Web.Controllers
             q.ForEach(x =>
             {
                 x.Customer = cs.Find(y => y.Id == x.CustomerId);
-                x.ResponsiblePerson= um.GetUserById(x.ResponsiblePersonId??0);
+                x.Coach= um.GetUserById(x.CoachId ?? 1);
+                x.ResponsiblePerson= um.GetUserById(x.ResponsiblePersonId??1);
             });
 
             return View(q);
@@ -61,7 +62,6 @@ namespace DiveCRM.Web.Controllers
             ViewData["CoachType"] = new SelectList(CoachType, "Id", "DValue");
             ViewData["CourseType"] = new SelectList(CourseType, "Id", "DValue");
             ViewData["State"] = new SelectList(State, "Id", "DValue");
-            ViewData["Customers"] = new SelectList(Customers, "Id", "Name");
             return View();
         }
 
@@ -76,6 +76,7 @@ namespace DiveCRM.Web.Controllers
                 {
                     Customer c = new Customer();
                     c.Name = entity.CustomerName;
+                    c.Mobile = entity.Mobile;
                     c.Uid = (long)AbpSession.UserId;
                     c.CreateTime = DateTime.Now;
                     cs.Add(c);
@@ -91,6 +92,7 @@ namespace DiveCRM.Web.Controllers
                 order.PoolType = entity.PoolType;
                 order.CourseType = entity.CourseType;
                 order.CoachType = entity.CoachType;
+                order.CoachId = entity.CoachId;
                 order.ResponsiblePersonId = entity.ResponsiblePersonId??AbpSession.UserId;
                 order.State = entity.State;
                 order.Location = curUser.Location;
@@ -111,7 +113,8 @@ namespace DiveCRM.Web.Controllers
         {
             var q = cos.Find(x=>x.Id==id);
             q.Customer = cs.Find(x => x.Id == q.CustomerId);
-            q.ResponsiblePerson = um.GetUserById(q.ResponsiblePersonId??0);
+            q.Coach=um.GetUserById(q.CoachId ?? 1);
+            q.ResponsiblePerson = um.GetUserById(q.ResponsiblePersonId??1);
             User curUser = um.FindByIdAsync(AbpSession.UserId.ToString()).Result;
             List<Dict> PoolType = ds.GetPoolType(curUser);
 
@@ -123,7 +126,6 @@ namespace DiveCRM.Web.Controllers
             ViewData["CoachType"] = new SelectList(CoachType, "Id", "DValue",q.CoachType);
             ViewData["CourseType"] = new SelectList(CourseType, "Id", "DValue",q.CourseType);
             ViewData["State"] = new SelectList(State, "Id", "DValue", q.State);
-            ViewData["Customers"] = new SelectList(Customers, "Id", "Name",q.CustomerId);
             
             return View(q);
         }
@@ -140,6 +142,7 @@ namespace DiveCRM.Web.Controllers
                 {
                     Customer c = new Customer();
                     c.Name = entity.CustomerName;
+                    c.Mobile = entity.Mobile;
                     c.Uid = (long)AbpSession.UserId;
                     c.CreateTime = DateTime.Now;
                     cs.Add(c);
