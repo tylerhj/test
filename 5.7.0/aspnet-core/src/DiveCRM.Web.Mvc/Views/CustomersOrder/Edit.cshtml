@@ -23,7 +23,7 @@
             <div class="form-group">
                 <label class="col-md-3 col-form-label">@L("Customers")</label>
                 <div>
-                    <input type="text" id="CustomerName" name="CustomerName" class="form-control" placeholder=@L("Customers")>
+                    <input type="text" id="CustomerName" name="CustomerName" class="form-control" placeholder=@L("Customers") value="@Model.Customer?.Name">
                     <input type="hidden" id="CustomerId" name="CustomerId" value="@Model.CustomerId" />
                 </div>
             </div>
@@ -59,14 +59,14 @@
             <div class="form-group">
                 <label class="col-md-3 col-form-label">@L("CoachName")</label>
                 <div>
-                    <input type="text" id="CoachName" name="CoachName" class="form-control" placeholder=@L("CoachName")>
+                    <input type="text" id="CoachName" name="CoachName" class="form-control" placeholder=@L("CoachName") value="@Model.Coach?.UserName">
                     <input type="hidden" id="CoachId" name="CoachId" value="@Model.CoachId" />
                 </div>
             </div>
             <div class="form-group">
                 <label class="col-md-3 col-form-label">@L("ResponsiblePerson")</label>
                 <div>
-                    <input type="text" id="ResponsiblePersonName" name="ResponsiblePersonName" class="form-control" placeholder=@L("ResponsiblePerson")>
+                    <input type="text" id="ResponsiblePersonName" name="ResponsiblePersonName" class="form-control" placeholder=@L("ResponsiblePerson") value="@Model.ResponsiblePerson?.UserName">
                     <input type="hidden" id="ResponsiblePersonId" name="ResponsiblePersonId" value="@Model.ResponsiblePersonId" />
                 </div>
             </div>
