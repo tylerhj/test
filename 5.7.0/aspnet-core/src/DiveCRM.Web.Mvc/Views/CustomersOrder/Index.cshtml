@@ -78,6 +78,7 @@
                     <th>
                         责任客服
                     </th>
+                    <th>备注</th>
                     <th>操作</th>
                 </tr>
             </thead>
@@ -146,6 +147,7 @@
                     <td>
                         @Html.DisplayFor(modelItem => item.ResponsiblePerson.UserName)
                     </td>
+                    <td>@Html.DisplayFor(modelItem => item.Remark)</td>
                     <td class="btn btn-sm bg-secondary edit-user">
                         <i class="fas fa-pencil-alt"></i>
                         @Html.ActionLink("编辑", "Edit", new { id = item.Id })

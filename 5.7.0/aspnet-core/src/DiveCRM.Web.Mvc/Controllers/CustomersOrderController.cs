@@ -150,6 +150,14 @@ namespace DiveCRM.Web.Controllers
                     entity.CustomerId = c.Id;
                     entity.ResponsiblePersonId = AbpSession.UserId;
                 }
+                else
+                {
+                    Customer c = cs.Find(x=>x.Id==entity.CustomerId);
+                    c.Name = entity.CustomerName ?? "";
+                    c.Mobile = entity.Mobile;
+                    cs.Update(c);
+
+                }
                 User curUser = um.FindByIdAsync(AbpSession.UserId.ToString()).Result;
                 var q = cos.Find(x => x.Id == entity.Id);
                 q.CustomerId = entity.CustomerId;
