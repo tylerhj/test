@@ -31,7 +31,8 @@ namespace DiveCRM.Web.Controllers
         {
             var State = ds.FindList(x => x.ParentId == (int)EnumList.State).ToList();
             ViewData["State"] =State;
-            ViewData["OrderTime"] = searchTime==null?"": ((DateTime)searchTime).ToString("yyyy-MM-dd");
+            searchTime = searchTime ?? DateTime.Now;
+            ViewData["OrderTime"] = ((DateTime)searchTime).ToString("yyyy-MM-dd");
             ViewData["PoolType"] = ds.GetPoolTypeAll();
             ViewData["CourseType"] = ds.FindList(x => x.ParentId == (int)EnumList.CourseType).ToList();
             User curUser = um.FindByIdAsync(AbpSession.UserId.ToString()).Result;

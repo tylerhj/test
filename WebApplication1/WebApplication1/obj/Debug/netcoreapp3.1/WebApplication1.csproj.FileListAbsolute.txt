@@ -111,3 +111,4 @@ E:\Project\WebApplication1\WebApplication1\obj\Debug\netcoreapp3.1\WebApplicatio
 E:\Project\WebApplication1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Customer\Details.cshtml.g.cs
 E:\Project\WebApplication1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Customer\Create.cshtml.g.cs
 E:\Project\WebApplication1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Customer\Index.cshtml.g.cs
+E:\Project\WebApplication1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Customer\Edit.cshtml.g.cs
