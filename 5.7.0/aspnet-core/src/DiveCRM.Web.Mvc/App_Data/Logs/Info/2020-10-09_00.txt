@@ -1,0 +1,2 @@
+INFO  2020-10-09 00:13:31,791 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2020-10-09 00:13:31,848 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 23600903.3504ms 101 
