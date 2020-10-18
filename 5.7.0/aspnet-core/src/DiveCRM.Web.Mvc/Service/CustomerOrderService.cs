@@ -26,7 +26,7 @@ namespace DiveCRM.Web.Service
             var q = FindPageList1(pageIndex, PageSizeWeb, out count
                 , x => (ParentID == 0 || x.Location== location) 
                         &&(string.IsNullOrEmpty(Keyword) || x.CustomerName.Contains(Keyword))
-                        && (searchTime==null || x.OrderTime.Date == searchTime)
+                        && (searchTime==null || x.OrderTime.Date >= searchTime)
                 , true, y => y.OrderTime
                 ); 
                 return q;
