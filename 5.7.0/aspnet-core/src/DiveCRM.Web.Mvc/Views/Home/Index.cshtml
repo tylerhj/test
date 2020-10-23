@@ -124,7 +124,7 @@
                                         </div>
                                     </div>
                                     <!-- Sales Chart Canvas -->
-                                    <canvas id="salesChart" height="360" style="height: 180px; display: block; width: 730px;" width="1460" class="chartjs-render-monitor"></canvas>
+                                    <canvas id="myChart" height="360" style="height: 180px; display: block; width: 730px;" width="1460" class="chartjs-render-monitor"></canvas>
                                 </div>
                                 <!-- /.chart-responsive -->
                             </div>
@@ -364,7 +364,7 @@
 </section>
 
 <script type="text/javascript">
-    var salesChartCanvas = $('#salesChart').get(0).getContext('2d');
+    var salesChartCanvas = $('#myChart').get(0).getContext('2d');
     // This will get the first returned node in the jQuery collection.
 
     var salesChartData = {
