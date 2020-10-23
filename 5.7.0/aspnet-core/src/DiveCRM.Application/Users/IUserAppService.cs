@@ -16,6 +16,7 @@ namespace DiveCRM.Users
 
         Task<bool> ChangePassword(ChangePasswordDto input);
 
+        IQueryable<User> FindAll();
         IQueryable<User> FindAllByName(PagedUserResultRequestDto input);
     }
 }

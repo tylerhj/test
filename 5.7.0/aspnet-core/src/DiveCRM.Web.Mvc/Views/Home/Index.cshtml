@@ -3,12 +3,12 @@
     ViewBag.Title = L("HomePage");
     ViewBag.CurrentPageName = PageNames.Home;
 }
+
+<script src="~/js/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.js"></script>
+
 @section scripts
 {
-    <environment names="Development">
-        <script src="~/libs/chartjs/dist/Chart.js" asp-append-version="true"></script>
-        <script src="~/view-resources/Views/Home/Index.js" asp-append-version="true"></script>
-    </environment>
 
     <environment names="Staging,Production">
         <script src="~/view-resources/Views/_Bundles/home-index.min.js" asp-append-version="true"></script>
@@ -31,10 +31,9 @@
                 <div class="info-box">
                     <span class="info-box-icon bg-info elevation-1"><i class="fas fa-cog"></i></span>
                     <div class="info-box-content">
-                        <span class="info-box-text">CPU Traffic</span>
+                        <span class="info-box-text">当月销量（@DateTime.Now.Month 月）</span>
                         <span class="info-box-number">
-                            10
-                            <small>%</small>
+                            @ViewData["CurrentSales"]
                         </span>
                     </div>
                     <!-- /.info-box-content -->
@@ -46,8 +45,8 @@
                 <div class="info-box mb-3">
                     <span class="info-box-icon bg-danger elevation-1"><i class="fas fa-thumbs-up"></i></span>
                     <div class="info-box-content">
-                        <span class="info-box-text">Likes</span>
-                        <span class="info-box-number">41,410</span>
+                        <span class="info-box-text">总销量</span>
+                        <span class="info-box-number">@ViewData["AllSales"]</span>
                     </div>
                     <!-- /.info-box-content -->
                 </div>
@@ -60,8 +59,8 @@
                 <div class="info-box mb-3">
                     <span class="info-box-icon bg-success elevation-1"><i class="fas fa-shopping-cart"></i></span>
                     <div class="info-box-content">
-                        <span class="info-box-text">Sales</span>
-                        <span class="info-box-number">760</span>
+                        <span class="info-box-text">客户总数</span>
+                        <span class="info-box-number">@ViewData["AllCustomer"]</span>
                     </div>
                     <!-- /.info-box-content -->
                 </div>
@@ -72,8 +71,8 @@
                 <div class="info-box mb-3">
                     <span class="info-box-icon bg-warning elevation-1"><i class="fas fa-users"></i></span>
                     <div class="info-box-content">
-                        <span class="info-box-text">New Members</span>
-                        <span class="info-box-number">2,000</span>
+                        <span class="info-box-text">销售总数</span>
+                        <span class="info-box-number">@ViewData["AllUser"]</span>
                     </div>
                     <!-- /.info-box-content -->
                 </div>
@@ -86,7 +85,7 @@
             <div class="col-md-12">
                 <div class="card">
                     <div class="card-header">
-                        <h5 class="card-title">Monthly Recap Report</h5>
+                        <h5 class="card-title">每月销量报表</h5>
                         <div class="card-tools">
                             <button type="button" class="btn btn-tool" data-card-widget="collapse">
                                 <i class="fas fa-minus"></i>
@@ -113,7 +112,7 @@
                         <div class="row">
                             <div class="col-md-8">
                                 <p class="text-center">
-                                    <strong>Sales: 1 Jan, 2014 - 30 Jul, 2014</strong>
+                                    <strong>@DateTime.Now.Year 01 - 12</strong>
                                 </p>
                                 <div class="chart">
                                     <div class="chartjs-size-monitor">
@@ -363,3 +362,24 @@
         <!-- /.row -->
     </div>
 </section>
+
+<script type="text/javascript">
+    var salesChartCanvas = $('#salesChart').get(0).getContext('2d');
+    // This will get the first returned node in the jQuery collection.
+
+    var salesChartData = {
+        labels: @ViewData["labels"],
+        datasets: [
+            {
+                label: '每月销售',
+                spanGaps: true,
+                data: @ViewData["data"]
+            }
+        ]
+    };
+
+    var salesChart = new Chart(salesChartCanvas, {
+        type: 'bar',
+        data: salesChartData
+    });
+</script>

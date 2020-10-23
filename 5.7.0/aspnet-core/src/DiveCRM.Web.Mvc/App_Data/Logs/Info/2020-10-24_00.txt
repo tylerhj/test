@@ -1,0 +1,1098 @@
+INFO  2020-10-24 00:00:43,222 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2020-10-24 00:00:43,246 [6    ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-10-24 00:00:43,249 [6    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc)'
+INFO  2020-10-24 00:00:43,252 [6    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller DiveCRM.Web.Controllers.HomeController (DiveCRM.Web.Mvc).
+INFO  2020-10-24 00:00:43,463 [33   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2020-10-24 00:00:43,496 [6    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 201.1507ms.
+INFO  2020-10-24 00:00:43,499 [6    ] c.Infrastructure.ControllerActionInvoker - Executed action DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc) in 244.0527ms
+INFO  2020-10-24 00:00:43,502 [6    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc)'
+INFO  2020-10-24 00:00:43,505 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 284.3329ms 200 text/html; charset=utf-8
+INFO  2020-10-24 00:00:43,517 [6    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2020-10-24 00:00:43,521 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 108325.2717ms 101 
+INFO  2020-10-24 00:00:43,580 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637390929306718301  
+INFO  2020-10-24 00:00:43,583 [31   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637390929306718301  
+INFO  2020-10-24 00:00:43,592 [31   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-10-24 00:00:43,593 [6    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-10-24 00:00:43,597 [31   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-10-24 00:00:43,599 [6    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-10-24 00:00:43,604 [6    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-10-24 00:00:43,618 [6    ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 5.1196ms
+INFO  2020-10-24 00:00:43,621 [6    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-10-24 00:00:43,622 [31   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-10-24 00:00:43,624 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 45.1465ms 200 application/x-javascript
+INFO  2020-10-24 00:00:43,631 [31   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 26.0547ms
+INFO  2020-10-24 00:00:43,633 [31   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-10-24 00:00:43,636 [31   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 55.5131ms 200 application/x-javascript; charset=utf-8
+INFO  2020-10-24 00:00:43,948 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-10-24 00:00:43,980 [6    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-10-24 00:00:43,982 [49   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/img/favicon.ico  
+INFO  2020-10-24 00:00:43,988 [6    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-10-24 00:00:43,997 [49   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/img/favicon.ico'. Physical path: 'E:\Project\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\img\favicon.ico'
+INFO  2020-10-24 00:00:43,998 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 100.4862ms 200 application/json
+INFO  2020-10-24 00:00:44,001 [31   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=dphuve0K6MzHUTBOKMKFfQ  
+INFO  2020-10-24 00:00:44,020 [49   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 21.752ms 200 image/x-icon
+INFO  2020-10-24 00:00:44,021 [31   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2020-10-24 00:00:56,920 [53   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2020-10-24 00:00:56,930 [53   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-10-24 00:00:56,932 [53   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc)'
+INFO  2020-10-24 00:00:56,936 [53   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller DiveCRM.Web.Controllers.HomeController (DiveCRM.Web.Mvc).
+INFO  2020-10-24 00:00:57,274 [6    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2020-10-24 00:00:57,310 [53   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 341.14ms.
+INFO  2020-10-24 00:00:57,319 [53   ] c.Infrastructure.ControllerActionInvoker - Executed action DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc) in 379.7787ms
+INFO  2020-10-24 00:00:57,324 [53   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc)'
+INFO  2020-10-24 00:00:57,336 [53   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 410.2472ms 200 text/html; charset=utf-8
+INFO  2020-10-24 00:00:57,340 [31   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2020-10-24 00:00:57,381 [31   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 13357.2338ms 101 
+INFO  2020-10-24 00:00:57,401 [31   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637390929306718301  
+INFO  2020-10-24 00:00:57,415 [53   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637390929306718301  
+INFO  2020-10-24 00:00:57,421 [31   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-10-24 00:00:57,426 [31   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-10-24 00:00:57,430 [53   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-10-24 00:00:57,433 [31   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-10-24 00:00:57,436 [53   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-10-24 00:00:57,450 [31   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 9.1019ms
+INFO  2020-10-24 00:00:57,452 [53   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-10-24 00:00:57,460 [31   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-10-24 00:00:57,465 [53   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 19.2447ms
+INFO  2020-10-24 00:00:57,465 [31   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 71.045ms 200 application/x-javascript
+INFO  2020-10-24 00:00:57,469 [53   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-10-24 00:00:57,473 [53   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 73.3451ms 200 application/x-javascript; charset=utf-8
+INFO  2020-10-24 00:00:57,663 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-10-24 00:00:57,671 [6    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-10-24 00:00:57,681 [6    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-10-24 00:00:57,704 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 22.6045ms 200 application/json
+INFO  2020-10-24 00:00:57,709 [33   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=Ne8uQAoF1_IPQfnPOalfeQ  
+INFO  2020-10-24 00:00:57,712 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/img/favicon.ico  
+INFO  2020-10-24 00:00:57,719 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/img/favicon.ico'. Physical path: 'E:\Project\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\img\favicon.ico'
+INFO  2020-10-24 00:00:57,721 [33   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2020-10-24 00:00:57,725 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 12.5496ms 200 image/x-icon
+INFO  2020-10-24 00:01:26,651 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,zh-Hans,ja
+INFO  2020-10-24 00:01:27,128 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2020-10-24 00:01:27,205 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2020-10-24 00:01:30,690 [4    ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-10-24 00:01:30,693 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc)'
+INFO  2020-10-24 00:01:30,951 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller DiveCRM.Web.Controllers.HomeController (DiveCRM.Web.Mvc).
+INFO  2020-10-24 00:01:32,220 [10   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2020-10-24 00:01:33,732 [12   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 1540.511ms.
+INFO  2020-10-24 00:01:33,741 [12   ] c.Infrastructure.ControllerActionInvoker - Executed action DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc) in 2787.3583ms
+INFO  2020-10-24 00:01:33,757 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc)'
+INFO  2020-10-24 00:01:33,789 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 6584.2944ms 200 text/html; charset=utf-8
+INFO  2020-10-24 00:01:33,946 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637390944839640311  
+INFO  2020-10-24 00:01:33,952 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637390944839640311  
+INFO  2020-10-24 00:01:33,969 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-10-24 00:01:33,975 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-10-24 00:01:33,995 [11   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-10-24 00:01:33,996 [10   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-10-24 00:01:34,116 [10   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-10-24 00:01:34,120 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-10-24 00:01:34,131 [10   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 121.4495ms
+INFO  2020-10-24 00:01:34,145 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-10-24 00:01:34,148 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-10-24 00:01:34,152 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 206.5369ms 200 application/x-javascript
+INFO  2020-10-24 00:01:34,166 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-10-24 00:01:34,173 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 51.3063ms 200 application/json
+INFO  2020-10-24 00:01:34,177 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=l3-j8Ye5kwlBOCmyFzxZPg  
+INFO  2020-10-24 00:01:34,179 [13   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-10-24 00:01:34,184 [13   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 183.6662ms
+INFO  2020-10-24 00:01:34,189 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-10-24 00:01:34,192 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 242.7152ms 200 application/x-javascript; charset=utf-8
+INFO  2020-10-24 00:01:34,196 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2020-10-24 00:01:59,756 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2020-10-24 00:01:59,766 [11   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-10-24 00:01:59,776 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc)'
+INFO  2020-10-24 00:01:59,779 [11   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller DiveCRM.Web.Controllers.HomeController (DiveCRM.Web.Mvc).
+INFO  2020-10-24 00:01:59,831 [12   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2020-10-24 00:01:59,873 [12   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 42.0956ms.
+INFO  2020-10-24 00:01:59,879 [12   ] c.Infrastructure.ControllerActionInvoker - Executed action DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc) in 92.8849ms
+INFO  2020-10-24 00:01:59,888 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc)'
+INFO  2020-10-24 00:01:59,930 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 162.2737ms 200 text/html; charset=utf-8
+INFO  2020-10-24 00:01:59,978 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2020-10-24 00:01:59,982 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 25803.9329ms 101 
+INFO  2020-10-24 00:02:00,082 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637390944839640311  
+INFO  2020-10-24 00:02:00,106 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-10-24 00:02:00,121 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637390944839640311  
+INFO  2020-10-24 00:02:00,129 [11   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-10-24 00:02:00,131 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-10-24 00:02:00,135 [12   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-10-24 00:02:00,139 [11   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-10-24 00:02:00,149 [11   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 11.2217ms
+INFO  2020-10-24 00:02:00,154 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-10-24 00:02:00,163 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 75.4751ms 200 application/x-javascript
+INFO  2020-10-24 00:02:00,163 [12   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-10-24 00:02:00,171 [12   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 29.7945ms
+INFO  2020-10-24 00:02:00,175 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-10-24 00:02:00,179 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 72.0781ms 200 application/x-javascript; charset=utf-8
+INFO  2020-10-24 00:02:00,200 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-10-24 00:02:00,213 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-10-24 00:02:00,240 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-10-24 00:02:00,245 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 42.3419ms 200 application/json
+INFO  2020-10-24 00:02:00,262 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=O5sFZG8xMWtYUBkTLkaN3g  
+INFO  2020-10-24 00:02:00,272 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2020-10-24 00:02:55,103 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,zh-Hans,ja
+INFO  2020-10-24 00:02:55,601 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2020-10-24 00:02:55,674 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2020-10-24 00:02:59,234 [4    ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-10-24 00:02:59,237 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc)'
+INFO  2020-10-24 00:02:59,494 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller DiveCRM.Web.Controllers.HomeController (DiveCRM.Web.Mvc).
+INFO  2020-10-24 00:03:00,629 [10   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2020-10-24 00:03:02,128 [7    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 1523.047ms.
+INFO  2020-10-24 00:03:02,146 [7    ] c.Infrastructure.ControllerActionInvoker - Executed action DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc) in 2641.0331ms
+INFO  2020-10-24 00:03:02,164 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc)'
+INFO  2020-10-24 00:03:02,179 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 6507.3258ms 200 text/html; charset=utf-8
+INFO  2020-10-24 00:03:02,313 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637390945724871291  
+INFO  2020-10-24 00:03:02,314 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637390945724871291  
+INFO  2020-10-24 00:03:02,329 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-10-24 00:03:02,330 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-10-24 00:03:02,360 [7    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-10-24 00:03:02,362 [11   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-10-24 00:03:02,468 [11   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-10-24 00:03:02,480 [11   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 107.5248ms
+INFO  2020-10-24 00:03:02,482 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-10-24 00:03:02,488 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 175.3121ms 200 application/x-javascript
+INFO  2020-10-24 00:03:02,496 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-10-24 00:03:02,504 [12   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-10-24 00:03:02,507 [12   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 144.0457ms
+INFO  2020-10-24 00:03:02,510 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-10-24 00:03:02,512 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-10-24 00:03:02,514 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 201.7569ms 200 application/x-javascript; charset=utf-8
+INFO  2020-10-24 00:03:02,525 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-10-24 00:03:02,528 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 31.7164ms 200 application/json
+INFO  2020-10-24 00:03:02,559 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=NylRVwPnIFLZHJcntAziSg  
+INFO  2020-10-24 00:03:02,569 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2020-10-24 00:03:07,138 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2020-10-24 00:03:07,158 [7    ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-10-24 00:03:07,162 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc)'
+INFO  2020-10-24 00:03:07,167 [7    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller DiveCRM.Web.Controllers.HomeController (DiveCRM.Web.Mvc).
+INFO  2020-10-24 00:03:07,212 [10   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2020-10-24 00:03:07,250 [11   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 36.8839ms.
+INFO  2020-10-24 00:03:07,254 [11   ] c.Infrastructure.ControllerActionInvoker - Executed action DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc) in 82.6376ms
+INFO  2020-10-24 00:03:07,259 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc)'
+INFO  2020-10-24 00:03:07,269 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 128.102ms 200 text/html; charset=utf-8
+INFO  2020-10-24 00:03:07,304 [20   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2020-10-24 00:03:07,308 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4753.0519ms 101 
+INFO  2020-10-24 00:03:07,450 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637390945724871291  
+INFO  2020-10-24 00:03:07,476 [20   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-10-24 00:03:07,481 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637390945724871291  
+INFO  2020-10-24 00:03:07,486 [20   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-10-24 00:03:07,493 [20   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-10-24 00:03:07,502 [20   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 8.3299ms
+INFO  2020-10-24 00:03:07,504 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-10-24 00:03:07,509 [20   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-10-24 00:03:07,515 [10   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-10-24 00:03:07,525 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 79.0514ms 200 application/x-javascript
+INFO  2020-10-24 00:03:07,548 [10   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-10-24 00:03:07,559 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-10-24 00:03:07,577 [10   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 42.3589ms
+INFO  2020-10-24 00:03:07,579 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-10-24 00:03:07,581 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-10-24 00:03:07,589 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-10-24 00:03:07,593 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 114.7255ms 200 application/x-javascript; charset=utf-8
+INFO  2020-10-24 00:03:07,596 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 44.419ms 200 application/json
+INFO  2020-10-24 00:03:07,600 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=grwbQ90XBSQfkr8-dhFNOw  
+INFO  2020-10-24 00:03:07,675 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2020-10-24 00:04:26,943 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,zh-Hans,ja
+INFO  2020-10-24 00:04:27,452 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2020-10-24 00:04:27,525 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2020-10-24 00:04:30,903 [12   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-10-24 00:04:30,905 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc)'
+INFO  2020-10-24 00:04:31,151 [12   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller DiveCRM.Web.Controllers.HomeController (DiveCRM.Web.Mvc).
+INFO  2020-10-24 00:04:32,243 [9    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2020-10-24 00:04:33,716 [10   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 1492.2911ms.
+INFO  2020-10-24 00:04:33,726 [10   ] c.Infrastructure.ControllerActionInvoker - Executed action DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc) in 2571.9779ms
+INFO  2020-10-24 00:04:33,741 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc)'
+INFO  2020-10-24 00:04:33,770 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 6243.7874ms 200 text/html; charset=utf-8
+INFO  2020-10-24 00:04:33,975 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637390946641502828  
+INFO  2020-10-24 00:04:33,978 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637390946641502828  
+INFO  2020-10-24 00:04:34,005 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-10-24 00:04:34,010 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-10-24 00:04:34,043 [12   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-10-24 00:04:34,056 [11   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-10-24 00:04:34,374 [11   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-10-24 00:04:34,395 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-10-24 00:04:34,406 [11   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 320.6456ms
+INFO  2020-10-24 00:04:34,417 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-10-24 00:04:34,423 [9    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-10-24 00:04:34,423 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-10-24 00:04:34,426 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 477.946ms 200 application/x-javascript
+INFO  2020-10-24 00:04:34,442 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 390.7038ms
+INFO  2020-10-24 00:04:34,446 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-10-24 00:04:34,454 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 507.78ms 200 application/x-javascript; charset=utf-8
+INFO  2020-10-24 00:04:34,465 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-10-24 00:04:34,471 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 218.3039ms 200 application/json
+INFO  2020-10-24 00:04:34,498 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=dHepcZLvtC6OtqfkgNOwOg  
+INFO  2020-10-24 00:04:34,509 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2020-10-24 00:04:35,933 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2020-10-24 00:04:35,949 [10   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-10-24 00:04:35,952 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc)'
+INFO  2020-10-24 00:04:35,958 [10   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller DiveCRM.Web.Controllers.HomeController (DiveCRM.Web.Mvc).
+INFO  2020-10-24 00:04:36,005 [12   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2020-10-24 00:04:36,038 [10   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 33.5299ms.
+INFO  2020-10-24 00:04:36,041 [10   ] c.Infrastructure.ControllerActionInvoker - Executed action DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc) in 79.832ms
+INFO  2020-10-24 00:04:36,045 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc)'
+INFO  2020-10-24 00:04:36,056 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 121.1688ms 200 text/html; charset=utf-8
+INFO  2020-10-24 00:04:36,098 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2020-10-24 00:04:36,101 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1604.433ms 101 
+INFO  2020-10-24 00:04:36,249 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637390946641502828  
+INFO  2020-10-24 00:04:36,256 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637390946641502828  
+INFO  2020-10-24 00:04:36,265 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-10-24 00:04:36,271 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-10-24 00:04:36,276 [10   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-10-24 00:04:36,281 [9    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-10-24 00:04:36,288 [10   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-10-24 00:04:36,296 [10   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 10.026ms
+INFO  2020-10-24 00:04:36,300 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-10-24 00:04:36,305 [9    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-10-24 00:04:36,307 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 61.5857ms 200 application/x-javascript
+INFO  2020-10-24 00:04:36,311 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 25.8074ms
+INFO  2020-10-24 00:04:36,320 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-10-24 00:04:36,324 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 77.4525ms 200 application/x-javascript; charset=utf-8
+INFO  2020-10-24 00:04:36,360 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-10-24 00:04:36,461 [19   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-10-24 00:04:36,472 [19   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-10-24 00:04:36,477 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 115.6101ms 200 application/json
+INFO  2020-10-24 00:04:36,490 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=r2tXSTnXbkOD2RcKhaywWg  
+INFO  2020-10-24 00:04:36,503 [19   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2020-10-24 00:08:14,197 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,zh-Hans,ja
+INFO  2020-10-24 00:08:14,660 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2020-10-24 00:08:14,727 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2020-10-24 00:08:18,340 [10   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-10-24 00:08:18,343 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc)'
+INFO  2020-10-24 00:08:18,589 [10   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller DiveCRM.Web.Controllers.HomeController (DiveCRM.Web.Mvc).
+INFO  2020-10-24 00:09:27,657 [7    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2020-10-24 00:09:29,073 [4    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 1438.9721ms.
+INFO  2020-10-24 00:09:29,114 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc) in 70508.5623ms
+INFO  2020-10-24 00:09:29,128 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc)'
+INFO  2020-10-24 00:09:29,144 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 74418.2968ms 200 text/html; charset=utf-8
+INFO  2020-10-24 00:09:29,369 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637390948916168717  
+INFO  2020-10-24 00:09:29,372 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637390948916168717  
+INFO  2020-10-24 00:09:29,393 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-10-24 00:09:29,394 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-10-24 00:09:29,415 [10   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-10-24 00:09:29,419 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-10-24 00:09:29,571 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-10-24 00:09:29,571 [4    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-10-24 00:09:29,577 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 153.1836ms
+INFO  2020-10-24 00:09:29,581 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-10-24 00:09:29,583 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 215.4484ms 200 application/x-javascript
+INFO  2020-10-24 00:09:29,589 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-10-24 00:09:29,603 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-10-24 00:09:29,607 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 42.9106ms 200 application/json
+INFO  2020-10-24 00:09:29,609 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=fL_j8JkpJOd1YwRKAVi_lQ  
+INFO  2020-10-24 00:09:29,614 [20   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-10-24 00:09:29,616 [20   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 188.6222ms
+INFO  2020-10-24 00:09:29,621 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2020-10-24 00:09:29,622 [20   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-10-24 00:09:29,624 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 252.9715ms 200 application/x-javascript; charset=utf-8
+INFO  2020-10-24 00:11:09,076 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2020-10-24 00:11:09,110 [4    ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-10-24 00:11:09,118 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc)'
+INFO  2020-10-24 00:11:09,123 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller DiveCRM.Web.Controllers.HomeController (DiveCRM.Web.Mvc).
+INFO  2020-10-24 00:11:13,420 [27   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2020-10-24 00:11:13,471 [27   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 4293.1023ms.
+INFO  2020-10-24 00:11:13,477 [27   ] c.Infrastructure.ControllerActionInvoker - Executed action DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc) in 4348.3291ms
+INFO  2020-10-24 00:11:13,550 [27   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc)'
+INFO  2020-10-24 00:11:13,555 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637390948916168717  
+INFO  2020-10-24 00:11:13,559 [27   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4476.4831ms 200 text/html; charset=utf-8
+INFO  2020-10-24 00:11:13,560 [32   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637390948916168717  
+INFO  2020-10-24 00:11:13,569 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-10-24 00:11:13,576 [32   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-10-24 00:11:13,581 [32   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-10-24 00:11:13,585 [10   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-10-24 00:11:13,595 [27   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2020-10-24 00:11:13,597 [32   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-10-24 00:11:13,599 [27   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 103987.3833ms 101 
+INFO  2020-10-24 00:11:13,603 [32   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 16.5794ms
+INFO  2020-10-24 00:11:13,607 [32   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-10-24 00:11:13,611 [10   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-10-24 00:11:13,611 [32   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 69.0593ms 200 application/x-javascript
+INFO  2020-10-24 00:11:13,618 [10   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 26.8219ms
+INFO  2020-10-24 00:11:13,621 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-10-24 00:11:13,623 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 82.653ms 200 application/x-javascript; charset=utf-8
+INFO  2020-10-24 00:11:13,670 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-10-24 00:11:13,676 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-10-24 00:11:13,688 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-10-24 00:11:13,690 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 21.021ms 200 application/json
+INFO  2020-10-24 00:11:13,724 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=cD_Xc8cccMNXsWbB1HAAFg  
+INFO  2020-10-24 00:11:13,737 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/img/favicon.ico  
+INFO  2020-10-24 00:11:13,739 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2020-10-24 00:11:13,758 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/img/favicon.ico'. Physical path: 'E:\Project\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\img\favicon.ico'
+INFO  2020-10-24 00:11:13,759 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 23.9401ms 200 image/x-icon
+INFO  2020-10-24 00:11:37,075 [21   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2020-10-24 00:11:37,094 [21   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-10-24 00:11:37,101 [21   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc)'
+INFO  2020-10-24 00:11:37,104 [21   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller DiveCRM.Web.Controllers.HomeController (DiveCRM.Web.Mvc).
+INFO  2020-10-24 00:11:37,437 [14   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2020-10-24 00:11:37,492 [21   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 343.8297ms.
+INFO  2020-10-24 00:11:37,507 [21   ] c.Infrastructure.ControllerActionInvoker - Executed action DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc) in 389.0481ms
+INFO  2020-10-24 00:11:37,512 [21   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc)'
+INFO  2020-10-24 00:11:37,544 [21   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 481.3593ms 200 text/html; charset=utf-8
+INFO  2020-10-24 00:11:37,552 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2020-10-24 00:11:37,556 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 23835.5974ms 101 
+INFO  2020-10-24 00:11:37,614 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637390948916168717  
+INFO  2020-10-24 00:11:37,621 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637390948916168717  
+INFO  2020-10-24 00:11:37,624 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-10-24 00:11:37,630 [14   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-10-24 00:11:37,639 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-10-24 00:11:37,639 [14   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-10-24 00:11:37,644 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-10-24 00:11:37,650 [14   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 11.9498ms
+INFO  2020-10-24 00:11:37,659 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-10-24 00:11:37,667 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 48.0206ms 200 application/x-javascript
+INFO  2020-10-24 00:11:37,687 [4    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-10-24 00:11:37,697 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 37.3666ms
+INFO  2020-10-24 00:11:37,705 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-10-24 00:11:37,711 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 93.6393ms 200 application/x-javascript; charset=utf-8
+INFO  2020-10-24 00:11:37,716 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-10-24 00:11:37,723 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-10-24 00:11:37,726 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-10-24 00:11:37,729 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 13.3534ms 200 application/json
+INFO  2020-10-24 00:11:37,758 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=puFaGAkQqcE4z8HOo70sFg  
+INFO  2020-10-24 00:11:37,767 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2020-10-24 00:11:37,770 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/img/favicon.ico  
+INFO  2020-10-24 00:11:37,776 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/img/favicon.ico'. Physical path: 'E:\Project\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\img\favicon.ico'
+INFO  2020-10-24 00:11:37,780 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 8.6369ms 200 image/x-icon
+INFO  2020-10-24 00:12:12,298 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2020-10-24 00:12:12,315 [20   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-10-24 00:12:12,320 [20   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc)'
+INFO  2020-10-24 00:12:12,325 [20   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller DiveCRM.Web.Controllers.HomeController (DiveCRM.Web.Mvc).
+INFO  2020-10-24 00:12:12,750 [16   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2020-10-24 00:12:12,798 [20   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 368.3202ms.
+INFO  2020-10-24 00:12:12,806 [20   ] c.Infrastructure.ControllerActionInvoker - Executed action DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc) in 474.3787ms
+INFO  2020-10-24 00:12:12,808 [21   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2020-10-24 00:12:12,834 [20   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc)'
+INFO  2020-10-24 00:12:12,836 [21   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 35056.8567ms 101 
+INFO  2020-10-24 00:12:12,837 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 538.1785ms 200 text/html; charset=utf-8
+INFO  2020-10-24 00:12:12,850 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637390948916168717  
+INFO  2020-10-24 00:12:12,851 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637390948916168717  
+INFO  2020-10-24 00:12:12,857 [16   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-10-24 00:12:12,858 [20   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-10-24 00:12:12,862 [16   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-10-24 00:12:12,863 [20   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-10-24 00:12:12,867 [20   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-10-24 00:12:12,871 [20   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 4.7562ms
+INFO  2020-10-24 00:12:12,874 [20   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-10-24 00:12:12,877 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 27.8015ms 200 application/x-javascript
+INFO  2020-10-24 00:12:12,880 [16   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-10-24 00:12:12,883 [16   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 18.1154ms
+INFO  2020-10-24 00:12:12,885 [16   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-10-24 00:12:12,888 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 39.1656ms 200 application/x-javascript; charset=utf-8
+INFO  2020-10-24 00:12:12,956 [21   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-10-24 00:12:12,971 [21   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-10-24 00:12:12,975 [21   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-10-24 00:12:12,979 [21   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 21.012ms 200 application/json
+INFO  2020-10-24 00:12:13,004 [21   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=owIILMreMZyH53DEkgqjUQ  
+INFO  2020-10-24 00:12:13,006 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/img/favicon.ico  
+INFO  2020-10-24 00:12:13,010 [20   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/img/favicon.ico'. Physical path: 'E:\Project\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\img\favicon.ico'
+INFO  2020-10-24 00:12:13,013 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 7.835ms 200 image/x-icon
+INFO  2020-10-24 00:12:13,015 [21   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2020-10-24 00:13:43,326 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2020-10-24 00:13:43,340 [20   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-10-24 00:13:43,345 [20   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc)'
+INFO  2020-10-24 00:13:43,348 [20   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller DiveCRM.Web.Controllers.HomeController (DiveCRM.Web.Mvc).
+INFO  2020-10-24 00:13:43,768 [16   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2020-10-24 00:13:43,806 [12   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 417.9494ms.
+INFO  2020-10-24 00:13:43,808 [12   ] c.Infrastructure.ControllerActionInvoker - Executed action DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc) in 457.3906ms
+INFO  2020-10-24 00:13:43,811 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc)'
+INFO  2020-10-24 00:13:43,816 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 488.5615ms 200 text/html; charset=utf-8
+INFO  2020-10-24 00:13:43,836 [16   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2020-10-24 00:13:43,844 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 90834.675ms 101 
+INFO  2020-10-24 00:13:43,860 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637390948916168717  
+INFO  2020-10-24 00:13:43,865 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637390948916168717  
+INFO  2020-10-24 00:13:43,870 [16   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-10-24 00:13:43,872 [20   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-10-24 00:13:43,875 [16   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-10-24 00:13:43,877 [20   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-10-24 00:13:43,880 [16   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-10-24 00:13:43,904 [16   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 4.7203ms
+INFO  2020-10-24 00:13:43,909 [16   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-10-24 00:13:43,912 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 52.9286ms 200 application/x-javascript
+INFO  2020-10-24 00:13:43,917 [20   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-10-24 00:13:43,921 [20   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 40.1311ms
+INFO  2020-10-24 00:13:43,923 [20   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-10-24 00:13:43,926 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 64.4913ms 200 application/x-javascript; charset=utf-8
+INFO  2020-10-24 00:13:44,102 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-10-24 00:13:44,110 [20   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-10-24 00:13:44,116 [20   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-10-24 00:13:44,125 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 21.1782ms 200 application/json
+INFO  2020-10-24 00:13:44,131 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=piGBRBSx8oiPM5Ax_pkZrQ  
+INFO  2020-10-24 00:13:44,141 [20   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2020-10-24 00:13:44,170 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/img/favicon.ico  
+INFO  2020-10-24 00:13:44,180 [5    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/img/favicon.ico'. Physical path: 'E:\Project\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\img\favicon.ico'
+INFO  2020-10-24 00:13:44,185 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 14.1036ms 200 image/x-icon
+INFO  2020-10-24 00:14:48,882 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2020-10-24 00:14:48,891 [20   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-10-24 00:14:48,893 [20   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc)'
+INFO  2020-10-24 00:14:48,906 [20   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller DiveCRM.Web.Controllers.HomeController (DiveCRM.Web.Mvc).
+INFO  2020-10-24 00:14:49,243 [9    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2020-10-24 00:14:49,279 [16   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 335.6935ms.
+INFO  2020-10-24 00:14:49,282 [16   ] c.Infrastructure.ControllerActionInvoker - Executed action DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc) in 373.7ms
+INFO  2020-10-24 00:14:49,285 [16   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc)'
+INFO  2020-10-24 00:14:49,289 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 431.7144ms 200 text/html; charset=utf-8
+INFO  2020-10-24 00:14:49,358 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2020-10-24 00:14:49,362 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 65231.2744ms 101 
+INFO  2020-10-24 00:14:49,363 [23   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637390948916168717  
+INFO  2020-10-24 00:14:49,365 [31   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637390948916168717  
+INFO  2020-10-24 00:14:49,371 [23   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-10-24 00:14:49,373 [31   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-10-24 00:14:49,374 [23   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-10-24 00:14:49,378 [31   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-10-24 00:14:49,384 [31   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-10-24 00:14:49,390 [31   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 5.704ms
+INFO  2020-10-24 00:14:49,394 [31   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-10-24 00:14:49,396 [23   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-10-24 00:14:49,399 [31   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 36.4422ms 200 application/x-javascript
+INFO  2020-10-24 00:14:49,400 [23   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 22.3485ms
+INFO  2020-10-24 00:14:49,403 [23   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-10-24 00:14:49,405 [23   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 43.3013ms 200 application/x-javascript; charset=utf-8
+INFO  2020-10-24 00:14:49,477 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-10-24 00:14:49,484 [20   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-10-24 00:14:49,487 [20   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-10-24 00:14:49,490 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 12.1778ms 200 application/json
+INFO  2020-10-24 00:14:49,523 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=PeJLUcLtKEkCFdAOKqWAcA  
+INFO  2020-10-24 00:14:49,533 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/img/favicon.ico  
+INFO  2020-10-24 00:14:49,535 [16   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2020-10-24 00:14:49,542 [20   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/img/favicon.ico'. Physical path: 'E:\Project\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\img\favicon.ico'
+INFO  2020-10-24 00:14:49,551 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 13.0663ms 200 image/x-icon
+INFO  2020-10-24 00:15:41,356 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2020-10-24 00:15:41,366 [20   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-10-24 00:15:41,370 [20   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc)'
+INFO  2020-10-24 00:15:41,376 [20   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller DiveCRM.Web.Controllers.HomeController (DiveCRM.Web.Mvc).
+INFO  2020-10-24 00:15:41,857 [9    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2020-10-24 00:15:41,894 [31   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 425.433ms.
+INFO  2020-10-24 00:15:41,896 [31   ] c.Infrastructure.ControllerActionInvoker - Executed action DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc) in 517.6162ms
+INFO  2020-10-24 00:15:41,899 [31   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc)'
+INFO  2020-10-24 00:15:41,906 [31   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 546.1573ms 200 text/html; charset=utf-8
+INFO  2020-10-24 00:15:41,911 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2020-10-24 00:15:41,914 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 52393.1238ms 101 
+INFO  2020-10-24 00:15:41,944 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637390948916168717  
+INFO  2020-10-24 00:15:41,946 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637390948916168717  
+INFO  2020-10-24 00:15:41,954 [20   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-10-24 00:15:41,956 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-10-24 00:15:41,960 [9    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-10-24 00:15:41,960 [20   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-10-24 00:15:41,964 [20   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-10-24 00:15:41,967 [20   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 4.1163ms
+INFO  2020-10-24 00:15:41,972 [20   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-10-24 00:15:41,977 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 30.4492ms 200 application/x-javascript
+INFO  2020-10-24 00:15:41,980 [9    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-10-24 00:15:41,983 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 20.5062ms
+INFO  2020-10-24 00:15:41,987 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-10-24 00:15:41,989 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 44.7978ms 200 application/x-javascript; charset=utf-8
+INFO  2020-10-24 00:15:42,075 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-10-24 00:15:42,083 [20   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-10-24 00:15:42,086 [20   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-10-24 00:15:42,090 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 13.4836ms 200 application/json
+INFO  2020-10-24 00:15:42,116 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=7lOxGJ_7duWYFSeUXeFOGQ  
+INFO  2020-10-24 00:15:42,127 [20   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2020-10-24 00:15:42,129 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/img/favicon.ico  
+INFO  2020-10-24 00:15:42,138 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/img/favicon.ico'. Physical path: 'E:\Project\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\img\favicon.ico'
+INFO  2020-10-24 00:15:42,142 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 13.7748ms 200 image/x-icon
+INFO  2020-10-24 00:18:17,921 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2020-10-24 00:18:17,933 [18   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-10-24 00:18:17,937 [18   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc)'
+INFO  2020-10-24 00:18:17,941 [18   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller DiveCRM.Web.Controllers.HomeController (DiveCRM.Web.Mvc).
+INFO  2020-10-24 00:18:18,181 [5    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2020-10-24 00:18:18,219 [18   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 225.5504ms.
+INFO  2020-10-24 00:18:18,223 [18   ] c.Infrastructure.ControllerActionInvoker - Executed action DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc) in 278.4765ms
+INFO  2020-10-24 00:18:18,226 [18   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc)'
+INFO  2020-10-24 00:18:18,231 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 308.9764ms 200 text/html; charset=utf-8
+INFO  2020-10-24 00:18:18,236 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2020-10-24 00:18:18,239 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 156124.7768ms 101 
+INFO  2020-10-24 00:18:18,274 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637390948916168717  
+INFO  2020-10-24 00:18:18,275 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637390948916168717  
+INFO  2020-10-24 00:18:18,283 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-10-24 00:18:18,283 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-10-24 00:18:18,288 [7    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-10-24 00:18:18,288 [5    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-10-24 00:18:18,293 [5    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-10-24 00:18:18,299 [5    ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 5.3778ms
+INFO  2020-10-24 00:18:18,305 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-10-24 00:18:18,306 [7    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-10-24 00:18:18,309 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 36.4323ms 200 application/x-javascript
+INFO  2020-10-24 00:18:18,314 [7    ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 19.8897ms
+INFO  2020-10-24 00:18:18,321 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-10-24 00:18:18,327 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 51.238ms 200 application/x-javascript; charset=utf-8
+INFO  2020-10-24 00:18:18,407 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-10-24 00:18:18,414 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-10-24 00:18:18,417 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-10-24 00:18:18,419 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 12.2157ms 200 application/json
+INFO  2020-10-24 00:18:18,448 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=M98V5QaiMT1iBBiIzk4ogQ  
+INFO  2020-10-24 00:18:18,455 [18   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2020-10-24 00:18:18,457 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/img/favicon.ico  
+INFO  2020-10-24 00:18:18,463 [5    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/img/favicon.ico'. Physical path: 'E:\Project\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\img\favicon.ico'
+INFO  2020-10-24 00:18:18,466 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 9.0545ms 200 image/x-icon
+INFO  2020-10-24 00:18:28,967 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2020-10-24 00:18:28,974 [18   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-10-24 00:18:28,978 [18   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc)'
+INFO  2020-10-24 00:18:28,982 [18   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller DiveCRM.Web.Controllers.HomeController (DiveCRM.Web.Mvc).
+INFO  2020-10-24 00:18:29,034 [4    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2020-10-24 00:18:29,077 [4    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 46.051ms.
+INFO  2020-10-24 00:18:29,081 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc) in 94.9085ms
+INFO  2020-10-24 00:18:29,087 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc)'
+INFO  2020-10-24 00:18:29,095 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 123.7027ms 200 text/html; charset=utf-8
+INFO  2020-10-24 00:18:29,126 [18   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2020-10-24 00:18:29,132 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 10680.8845ms 101 
+INFO  2020-10-24 00:18:29,137 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637390948916168717  
+INFO  2020-10-24 00:18:29,142 [48   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637390948916168717  
+INFO  2020-10-24 00:18:29,163 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-10-24 00:18:29,166 [48   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-10-24 00:18:29,174 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-10-24 00:18:29,183 [48   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-10-24 00:18:29,197 [4    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-10-24 00:18:29,207 [48   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-10-24 00:18:29,212 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 32.4336ms
+INFO  2020-10-24 00:18:29,218 [48   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 28.8631ms
+INFO  2020-10-24 00:18:29,238 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-10-24 00:18:29,241 [48   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-10-24 00:18:29,245 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 110.3082ms 200 application/x-javascript
+INFO  2020-10-24 00:18:29,248 [48   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 112.9678ms 200 application/x-javascript; charset=utf-8
+INFO  2020-10-24 00:18:29,600 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-10-24 00:18:29,681 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-10-24 00:18:29,690 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-10-24 00:18:29,696 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=D5T9excelEY8tK_ZhrLkrQ  
+INFO  2020-10-24 00:18:29,705 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 178.1238ms 200 application/json
+INFO  2020-10-24 00:18:29,706 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2020-10-24 00:23:16,125 [41   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2020-10-24 00:23:16,134 [41   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-10-24 00:23:16,137 [41   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc)'
+INFO  2020-10-24 00:23:16,140 [41   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller DiveCRM.Web.Controllers.HomeController (DiveCRM.Web.Mvc).
+INFO  2020-10-24 00:23:16,653 [41   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2020-10-24 00:23:16,691 [22   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 459.2574ms.
+INFO  2020-10-24 00:23:16,694 [22   ] c.Infrastructure.ControllerActionInvoker - Executed action DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc) in 550.2548ms
+INFO  2020-10-24 00:23:16,697 [22   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc)'
+INFO  2020-10-24 00:23:16,701 [22   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 574.4171ms 200 text/html; charset=utf-8
+INFO  2020-10-24 00:23:16,767 [40   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2020-10-24 00:23:16,774 [22   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637390948916168717  
+INFO  2020-10-24 00:23:16,778 [40   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 287082.4191ms 101 
+INFO  2020-10-24 00:23:16,781 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637390948916168717  
+INFO  2020-10-24 00:23:16,784 [22   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-10-24 00:23:16,790 [22   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-10-24 00:23:16,792 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-10-24 00:23:16,795 [22   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-10-24 00:23:16,800 [12   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-10-24 00:23:16,803 [22   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 9.1497ms
+INFO  2020-10-24 00:23:16,808 [22   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-10-24 00:23:16,812 [22   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 40.4326ms 200 application/x-javascript
+INFO  2020-10-24 00:23:16,814 [12   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-10-24 00:23:16,818 [12   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 14.3467ms
+INFO  2020-10-24 00:23:16,831 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-10-24 00:23:16,834 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 63.5108ms 200 application/x-javascript; charset=utf-8
+INFO  2020-10-24 00:23:17,154 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-10-24 00:23:17,275 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-10-24 00:23:17,281 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/img/favicon.ico  
+INFO  2020-10-24 00:23:17,294 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-10-24 00:23:17,308 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/img/favicon.ico'. Physical path: 'E:\Project\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\img\favicon.ico'
+INFO  2020-10-24 00:23:17,309 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 155.1728ms 200 application/json
+INFO  2020-10-24 00:23:17,311 [22   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=o4rH0LhI34uLMlPyzYsJPA  
+INFO  2020-10-24 00:23:17,312 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 32.3178ms 200 image/x-icon
+INFO  2020-10-24 00:23:17,320 [22   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2020-10-24 00:24:34,212 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2020-10-24 00:24:34,225 [12   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-10-24 00:24:34,228 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc)'
+INFO  2020-10-24 00:24:34,234 [12   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller DiveCRM.Web.Controllers.HomeController (DiveCRM.Web.Mvc).
+INFO  2020-10-24 00:24:34,533 [21   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2020-10-24 00:24:34,581 [27   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 305.5169ms.
+INFO  2020-10-24 00:24:34,584 [27   ] c.Infrastructure.ControllerActionInvoker - Executed action DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc) in 347.5102ms
+INFO  2020-10-24 00:24:34,587 [27   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc)'
+INFO  2020-10-24 00:24:34,590 [27   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 378.447ms 200 text/html; charset=utf-8
+INFO  2020-10-24 00:24:34,602 [50   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2020-10-24 00:24:34,636 [50   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 77299.029ms 101 
+INFO  2020-10-24 00:24:34,681 [41   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637390948916168717  
+INFO  2020-10-24 00:24:34,686 [50   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637390948916168717  
+INFO  2020-10-24 00:24:34,692 [41   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-10-24 00:24:34,696 [50   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-10-24 00:24:34,700 [41   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-10-24 00:24:34,731 [50   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-10-24 00:24:34,782 [41   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-10-24 00:24:34,875 [50   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-10-24 00:24:34,880 [41   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 168.1526ms
+INFO  2020-10-24 00:24:34,883 [50   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 146.3803ms
+INFO  2020-10-24 00:24:34,885 [41   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-10-24 00:24:34,889 [50   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-10-24 00:24:34,891 [41   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 223.0525ms 200 application/x-javascript
+INFO  2020-10-24 00:24:34,897 [50   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 224.771ms 200 application/x-javascript; charset=utf-8
+INFO  2020-10-24 00:24:35,106 [27   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-10-24 00:24:35,141 [27   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-10-24 00:24:35,152 [27   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-10-24 00:24:35,160 [27   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 73.2492ms 200 application/json
+INFO  2020-10-24 00:24:35,169 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=I9_05LQT3rAhNS9pI9s-mw  
+INFO  2020-10-24 00:24:35,182 [50   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/img/favicon.ico  
+INFO  2020-10-24 00:24:35,185 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2020-10-24 00:24:35,199 [50   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/img/favicon.ico'. Physical path: 'E:\Project\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\img\favicon.ico'
+INFO  2020-10-24 00:24:35,206 [50   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 34.5854ms 200 image/x-icon
+INFO  2020-10-24 00:25:08,708 [50   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2020-10-24 00:25:08,716 [50   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-10-24 00:25:08,719 [50   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc)'
+INFO  2020-10-24 00:25:08,724 [50   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller DiveCRM.Web.Controllers.HomeController (DiveCRM.Web.Mvc).
+INFO  2020-10-24 00:25:08,998 [41   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2020-10-24 00:25:09,032 [51   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 240.7757ms.
+INFO  2020-10-24 00:25:09,035 [51   ] c.Infrastructure.ControllerActionInvoker - Executed action DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc) in 307.1854ms
+INFO  2020-10-24 00:25:09,038 [51   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc)'
+INFO  2020-10-24 00:25:09,040 [51   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 332.1875ms 200 text/html; charset=utf-8
+INFO  2020-10-24 00:25:09,049 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2020-10-24 00:25:09,052 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 33889.284ms 101 
+INFO  2020-10-24 00:25:09,104 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637390948916168717  
+INFO  2020-10-24 00:25:09,111 [41   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637390948916168717  
+INFO  2020-10-24 00:25:09,114 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-10-24 00:25:09,119 [12   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-10-24 00:25:09,124 [41   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-10-24 00:25:09,127 [12   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-10-24 00:25:09,129 [41   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-10-24 00:25:09,134 [12   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 7.571ms
+INFO  2020-10-24 00:25:09,140 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-10-24 00:25:09,143 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 40.6792ms 200 application/x-javascript
+INFO  2020-10-24 00:25:09,147 [41   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-10-24 00:25:09,150 [41   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 17.8184ms
+INFO  2020-10-24 00:25:09,155 [41   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-10-24 00:25:09,159 [41   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 54.6921ms 200 application/x-javascript; charset=utf-8
+INFO  2020-10-24 00:25:09,465 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-10-24 00:25:09,513 [21   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/img/favicon.ico  
+INFO  2020-10-24 00:25:09,514 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-10-24 00:25:09,522 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-10-24 00:25:09,526 [21   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/img/favicon.ico'. Physical path: 'E:\Project\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\img\favicon.ico'
+INFO  2020-10-24 00:25:09,529 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 173.4493ms 200 application/json
+INFO  2020-10-24 00:25:09,530 [52   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=knFjTnpi4Ft1B2UyWtwOkg  
+INFO  2020-10-24 00:25:09,533 [21   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 60.6771ms 200 image/x-icon
+INFO  2020-10-24 00:25:09,538 [52   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2020-10-24 00:26:03,530 [41   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2020-10-24 00:26:03,539 [41   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-10-24 00:26:03,543 [41   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc)'
+INFO  2020-10-24 00:26:03,550 [41   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller DiveCRM.Web.Controllers.HomeController (DiveCRM.Web.Mvc).
+INFO  2020-10-24 00:26:03,808 [51   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2020-10-24 00:26:03,845 [65   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 249.2022ms.
+INFO  2020-10-24 00:26:03,848 [65   ] c.Infrastructure.ControllerActionInvoker - Executed action DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc) in 294.7519ms
+INFO  2020-10-24 00:26:03,855 [65   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc)'
+INFO  2020-10-24 00:26:03,860 [65   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 328.1782ms 200 text/html; charset=utf-8
+INFO  2020-10-24 00:26:03,863 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2020-10-24 00:26:03,866 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 54338.0141ms 101 
+INFO  2020-10-24 00:26:03,929 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637390948916168717  
+INFO  2020-10-24 00:26:03,936 [51   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637390948916168717  
+INFO  2020-10-24 00:26:03,992 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-10-24 00:26:03,996 [51   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-10-24 00:26:03,998 [12   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-10-24 00:26:04,005 [51   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-10-24 00:26:04,007 [12   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-10-24 00:26:04,011 [12   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 6.7159ms
+INFO  2020-10-24 00:26:04,017 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-10-24 00:26:04,027 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 104.4694ms 200 application/x-javascript
+INFO  2020-10-24 00:26:04,030 [51   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-10-24 00:26:04,047 [51   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 25.0758ms
+INFO  2020-10-24 00:26:04,055 [51   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-10-24 00:26:04,060 [51   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 136.9259ms 200 application/x-javascript; charset=utf-8
+INFO  2020-10-24 00:26:04,179 [51   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-10-24 00:26:04,190 [51   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-10-24 00:26:04,238 [51   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-10-24 00:26:04,244 [51   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 62.9422ms 200 application/json
+INFO  2020-10-24 00:26:04,418 [51   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=ib4Vd27IeMozD3WMU7UXVQ  
+INFO  2020-10-24 00:26:04,428 [67   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/img/favicon.ico  
+INFO  2020-10-24 00:26:04,430 [51   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2020-10-24 00:26:04,439 [67   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/img/favicon.ico'. Physical path: 'E:\Project\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\img\favicon.ico'
+INFO  2020-10-24 00:26:04,446 [67   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 67.0419ms 200 image/x-icon
+INFO  2020-10-24 00:28:05,401 [41   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2020-10-24 00:28:05,410 [41   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-10-24 00:28:05,413 [41   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc)'
+INFO  2020-10-24 00:28:05,417 [41   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller DiveCRM.Web.Controllers.HomeController (DiveCRM.Web.Mvc).
+INFO  2020-10-24 00:28:06,067 [12   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2020-10-24 00:28:06,140 [70   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 659.078ms.
+INFO  2020-10-24 00:28:06,349 [70   ] c.Infrastructure.ControllerActionInvoker - Executed action DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc) in 723.172ms
+INFO  2020-10-24 00:28:06,563 [70   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc)'
+INFO  2020-10-24 00:28:06,575 [70   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1167.9842ms 200 text/html; charset=utf-8
+INFO  2020-10-24 00:28:06,677 [73   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2020-10-24 00:28:06,916 [73   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 122423.8338ms 101 
+INFO  2020-10-24 00:28:06,958 [66   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637390948916168717  
+INFO  2020-10-24 00:28:06,980 [70   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637390948916168717  
+INFO  2020-10-24 00:28:06,987 [69   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-10-24 00:28:06,991 [70   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-10-24 00:28:07,000 [66   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-10-24 00:28:07,004 [70   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-10-24 00:28:07,009 [69   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-10-24 00:28:07,017 [70   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-10-24 00:28:07,032 [66   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-10-24 00:28:07,071 [69   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-10-24 00:28:07,073 [73   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=Rp5F0KFKg2MT_CfjOgCQDQ  
+INFO  2020-10-24 00:28:07,118 [70   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 22.2969ms
+INFO  2020-10-24 00:28:07,142 [73   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2020-10-24 00:28:07,163 [70   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-10-24 00:28:07,194 [69   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 143.1915ms 200 application/json
+INFO  2020-10-24 00:28:07,224 [70   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 250.9855ms 200 application/x-javascript
+INFO  2020-10-24 00:28:07,250 [66   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-10-24 00:28:07,324 [66   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 219.0381ms
+INFO  2020-10-24 00:28:07,331 [66   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-10-24 00:28:07,349 [66   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 422.742ms 200 application/x-javascript; charset=utf-8
+INFO  2020-10-24 00:28:07,496 [66   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/img/favicon.ico  
+INFO  2020-10-24 00:28:07,502 [66   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/img/favicon.ico'. Physical path: 'E:\Project\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\img\favicon.ico'
+INFO  2020-10-24 00:28:07,508 [66   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 13.0846ms 200 image/x-icon
+INFO  2020-10-24 00:28:19,359 [41   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2020-10-24 00:28:19,379 [41   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-10-24 00:28:19,382 [41   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc)'
+INFO  2020-10-24 00:28:19,390 [41   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller DiveCRM.Web.Controllers.HomeController (DiveCRM.Web.Mvc).
+INFO  2020-10-24 00:28:19,638 [12   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2020-10-24 00:28:19,677 [73   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 250.2414ms.
+INFO  2020-10-24 00:28:19,771 [73   ] c.Infrastructure.ControllerActionInvoker - Executed action DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc) in 286.6837ms
+INFO  2020-10-24 00:28:19,810 [73   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc)'
+INFO  2020-10-24 00:28:19,822 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2020-10-24 00:28:19,836 [73   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 462.5668ms 200 text/html; charset=utf-8
+INFO  2020-10-24 00:28:19,838 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 12764.3644ms 101 
+INFO  2020-10-24 00:28:20,021 [70   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637390948916168717  
+INFO  2020-10-24 00:28:20,041 [73   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637390948916168717  
+INFO  2020-10-24 00:28:20,058 [70   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-10-24 00:28:20,082 [73   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-10-24 00:28:20,305 [70   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-10-24 00:28:20,311 [73   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-10-24 00:28:20,346 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-10-24 00:28:20,357 [70   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-10-24 00:28:20,381 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-10-24 00:28:20,401 [73   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-10-24 00:28:20,430 [70   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 74.2162ms
+INFO  2020-10-24 00:28:20,455 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-10-24 00:28:20,476 [73   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 112.3125ms
+INFO  2020-10-24 00:28:20,483 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 158.14ms 200 application/json
+INFO  2020-10-24 00:28:20,493 [73   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-10-24 00:28:20,501 [70   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-10-24 00:28:20,530 [73   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 493.8967ms 200 application/x-javascript; charset=utf-8
+INFO  2020-10-24 00:28:20,540 [70   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 514.5656ms 200 application/x-javascript
+INFO  2020-10-24 00:28:20,563 [66   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=mVz7_FfkVZ0A4RaYDGVZ-g  
+INFO  2020-10-24 00:28:20,581 [66   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2020-10-24 00:28:20,668 [41   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/img/favicon.ico  
+INFO  2020-10-24 00:28:20,678 [41   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/img/favicon.ico'. Physical path: 'E:\Project\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\img\favicon.ico'
+INFO  2020-10-24 00:28:20,681 [41   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 19.212ms 200 image/x-icon
+INFO  2020-10-24 00:30:13,709 [41   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2020-10-24 00:30:13,721 [41   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-10-24 00:30:13,724 [41   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc)'
+INFO  2020-10-24 00:30:13,728 [41   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller DiveCRM.Web.Controllers.HomeController (DiveCRM.Web.Mvc).
+INFO  2020-10-24 00:30:13,955 [59   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2020-10-24 00:30:13,988 [59   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 209.2247ms.
+INFO  2020-10-24 00:30:13,991 [59   ] c.Infrastructure.ControllerActionInvoker - Executed action DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc) in 260.5587ms
+INFO  2020-10-24 00:30:13,994 [59   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc)'
+INFO  2020-10-24 00:30:13,997 [59   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 288.1581ms 200 text/html; charset=utf-8
+INFO  2020-10-24 00:30:14,005 [41   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2020-10-24 00:30:14,009 [41   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 113551.3049ms 101 
+INFO  2020-10-24 00:30:14,049 [41   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637390948916168717  
+INFO  2020-10-24 00:30:14,051 [63   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637390948916168717  
+INFO  2020-10-24 00:30:14,063 [63   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-10-24 00:30:14,064 [41   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-10-24 00:30:14,081 [41   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-10-24 00:30:14,083 [63   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-10-24 00:30:14,088 [41   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-10-24 00:30:14,144 [41   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 5.2479ms
+INFO  2020-10-24 00:30:14,147 [41   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-10-24 00:30:14,150 [59   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-10-24 00:30:14,152 [41   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 106.1488ms 200 application/x-javascript
+INFO  2020-10-24 00:30:14,155 [59   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 68.4243ms
+INFO  2020-10-24 00:30:14,161 [59   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-10-24 00:30:14,166 [59   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 116.189ms 200 application/x-javascript; charset=utf-8
+INFO  2020-10-24 00:30:14,355 [59   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-10-24 00:30:14,367 [59   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-10-24 00:30:14,467 [59   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-10-24 00:30:14,480 [59   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 126.327ms 200 application/json
+INFO  2020-10-24 00:30:14,484 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=q6Jzaax9CVhCavJRoT9hmQ  
+INFO  2020-10-24 00:30:14,492 [59   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/img/favicon.ico  
+INFO  2020-10-24 00:30:14,494 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2020-10-24 00:30:14,516 [59   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/img/favicon.ico'. Physical path: 'E:\Project\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\img\favicon.ico'
+INFO  2020-10-24 00:30:14,519 [59   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 29.5225ms 200 image/x-icon
+INFO  2020-10-24 00:32:56,803 [41   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2020-10-24 00:32:56,811 [41   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-10-24 00:32:56,817 [41   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc)'
+INFO  2020-10-24 00:32:56,821 [41   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller DiveCRM.Web.Controllers.HomeController (DiveCRM.Web.Mvc).
+INFO  2020-10-24 00:32:57,042 [12   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2020-10-24 00:32:57,075 [12   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 224.6126ms.
+INFO  2020-10-24 00:32:57,078 [12   ] c.Infrastructure.ControllerActionInvoker - Executed action DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc) in 254.7253ms
+INFO  2020-10-24 00:32:57,081 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc)'
+INFO  2020-10-24 00:32:57,084 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 281.4642ms 200 text/html; charset=utf-8
+INFO  2020-10-24 00:32:57,098 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2020-10-24 00:32:57,325 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 162621.9089ms 101 
+INFO  2020-10-24 00:32:57,328 [41   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637390948916168717  
+INFO  2020-10-24 00:32:57,342 [55   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637390948916168717  
+INFO  2020-10-24 00:32:57,348 [41   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-10-24 00:32:57,353 [41   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-10-24 00:32:57,364 [55   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-10-24 00:32:57,372 [55   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-10-24 00:32:57,380 [55   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-10-24 00:32:57,382 [41   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-10-24 00:32:57,387 [55   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 8.3857ms
+INFO  2020-10-24 00:32:57,392 [41   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 17.4563ms
+INFO  2020-10-24 00:32:57,392 [55   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-10-24 00:32:57,397 [41   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-10-24 00:32:57,397 [55   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 70.8587ms 200 application/x-javascript
+INFO  2020-10-24 00:32:57,399 [41   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 76.1878ms 200 application/x-javascript; charset=utf-8
+INFO  2020-10-24 00:32:57,501 [41   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-10-24 00:32:57,536 [41   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-10-24 00:32:57,540 [41   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-10-24 00:32:57,543 [41   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 44.3219ms 200 application/json
+INFO  2020-10-24 00:32:57,608 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=ni3LOhzkTcGhu4aJ2QMi6w  
+INFO  2020-10-24 00:32:57,609 [59   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/img/favicon.ico  
+INFO  2020-10-24 00:32:57,626 [59   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/img/favicon.ico'. Physical path: 'E:\Project\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\img\favicon.ico'
+INFO  2020-10-24 00:32:57,638 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2020-10-24 00:32:57,641 [59   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 46.5651ms 200 image/x-icon
+INFO  2020-10-24 00:33:07,497 [41   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2020-10-24 00:33:07,509 [41   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-10-24 00:33:07,511 [41   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc)'
+INFO  2020-10-24 00:33:07,515 [41   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller DiveCRM.Web.Controllers.HomeController (DiveCRM.Web.Mvc).
+INFO  2020-10-24 00:33:07,719 [41   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2020-10-24 00:33:08,020 [54   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 313.1878ms.
+INFO  2020-10-24 00:33:08,029 [54   ] c.Infrastructure.ControllerActionInvoker - Executed action DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc) in 504.7413ms
+INFO  2020-10-24 00:33:08,030 [57   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637390948916168717  
+INFO  2020-10-24 00:33:08,059 [53   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2020-10-24 00:33:08,060 [54   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc)'
+INFO  2020-10-24 00:33:08,061 [57   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-10-24 00:33:08,064 [58   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637390948916168717  
+INFO  2020-10-24 00:33:08,065 [54   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 566.9936ms 200 text/html; charset=utf-8
+INFO  2020-10-24 00:33:08,071 [53   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 10483.4294ms 101 
+INFO  2020-10-24 00:33:08,074 [57   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-10-24 00:33:08,076 [58   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-10-24 00:33:08,079 [57   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-10-24 00:33:08,080 [58   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-10-24 00:33:08,088 [57   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 5.4108ms
+INFO  2020-10-24 00:33:08,092 [57   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-10-24 00:33:08,129 [57   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 66.0662ms 200 application/x-javascript
+INFO  2020-10-24 00:33:08,160 [58   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-10-24 00:33:08,175 [58   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 89.7988ms
+INFO  2020-10-24 00:33:08,179 [58   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-10-24 00:33:08,191 [58   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 162.4305ms 200 application/x-javascript; charset=utf-8
+INFO  2020-10-24 00:33:08,309 [58   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-10-24 00:33:08,322 [58   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-10-24 00:33:08,335 [58   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-10-24 00:33:08,383 [58   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 31.9329ms 200 application/json
+INFO  2020-10-24 00:33:08,409 [58   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=szpl8aSUmz11PR1Cmt9BRA  
+INFO  2020-10-24 00:33:08,412 [64   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/img/favicon.ico  
+INFO  2020-10-24 00:33:08,419 [64   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/img/favicon.ico'. Physical path: 'E:\Project\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\img\favicon.ico'
+INFO  2020-10-24 00:33:08,420 [58   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2020-10-24 00:33:08,422 [64   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 11.1726ms 200 image/x-icon
+INFO  2020-10-24 00:33:51,658 [41   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2020-10-24 00:33:51,670 [41   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-10-24 00:33:51,675 [41   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc)'
+INFO  2020-10-24 00:33:51,679 [41   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller DiveCRM.Web.Controllers.HomeController (DiveCRM.Web.Mvc).
+INFO  2020-10-24 00:33:51,902 [12   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2020-10-24 00:33:51,970 [23   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 250.8963ms.
+INFO  2020-10-24 00:33:51,974 [23   ] c.Infrastructure.ControllerActionInvoker - Executed action DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc) in 290.8761ms
+INFO  2020-10-24 00:33:51,976 [23   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc)'
+INFO  2020-10-24 00:33:51,979 [23   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 322.6259ms 200 text/html; charset=utf-8
+INFO  2020-10-24 00:33:51,990 [23   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2020-10-24 00:33:52,006 [23   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 43586.6342ms 101 
+INFO  2020-10-24 00:33:52,039 [23   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637390948916168717  
+INFO  2020-10-24 00:33:52,051 [32   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637390948916168717  
+INFO  2020-10-24 00:33:52,058 [23   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-10-24 00:33:52,061 [32   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-10-24 00:33:52,063 [23   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-10-24 00:33:52,093 [23   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-10-24 00:33:52,095 [32   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-10-24 00:33:52,110 [23   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 29.4789ms
+INFO  2020-10-24 00:33:52,146 [32   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-10-24 00:33:52,156 [23   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-10-24 00:33:52,162 [32   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 59.1715ms
+INFO  2020-10-24 00:33:52,163 [23   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 124.1617ms 200 application/x-javascript
+INFO  2020-10-24 00:33:52,167 [32   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-10-24 00:33:52,171 [32   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 130.7349ms 200 application/x-javascript; charset=utf-8
+INFO  2020-10-24 00:33:52,412 [32   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-10-24 00:33:52,473 [32   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-10-24 00:33:52,475 [41   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/img/favicon.ico  
+INFO  2020-10-24 00:33:52,480 [32   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-10-24 00:33:52,491 [32   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 153.8453ms 200 application/json
+INFO  2020-10-24 00:33:52,497 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=jScHe3CCVNJPsLJGVFRqdA  
+INFO  2020-10-24 00:33:52,497 [41   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/img/favicon.ico'. Physical path: 'E:\Project\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\img\favicon.ico'
+INFO  2020-10-24 00:33:52,502 [41   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 39.1416ms 200 image/x-icon
+INFO  2020-10-24 00:33:52,507 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2020-10-24 00:35:49,871 [41   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2020-10-24 00:35:49,881 [41   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-10-24 00:35:49,902 [41   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc)'
+INFO  2020-10-24 00:35:49,906 [41   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller DiveCRM.Web.Controllers.HomeController (DiveCRM.Web.Mvc).
+INFO  2020-10-24 00:35:50,139 [41   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2020-10-24 00:35:50,172 [12   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 216.6216ms.
+INFO  2020-10-24 00:35:50,176 [12   ] c.Infrastructure.ControllerActionInvoker - Executed action DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc) in 261.0417ms
+INFO  2020-10-24 00:35:50,182 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc)'
+INFO  2020-10-24 00:35:50,186 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 318.4838ms 200 text/html; charset=utf-8
+INFO  2020-10-24 00:35:50,189 [41   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2020-10-24 00:35:50,203 [41   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 117700.5806ms 101 
+INFO  2020-10-24 00:35:50,235 [41   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637390948916168717  
+INFO  2020-10-24 00:35:50,242 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637390948916168717  
+INFO  2020-10-24 00:35:50,249 [41   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-10-24 00:35:50,253 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-10-24 00:35:50,255 [41   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-10-24 00:35:50,260 [41   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-10-24 00:35:50,263 [14   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-10-24 00:35:50,275 [41   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 7.5512ms
+INFO  2020-10-24 00:35:50,276 [14   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-10-24 00:35:50,279 [41   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-10-24 00:35:50,283 [14   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 14.1982ms
+INFO  2020-10-24 00:35:50,285 [41   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 51.1543ms 200 application/x-javascript
+INFO  2020-10-24 00:35:50,287 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-10-24 00:35:50,291 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 56.0716ms 200 application/x-javascript; charset=utf-8
+INFO  2020-10-24 00:35:50,566 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-10-24 00:35:50,698 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-10-24 00:35:50,717 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-10-24 00:35:50,722 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/img/favicon.ico  
+INFO  2020-10-24 00:35:50,724 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 159.6795ms 200 application/json
+INFO  2020-10-24 00:35:50,760 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=10IoNjcTUOJ-f5NLkMMtOg  
+INFO  2020-10-24 00:35:50,764 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/img/favicon.ico'. Physical path: 'E:\Project\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\img\favicon.ico'
+INFO  2020-10-24 00:35:50,773 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2020-10-24 00:35:50,779 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 68.7379ms 200 image/x-icon
+INFO  2020-10-24 00:36:52,686 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2020-10-24 00:36:52,696 [14   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-10-24 00:36:52,700 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc)'
+INFO  2020-10-24 00:36:52,703 [14   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller DiveCRM.Web.Controllers.HomeController (DiveCRM.Web.Mvc).
+INFO  2020-10-24 00:36:52,941 [14   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2020-10-24 00:36:52,977 [41   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 207.637ms.
+INFO  2020-10-24 00:36:52,981 [41   ] c.Infrastructure.ControllerActionInvoker - Executed action DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc) in 272.7654ms
+INFO  2020-10-24 00:36:52,984 [41   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc)'
+INFO  2020-10-24 00:36:52,987 [41   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 301.099ms 200 text/html; charset=utf-8
+INFO  2020-10-24 00:36:52,996 [31   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2020-10-24 00:36:53,000 [31   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 62279.7601ms 101 
+INFO  2020-10-24 00:36:53,079 [31   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637390948916168717  
+INFO  2020-10-24 00:36:53,097 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637390948916168717  
+INFO  2020-10-24 00:36:53,104 [31   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-10-24 00:36:53,107 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-10-24 00:36:53,111 [31   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-10-24 00:36:53,137 [14   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-10-24 00:36:53,138 [31   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-10-24 00:36:53,171 [31   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 34.1659ms
+INFO  2020-10-24 00:36:53,178 [14   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-10-24 00:36:53,180 [31   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-10-24 00:36:53,187 [14   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 42.2281ms
+INFO  2020-10-24 00:36:53,192 [31   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 105.8993ms 200 application/x-javascript
+INFO  2020-10-24 00:36:53,195 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-10-24 00:36:53,199 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 117.8001ms 200 application/x-javascript; charset=utf-8
+INFO  2020-10-24 00:36:53,352 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-10-24 00:36:53,369 [30   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-10-24 00:36:53,381 [30   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-10-24 00:36:53,415 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 44.9627ms 200 application/json
+INFO  2020-10-24 00:36:53,486 [49   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=v2lqyH-BRPItt_rIgpy9ag  
+INFO  2020-10-24 00:36:53,488 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/img/favicon.ico  
+INFO  2020-10-24 00:36:53,514 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/img/favicon.ico'. Physical path: 'E:\Project\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\img\favicon.ico'
+INFO  2020-10-24 00:36:53,517 [49   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2020-10-24 00:36:53,520 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 39.6634ms 200 image/x-icon
+INFO  2020-10-24 00:37:51,968 [41   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2020-10-24 00:37:51,977 [41   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-10-24 00:37:51,981 [41   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc)'
+INFO  2020-10-24 00:37:51,984 [41   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller DiveCRM.Web.Controllers.HomeController (DiveCRM.Web.Mvc).
+INFO  2020-10-24 00:37:52,451 [41   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2020-10-24 00:37:52,536 [12   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 451.8486ms.
+INFO  2020-10-24 00:37:52,650 [12   ] c.Infrastructure.ControllerActionInvoker - Executed action DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc) in 550.8324ms
+INFO  2020-10-24 00:37:52,668 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc)'
+INFO  2020-10-24 00:37:52,680 [29   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637390948916168717  
+INFO  2020-10-24 00:37:52,702 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 702.7741ms 200 text/html; charset=utf-8
+INFO  2020-10-24 00:37:52,720 [29   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-10-24 00:37:52,733 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2020-10-24 00:37:52,831 [29   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-10-24 00:37:52,877 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 59268.3533ms 101 
+INFO  2020-10-24 00:37:52,881 [29   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-10-24 00:37:52,883 [41   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637390948916168717  
+INFO  2020-10-24 00:37:53,020 [29   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 50.576ms
+INFO  2020-10-24 00:37:53,042 [41   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-10-24 00:37:53,047 [29   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-10-24 00:37:53,049 [41   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-10-24 00:37:53,050 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-10-24 00:37:53,053 [29   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 383.141ms 200 application/x-javascript; charset=utf-8
+INFO  2020-10-24 00:37:53,064 [41   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-10-24 00:37:53,066 [20   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-10-24 00:37:53,076 [41   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 12.6936ms
+INFO  2020-10-24 00:37:53,084 [20   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-10-24 00:37:53,090 [41   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-10-24 00:37:53,093 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 47.0385ms 200 application/json
+INFO  2020-10-24 00:37:53,147 [41   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 214.0724ms 200 application/x-javascript
+INFO  2020-10-24 00:37:53,187 [41   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=MZrWYlP_O3jcJPiptSUUcw  
+INFO  2020-10-24 00:37:53,201 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/img/favicon.ico  
+INFO  2020-10-24 00:37:53,209 [41   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2020-10-24 00:37:53,231 [20   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/img/favicon.ico'. Physical path: 'E:\Project\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\img\favicon.ico'
+INFO  2020-10-24 00:37:53,244 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 43.0886ms 200 image/x-icon
+INFO  2020-10-24 00:38:39,699 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2020-10-24 00:38:39,765 [40   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-10-24 00:38:39,767 [40   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc)'
+INFO  2020-10-24 00:38:39,772 [40   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller DiveCRM.Web.Controllers.HomeController (DiveCRM.Web.Mvc).
+INFO  2020-10-24 00:38:39,958 [20   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2020-10-24 00:38:39,994 [20   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 190.9883ms.
+INFO  2020-10-24 00:38:39,998 [20   ] c.Infrastructure.ControllerActionInvoker - Executed action DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc) in 222.6266ms
+INFO  2020-10-24 00:38:40,000 [20   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc)'
+INFO  2020-10-24 00:38:40,004 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 304.7244ms 200 text/html; charset=utf-8
+INFO  2020-10-24 00:38:40,014 [23   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2020-10-24 00:38:40,017 [23   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 46866.6596ms 101 
+INFO  2020-10-24 00:38:40,100 [23   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637390948916168717  
+INFO  2020-10-24 00:38:40,107 [22   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637390948916168717  
+INFO  2020-10-24 00:38:40,115 [23   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-10-24 00:38:40,117 [22   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-10-24 00:38:40,124 [23   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-10-24 00:38:40,130 [22   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-10-24 00:38:40,138 [23   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-10-24 00:38:40,144 [23   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 14.3544ms
+INFO  2020-10-24 00:38:40,149 [22   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-10-24 00:38:40,177 [23   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-10-24 00:38:40,183 [22   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 44.2786ms
+INFO  2020-10-24 00:38:40,185 [23   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 82.9336ms 200 application/x-javascript
+INFO  2020-10-24 00:38:40,191 [22   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-10-24 00:38:40,196 [22   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 95.0502ms 200 application/x-javascript; charset=utf-8
+INFO  2020-10-24 00:38:40,399 [40   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-10-24 00:38:40,429 [40   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-10-24 00:38:40,499 [40   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-10-24 00:38:40,508 [40   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 160.5202ms 200 application/json
+INFO  2020-10-24 00:38:40,512 [32   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=KcIEdtmh6bUwo2qVBn6c8g  
+INFO  2020-10-24 00:38:40,515 [40   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/img/favicon.ico  
+INFO  2020-10-24 00:38:40,525 [32   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2020-10-24 00:38:40,535 [40   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/img/favicon.ico'. Physical path: 'E:\Project\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\img\favicon.ico'
+INFO  2020-10-24 00:38:40,538 [40   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 23.3999ms 200 image/x-icon
+INFO  2020-10-24 00:43:46,901 [40   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2020-10-24 00:43:46,912 [40   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-10-24 00:43:46,918 [40   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc)'
+INFO  2020-10-24 00:43:46,921 [40   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller DiveCRM.Web.Controllers.HomeController (DiveCRM.Web.Mvc).
+INFO  2020-10-24 00:43:47,121 [66   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2020-10-24 00:43:47,155 [53   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 192.161ms.
+INFO  2020-10-24 00:43:47,163 [53   ] c.Infrastructure.ControllerActionInvoker - Executed action DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc) in 233.0375ms
+INFO  2020-10-24 00:43:47,166 [53   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc)'
+INFO  2020-10-24 00:43:47,184 [22   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2020-10-24 00:43:47,189 [53   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 274.5709ms 200 text/html; charset=utf-8
+INFO  2020-10-24 00:43:47,197 [22   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 306682.0886ms 101 
+INFO  2020-10-24 00:43:47,370 [53   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637390948916168717  
+INFO  2020-10-24 00:43:47,376 [22   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637390948916168717  
+INFO  2020-10-24 00:43:47,382 [53   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-10-24 00:43:47,388 [22   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-10-24 00:43:47,394 [53   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-10-24 00:43:47,396 [22   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-10-24 00:43:47,401 [22   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-10-24 00:43:47,407 [22   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 5.0956ms
+INFO  2020-10-24 00:43:47,414 [22   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-10-24 00:43:47,416 [53   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-10-24 00:43:47,419 [22   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 47.0033ms 200 application/x-javascript
+INFO  2020-10-24 00:43:47,424 [53   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 22.6337ms
+INFO  2020-10-24 00:43:47,427 [53   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-10-24 00:43:47,434 [53   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 60.1748ms 200 application/x-javascript; charset=utf-8
+INFO  2020-10-24 00:43:47,484 [53   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-10-24 00:43:47,491 [53   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-10-24 00:43:47,496 [53   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-10-24 00:43:47,500 [53   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 14.3021ms 200 application/json
+INFO  2020-10-24 00:43:47,671 [40   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=T1CEDBYJhUFlqvMU0sGUjg  
+INFO  2020-10-24 00:43:47,702 [22   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/img/favicon.ico  
+INFO  2020-10-24 00:43:47,703 [40   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2020-10-24 00:43:47,722 [22   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/img/favicon.ico'. Physical path: 'E:\Project\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\img\favicon.ico'
+INFO  2020-10-24 00:43:47,730 [22   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 23.4872ms 200 image/x-icon
+INFO  2020-10-24 00:44:20,166 [40   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2020-10-24 00:44:20,174 [40   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-10-24 00:44:20,177 [40   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc)'
+INFO  2020-10-24 00:44:20,182 [40   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller DiveCRM.Web.Controllers.HomeController (DiveCRM.Web.Mvc).
+INFO  2020-10-24 00:44:20,425 [66   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2020-10-24 00:44:20,464 [45   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 236.5534ms.
+INFO  2020-10-24 00:44:20,467 [45   ] c.Infrastructure.ControllerActionInvoker - Executed action DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc) in 281.9623ms
+INFO  2020-10-24 00:44:20,470 [45   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DiveCRM.Web.Controllers.HomeController.Index (DiveCRM.Web.Mvc)'
+INFO  2020-10-24 00:44:20,480 [45   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 307.8603ms 200 text/html; charset=utf-8
+INFO  2020-10-24 00:44:20,535 [18   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2020-10-24 00:44:20,538 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 32866.1378ms 101 
+INFO  2020-10-24 00:44:20,544 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637390948916168717  
+INFO  2020-10-24 00:44:20,550 [39   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637390948916168717  
+INFO  2020-10-24 00:44:20,555 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-10-24 00:44:20,563 [7    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-10-24 00:44:20,566 [39   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-10-24 00:44:20,573 [7    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-10-24 00:44:20,575 [39   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-10-24 00:44:20,581 [7    ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 10.773ms
+INFO  2020-10-24 00:44:20,585 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-10-24 00:44:20,591 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 48.5608ms 200 application/x-javascript
+INFO  2020-10-24 00:44:20,593 [39   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-10-24 00:44:20,601 [39   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 18.9894ms
+INFO  2020-10-24 00:44:20,604 [39   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-10-24 00:44:20,609 [39   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 62.8097ms 200 application/x-javascript; charset=utf-8
+INFO  2020-10-24 00:44:20,811 [40   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-10-24 00:44:20,915 [40   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-10-24 00:44:20,930 [40   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-10-24 00:44:20,931 [39   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/img/favicon.ico  
+INFO  2020-10-24 00:44:20,946 [40   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 122.7315ms 200 application/json
+INFO  2020-10-24 00:44:20,954 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=aNp7aiAWiQDO3BAQOboEXQ  
+INFO  2020-10-24 00:44:20,959 [39   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/img/favicon.ico'. Physical path: 'E:\Project\5.7.0\aspnet-core\src\DiveCRM.Web.Mvc\wwwroot\img\favicon.ico'
+INFO  2020-10-24 00:44:20,960 [18   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2020-10-24 00:44:20,984 [39   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 49.2484ms 200 image/x-icon

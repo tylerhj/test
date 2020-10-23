@@ -139,6 +139,11 @@ namespace DiveCRM.Users
             return userDto;
         }
 
+        public IQueryable<User> FindAll()
+        {
+            return Repository.GetAllIncluding(x => x.Roles);
+        }
+
         public IQueryable<User> FindAllByName(PagedUserResultRequestDto input)
         {
             return Repository.GetAllIncluding(x => x.Roles)
