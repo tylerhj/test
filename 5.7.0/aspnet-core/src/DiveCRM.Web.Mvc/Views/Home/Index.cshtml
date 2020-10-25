@@ -1,4 +1,5 @@
-﻿@using DiveCRM.Web.Startup
+﻿@using DiveCRM.Web.Startup;
+@using DiveCRM.Web.Models.CustomerOrderReport;
 @{
     ViewBag.Title = L("HomePage");
     ViewBag.CurrentPageName = PageNames.Home;
@@ -131,39 +132,42 @@
                             <!-- /.col -->
                             <div class="col-md-4">
                                 <p class="text-center">
-                                    <strong>Goal Completion</strong>
+                                    <strong>年度最佳客户</strong>
                                 </p>
-                                <div class="progress-group">
-                                    Add Products to Cart
-                                    <span class="float-right"><b>160</b>/200</span>
-                                    <div class="progress progress-sm">
-                                        <div class="progress-bar bg-primary" style="width: 80%"></div>
+                                @{ int days = 365;
+                                    var CutomerOrderReportList = (List<CutomerOrderReport>)ViewBag.CurrentSalesBest;
+                                    <div class="progress-group">
+                                        @ViewBag.CurrentSalesBest[0].Name
+                                        <span class="float-right"><b> @CutomerOrderReportList[0].Count</b> / @days</span>
+                                        <div class="progress progress-sm">
+                                            <div class="progress-bar bg-primary" style="width:@((double)CutomerOrderReportList[0].Count/days*100)%"></div>
+                                        </div>
                                     </div>
+                                    <!-- /.progress-group -->
+                            <div class="progress-group">
+                                @ViewBag.CurrentSalesBest[1].Name
+                                <span class="float-right"><b>@CutomerOrderReportList[1].Count</b> / @days</span>
+                                <div class="progress progress-sm">
+                                    <div class="progress-bar bg-danger" style="width:@((double)CutomerOrderReportList[1].Count/days*100)%"></div>
                                 </div>
-                                <!-- /.progress-group -->
-                                <div class="progress-group">
-                                    Complete Purchase
-                                    <span class="float-right"><b>310</b>/400</span>
-                                    <div class="progress progress-sm">
-                                        <div class="progress-bar bg-danger" style="width: 75%"></div>
-                                    </div>
+                            </div>
+                                    <!-- /.progress-group -->
+                            <div class="progress-group">
+                                @CutomerOrderReportList[2].Name
+                                <span class="float-right"><b>@CutomerOrderReportList[2].Count</b> / @days</span>
+                                <div class="progress progress-sm">
+                                    <div class="progress-bar bg-success" style="width:@((double)CutomerOrderReportList[2].Count/days*100)%"></div>
                                 </div>
-                                <!-- /.progress-group -->
-                                <div class="progress-group">
-                                    <span class="progress-text">Visit Premium Page</span>
-                                    <span class="float-right"><b>480</b>/800</span>
-                                    <div class="progress progress-sm">
-                                        <div class="progress-bar bg-success" style="width: 60%"></div>
-                                    </div>
+                            </div>
+                                    <!-- /.progress-group -->
+                            <div class="progress-group">
+                                @CutomerOrderReportList[3].Name
+                                <span class="float-right"><b>@CutomerOrderReportList[3].Count</b> / @days</span>
+                                <div class="progress progress-sm">
+                                    <div class="progress-bar bg-warning" style="width:@((double)CutomerOrderReportList[3].Count/days*100)%"></div>
                                 </div>
-                                <!-- /.progress-group -->
-                                <div class="progress-group">
-                                    Send Inquiries
-                                    <span class="float-right"><b>250</b>/500</span>
-                                    <div class="progress progress-sm">
-                                        <div class="progress-bar bg-warning" style="width: 50%"></div>
-                                    </div>
-                                </div>
+                            </div>
+                                }
                                 <!-- /.progress-group -->
                             </div>
                             <!-- /.col -->
